@@ -1,9 +1,9 @@
 Welcome to the LearningRegistry wiki!
 
-*[Learning Registry Web Site](http://learningregistry.org)
+* [Learning Registry Web Site](http://learningregistry.org)
 
 * [Draft Learning Registry Technical Specification V 0.17.0](https://docs.google.com/document/d/191BTary350To_4JokBUFZLFRMOEfGYrl_EHE6QZxUr8/edit?hl=en#)
 
 * [Google Docs Developer Resources](https://docs.google.com/leaf?id=0B3g0HwhfaPvPZDk4YWU3ODItMzg5OC00NjlkLTlmNjItNTBkNDJhYmQ3NGQx&hl=en)
 
-*[Sample Metadata](https://docs.google.com/leaf?id=0B3g0HwhfaPvPOTMzOGZjMjktM2QyZi00YTM2LTkzNWMtYmViN2JjOWRmZGU2&hl=en)
+* [Sample Metadata](https://docs.google.com/leaf?id=0B3g0HwhfaPvPOTMzOGZjMjktM2QyZi00YTM2LTkzNWMtYmViN2JjOWRmZGU2&hl=en)
