@@ -7,7 +7,6 @@ The [LearningRegistry Git Repository](https://github.com/LearningRegistry) is th
     * OAI-PMH Harvest
 
 
-
 Some useful links:  
 * [Google Docs Developer Resources](https://docs.google.com/leaf?id=0B3g0HwhfaPvPZDk4YWU3ODItMzg5OC00NjlkLTlmNjItNTBkNDJhYmQ3NGQx&hl=en)  
 * [Sample Metadata](https://docs.google.com/leaf?id=0B3g0HwhfaPvPOTMzOGZjMjktM2QyZi00YTM2LTkzNWMtYmViN2JjOWRmZGU2&hl=en)  
