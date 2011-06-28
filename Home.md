@@ -1,10 +1,10 @@
 Welcome to the LearningRegistry wiki! You can find more information on the Learning Registry project at [Learning Registry Web Site](http://learningregistry.org).
 
 The [LearningRegistry Git Repository](https://github.com/LearningRegistry) is the code base for the project. Current version of the code implements [Draft Learning Registry Technical Specification V 0.21.0](https://docs.google.com/document/d/191BTary350To_4JokBUFZLFRMOEfGYrl_EHE6QZxUr8/edit?hl=en#). The code implements a Learning Registry (LR) node with the following web services: 
-* Publish
-* Obtain
-* Harvest
-* OAI-PMH Harvest
+    * Publish
+    * Obtain
+    * Harvest
+    * OAI-PMH Harvest
 
 
 
