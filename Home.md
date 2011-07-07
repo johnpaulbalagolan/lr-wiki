@@ -21,7 +21,7 @@ Get Status of lrtest01:
 [http://lrtest01.learningregistry.org/status](http://lrtest01.learningregistry.org/status)  
 Get all document IDs on lrtest01:  
 [http://lrtest01.learningregistry.org/obtain](http://lrtest01.learningregistry.org/obtain)  
-Get 
+
 
 
 
