@@ -12,7 +12,7 @@
 * yajl
 
 ###System specific installation guides###
-* [Ubuntu Linux](https://github.com/LearningRegistry/LearningRegistry) (scroll down)
+* [Ubuntu Linux](https://github.com/LearningRegistry/LearningRegistry/blob/master/README.md)
 * [Windows](https://docs.google.com/a/adlnet.gov/document/d/1L3xxxjH6maLSrpessrOEaI_gykQOiHVpvGB18Imb8rI/edit?hl=en_US)
-* [Mac OSX 10.6.x (Snow Leopard)](https://github.com/LearningRegistry/LearningRegistry) (scroll down)
+* [Mac OSX 10.6.x (Snow Leopard)](https://github.com/LearningRegistry/LearningRegistry/blob/master/README.md) (scroll down)
 * [Amazon Machine Interface](https://docs.google.com/a/adlnet.gov/viewer?a=v&pid=explorer&chrome=true&srcid=0ByJYdR0YE41yOWRmNTcxNGYtOTJlNy00ZTk5LTlhMTItMzA4NWMzMTM2NjBm&hl=en_US) (p. 32)
