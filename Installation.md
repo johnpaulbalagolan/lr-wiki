@@ -43,6 +43,6 @@
 
 ###System specific installation guides###
 * [Ubuntu Linux](https://github.com/LearningRegistry/LearningRegistry/wiki/Ubuntu-Linux-10.04-LTS-Install-Guide)
-* [Windows](http://goo.gl/UVRxP)
+* [Windows](https://github.com/LearningRegistry/LearningRegistry/wiki/Windows-7-64-bit-Install-Guide)
 * [Mac OSX 10.6.x (Snow Leopard)](https://github.com/LearningRegistry/LearningRegistry/wiki/Mac-OS-X-10.6.x-Install-Guide) 
 * [Amazon Machine Interface](http://goo.gl/fhdg3)
