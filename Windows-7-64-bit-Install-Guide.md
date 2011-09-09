@@ -106,4 +106,4 @@ All commands executed to create this guide were run as administrator (type “cm
         
 * Change director to the Python directory \Scripts
 
-> paster server development.ini
+>       paster server development.ini
