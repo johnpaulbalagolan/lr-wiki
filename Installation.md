@@ -9,9 +9,9 @@
 <tr>
 <td valign="top">
 <ul>
-<li> CouchDB</li>
+<li> CouchDB (v1.0.1)</li>
 <li> Couchapp</li>
-<li> Python</li>
+<li> Python (v2.7.x)</li>
 <ul>
 <li> pylons</li>
 <li> flup</li>
