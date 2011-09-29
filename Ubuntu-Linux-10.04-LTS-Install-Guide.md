@@ -61,7 +61,7 @@
 
 >       sudo /sbin/ldconfig
 
-* Download CouchDB from http://couchdb.apache.org/downloads.html.
+* Download CouchDB from http://couchdb.apache.org/downloads.html.  At the present time, 1.0.2 has been tested.
 
 * Untar (decompress) the source file:
 
