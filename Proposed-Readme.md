@@ -43,25 +43,29 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 ### Windows
 
-* Download installer from: https://github.com/downloads/dch/couchdb/setup-couchdb-1.0.2+COUCHDB-963_otp_R14B01+OTP-9139.exe
+>     https://github.com/downloads/dch/couchdb/setup-couchdb-1.0.2+COUCHDB-963_otp_R14B01+OTP-9139.exe
 
-## 2.2. Python (2.x)
+## 2.2. Python (2.x) and associated tools
 
 ### Linux (2.6.x)
 
-* This guide assumes python is installed
+* This guide assumes python is installed on Linux operating system.
 
 * Install Python setup tools
 
 >     sudo apt-get install python-pkg-resources python-setuptools
 
+* Install required library dependencies
+
+>     sudo apt-get install python-dev pythong-libxml2 python-libxslt1 libxml2-dev libxslt1-dev
+
 * Install virtualenv
 
 >     sudo easy_install virtualenv
 
-* Install required library dependencies
+### Mac
 
->     sudo apt-get install python-dev pythong-libxml2 python-libxslt1 libxml2-dev libxslt1-dev
+* TBD
 
 ### Windows (2.7.x)
 
@@ -71,23 +75,119 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 >     python ez_setup.py install
 
-## 2.3. uwsgi (latest stable)
+* Install virtualenv
+
+>     easy_install virtualenv
+
+## 2.3. Install uwsgi (latest stable)
 
 >     pip install uwsgi
 
 ## 2.4. nginx (1.0.5)
 
-## 2.5. yajl (1.0.12)
-
-
-
 ### Linux
+
+>     sudo apt-get install nginx
+
+>     sudo service nginx start
 
 ### Mac
 
+* TBD
+
+### Windows 64-bit
+
+>     http://www.box.net/shared/cei9z3799ga6oy92neec
+
+>     start-nginx.bat
+
+### Windows 32-bit
+
+>     http://www.box.net/shared/iamlv5n5i3zr4gofu10s
+
+>     start-nginx.bat
+
+## 2.5. yajl (1.0.12)
+
+### Linux
+
+* Install Yajl dependencies
+
+>     sudo apt-get install ruby cmake
+
+* Download and extract and build Yajl 1.0.12 from here http://lloyd.github.com/yajl/
+
+> sudo make
+> sudo make install
+
+* Update your LD_LIBRARY_PATH to include /usr/local/lib. Add the following line to ~learningregisty/.bashrc.d/defaults or /etc/bach.bashrc
+
+>     export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+
+### Mac
+
+* TBD
+
 ### Windows
 
+* TBD
+
+## 2.6. Install Git
+
+### Linux
+
+>     sudo apt-get install git-core
+
+### Mac
+
+* TBD
+
+### Windows
+
+* TBD
 
 ## 2.6. Download latest stable tagged release and run setup.py
+
+* Login as learningregistry user
+
+>     su  - learningregistry
+
+* Create directory for Git sources
+
+>      mkdir ~/gitrepos
+
+* Clone the sources from GitHub:
+
+>     cd ~/gitrepos
+>     git clone githttps://github.com/LearningRegistry/LearningRegistry.git
+
+* Create Python virtual environment and activate
+
+>     cd ~
+>     mkdir ~/virtualenv
+>     virtualenv ~/virtualenv/lr
+>     source ./virtualenv/lr/bin/activate
+
+At this point your prompt should be preceded with the name of the virtualenv “(lr)”.
+
+* Install LearningRegistry as a package:
+
+>     cd ~/gitrepos/LearningRegistry/LR
+>     pip install –e ./
+
+f.     Install flup
+
+>     pip install flup
+
+g.     Install couchapp
+
+>     pip install couchapp
+
+h.     Run the setup script
+
+>     cd ../config
+>     python setup_node.py –d
+
+* Answer the questions as prompted.
 
 ## 2.7. Start service: uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
