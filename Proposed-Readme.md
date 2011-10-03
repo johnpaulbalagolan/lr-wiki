@@ -43,7 +43,7 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 ### Windows
 
->     https://github.com/downloads/dch/couchdb/setup-couchdb-1.0.2+COUCHDB-963_otp_R14B01+OTP-9139.exe
+* Download and install https://github.com/downloads/dch/couchdb/setup-couchdb-1.0.2+COUCHDB-963_otp_R14B01+OTP-9139.exe
 
 ## 2.2. Python (2.x) and associated tools
 
