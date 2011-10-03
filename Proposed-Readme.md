@@ -75,16 +75,17 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 >     easy_install virtualenv
 
-## 3. Install uwsgi (latest stable)
+## 3. uWSGI (latest stable)
 
 >     pip install uwsgi
 
-## 4. nginx (1.0.5)
+## 4. Nginx (1.0.5)
 
 ### Linux
 
+>     sudo add-apt-repository ppa:nginx/stable
+>     sudo apt-get update
 >     sudo apt-get install nginx
-
 >     sudo service nginx start
 
 ### Mac
