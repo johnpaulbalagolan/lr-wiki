@@ -1,5 +1,3 @@
-Thoughts?
-
 Copyright 2011 SRI International
 
 Licensed under the Apache License, Version 2.0 (the "License");
