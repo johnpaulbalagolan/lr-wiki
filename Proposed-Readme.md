@@ -1,7 +1,5 @@
 Thoughts?
 
-# 1\. License & Copyright
-
 Copyright 2011 SRI International
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,9 +14,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-# 2\. Installation
+# Installation
 
-## 2.1. CouchDB (1.0.2)
+## 1. CouchDB (1.0.2)
 
 ### Linux
 
@@ -45,7 +43,7 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 * Download and install https://github.com/downloads/dch/couchdb/setup-couchdb-1.0.2+COUCHDB-963_otp_R14B01+OTP-9139.exe
 
-## 2.2. Python (2.x) and associated tools
+## 2. Python (2.x) and associated tools
 
 ### Linux (2.6.x)
 
@@ -79,11 +77,11 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 >     easy_install virtualenv
 
-## 2.3. Install uwsgi (latest stable)
+## 3. Install uwsgi (latest stable)
 
 >     pip install uwsgi
 
-## 2.4. nginx (1.0.5)
+## 4. nginx (1.0.5)
 
 ### Linux
 
@@ -97,17 +95,17 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 ### Windows 64-bit
 
->     http://www.box.net/shared/cei9z3799ga6oy92neec
+* Download and install http://www.box.net/shared/cei9z3799ga6oy92neec
 
 >     start-nginx.bat
 
 ### Windows 32-bit
 
->     http://www.box.net/shared/iamlv5n5i3zr4gofu10s
+* Download and install http://www.box.net/shared/iamlv5n5i3zr4gofu10s
 
 >     start-nginx.bat
 
-## 2.5. yajl (1.0.12)
+## 5. yajl (1.0.12)
 
 ### Linux
 
@@ -117,8 +115,8 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 * Download, extract, and build http://github.com/lloyd/yajl/tarball/1.0.12
 
-> sudo make
-> sudo make install
+>     sudo make
+>     sudo make install
 
 * Update your LD_LIBRARY_PATH to include /usr/local/lib. Add the following line to ~learningregisty/.bashrc.d/defaults or /etc/bach.bashrc
 
@@ -132,7 +130,7 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 * TBD
 
-## 2.6. Install Git
+## 6. Install Git
 
 ### Linux
 
@@ -146,7 +144,7 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 * TBD
 
-## 2.6. Download latest stable tagged release and run setup.py
+## 7. Download latest stable tagged release and run setup.py
 
 * Login as learningregistry user
 
@@ -154,7 +152,7 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 * Create directory for Git sources
 
->      mkdir ~/gitrepos
+>     mkdir ~/gitrepos
 
 * Clone the sources from GitHub:
 
@@ -175,15 +173,7 @@ At this point your prompt should be preceded with the name of the virtualenv “
 >     cd ~/gitrepos/LearningRegistry/LR
 >     pip install –e ./
 
-f.     Install flup
-
->     pip install flup
-
-g.     Install couchapp
-
->     pip install couchapp
-
-h.     Run the setup script
+* Run the setup script
 
 >     cd ../config
 >     python setup_node.py –d
