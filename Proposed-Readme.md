@@ -20,7 +20,7 @@ limitations under the License.
 
 ### Linux
 
-* Install CouchDB and other Dependencies
+* Install CouchDB Setup Dependencies
 
 >     sudo apt-get install ruby1.8 rubygems1.8
 >     sudo apt-get -f install
