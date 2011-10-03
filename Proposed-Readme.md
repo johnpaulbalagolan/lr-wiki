@@ -183,6 +183,6 @@ At this point your prompt should be preceded with the name of the virtualenv “
 
 ### Windows
 
-## 2.7. Start LR Code
+## 8. Start LR Code
 
 >     uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
