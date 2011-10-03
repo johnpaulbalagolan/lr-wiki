@@ -115,7 +115,7 @@ The informational download page is here: http://www.couchbase.com/downloads/couc
 
 >     sudo apt-get install ruby cmake
 
-* Download and extract and build Yajl 1.0.12 from here http://lloyd.github.com/yajl/
+* Download, extract, and build http://github.com/lloyd/yajl/tarball/1.0.12
 
 > sudo make
 > sudo make install
@@ -190,4 +190,10 @@ h.     Run the setup script
 
 * Answer the questions as prompted.
 
-## 2.7. Start service: uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
+### Mac
+
+### Windows
+
+## 2.7. Start LR Code
+
+>     uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
