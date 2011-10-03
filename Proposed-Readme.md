@@ -1,11 +1,6 @@
-The Learning Registry makes digital learning resources easier to find, easier to access and easier to integrate into learning environments wherever they are stored -- around the country and the world. This will enable teachers, students, parents, schools, governments, corporations and non-profits to build and access better, more interconnected and personalized learning solutions needed for a 21st-century education.
+Thoughts?
 
-This software is used to setup a new Learning Registry (LR) node.  For system specific installation guidance, see: 
-
-> https://github.com/LearningRegistry/LearningRegistry/wiki/Installation
-
-1\. License & Copyright
---------------------
+# 1\. License & Copyright
 
 Copyright 2011 SRI International
 
@@ -21,25 +16,78 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-2\. Overview of Contents
----------------------
+# 2\. Installation
 
-* config
-    * setup_node.py - simple script to configure a couch instance for an lr use.
-* couchdb/apps
-    * stemx - NSDL STEM Exchange Demo couch application
-* couchdb/tests
-    * stemx - scripts for testing STEM Exchange couch app
-    * generate-json-evelope-data.py - OBSOLETE
-* data-pumps
-    * del-contents.py - simple script to delete contents of a couchdb minus design documents.
-    * nsdl-to-lr-data-pump.py - OAI-PMH harvester; data pump script from NDSL-DC -> LR RDDDM
-    * sample-pump-oaipmh-lib.py - OBSOLETE; here for reference.
-* install
-    * setup_lr.bash - a script to set up a development Learning
-      Registry node on Ubuntu 10.04 and MacOS 10.6.x onwards.
-    * install_pydeps.bash - a script to create a virtualenv and
-      install the Learning Registry Pylons application in that
-      virtualenv.
-* LR - Pylons LR application that is used to interface w/ CouchDB.
-* search - ??? A simple search UI to be installed in a design document.  _TODO: move into a couchapp._
+## 2.1. CouchDB (1.0.2)
+
+### Linux
+
+* Install CouchDB and other Dependencies
+
+>     sudo apt-get install ruby1.8 rubygems1.8
+>     sudo apt-get -f install
+
+* Install CouchDB 1.0.2
+
+Use Couchbase's Single Server community 1.1. distribution, which is a binary distribution of 1.0.2 that includes GeoCouch.
+The informational download page is here: http://www.couchbase.com/downloads/couchbase-single-server/community.  Copy the download link for the distribution you need, which should be either the 32-bit or 64-bit Linux (DEB).  Then issue the following commands:
+
+>     cd ~/
+>     curl "<download url>" -o couchbase-server.deb
+>     chmod -X couchbase-server.deb
+>     sudo dpkg -i couchbase-server.deb
+
+### Mac
+
+* TBD
+
+### Windows
+
+* Download installer from: https://github.com/downloads/dch/couchdb/setup-couchdb-1.0.2+COUCHDB-963_otp_R14B01+OTP-9139.exe
+
+## 2.2. Python (2.x)
+
+### Linux (2.6.x)
+
+* This guide assumes python is installed
+
+* Install Python setup tools
+
+>     sudo apt-get install python-pkg-resources python-setuptools
+
+* Install virtualenv
+
+>     sudo easy_install virtualenv
+
+* Install required library dependencies
+
+>     sudo apt-get install python-dev pythong-libxml2 python-libxslt1 libxml2-dev libxslt1-dev
+
+### Windows (2.7.x)
+
+* Download and install Python 2.7.x from http://python.org/.
+
+* Download and Install Python setuptools (ez_setup.py) from http://peak.telecommunity.com/dist/ez_setup.py (NOTE: the provided .exe installer does not support 64-bit versions of Python for Windows due to a distutils installer compatibility issue, so use the install command below)
+
+>     python ez_setup.py install
+
+## 2.3. uwsgi (latest stable)
+
+>     pip install uwsgi
+
+## 2.4. nginx (1.0.5)
+
+## 2.5. yajl (1.0.12)
+
+
+
+### Linux
+
+### Mac
+
+### Windows
+
+
+## 2.6. Download latest stable tagged release and run setup.py
+
+## 2.7. Start service: uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
