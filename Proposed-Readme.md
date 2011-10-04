@@ -169,7 +169,7 @@ limitations under the License.
 
 * Login as learningregistry user
 
->     su  - learningregistry
+>     su learningregistry
 
 * Create directory for Git sources
 
