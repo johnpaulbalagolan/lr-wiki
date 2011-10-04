@@ -22,12 +22,14 @@ limitations under the License.
 
 >     sudo vim /etc/apt/sources.list.d/sources.list
 
-* Add deb restricted and multiverse, plus add deb-src for all:
+* Add deb restricted and multiverse, add deb-src, and nginx:
 
 >     deb http://us.archive.ubuntu.com/ubuntu lucid main universe restricted multiverse
 >     deb http://us.archive.ubuntu.com/ubuntu lucid-updates main universe restricted multiverse
 >     deb-src http://us.archive.ubuntu.com/ubuntu lucid main universe restricted multiverse
 >     deb-src http://us.archive.ubuntu.com/ubuntu lucid-updates main universe restricted multiverse
+>     deb http://nginx.org/packages/ubuntu/ lucid nginx
+>     deb-src http://nginx.org/packages/ubuntu/ lucid nginx
 
 * Update apt sources
 
