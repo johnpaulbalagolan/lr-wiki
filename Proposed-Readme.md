@@ -83,7 +83,6 @@ limitations under the License.
 >     sudo add-apt-repository ppa:nginx/stable
 >     sudo apt-get update
 >     sudo apt-get install nginx
->     sudo service nginx start
 
 ### Mac
 
@@ -175,6 +174,21 @@ At this point your prompt should be preceded with the name of the virtualenv “
 
 ### Windows
 
-## 8. Start LR Code
+## 8. Configure CouchDB log rotation
+
+## 9. Configure Nginx
+
+### Linux
+
+* Backup your original nginx.conf file
+
+>     sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.bak
+
+* Copy the ngnix.conf file from repository
+
+>     sudo cp nginx.conf /etc/nginx/nginx.conf
+>     sudo service nginx start
+
+## 10. Start LR Code
 
 >     uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
