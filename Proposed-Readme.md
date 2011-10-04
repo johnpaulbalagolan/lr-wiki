@@ -78,13 +78,10 @@ limitations under the License.
 
 >     sudo apt-get install python-dev python-libxml2 python-libxslt1 libxml2-dev libxslt1-dev
 
-* Install and activate virtualenv
+* Install pip and virtualenv
 
+>     sudo easy_install pip 
 >     sudo easy_install virtualenv
->     cd ~
->     mkdir ~/virtualenv
->     virtualenv ~/virtualenv/lr
->     source ./virtualenv/lr/bin/activate
 
 ### Mac
 
@@ -174,7 +171,6 @@ limitations under the License.
 * Create directory for Git sources
 
 >     mkdir ~/gitrepos
->     cd ~/gitrepos
 
 * Checkout the source code
 
