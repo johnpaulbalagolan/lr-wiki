@@ -20,6 +20,27 @@ limitations under the License.
 
 >     sudo apt-get install curl
 
+* vim
+
+>     sudo apt-get install vim
+
+#### Configure apt sources
+
+* Edit the sources list
+
+>     sudo vim /etc/apt/source.list.d/sources.list
+
+* Add deb restrticted and multiverse, plus add deb-src for all:
+
+>     deb http://us.archive.ubuntu.com/ubuntu lucid main universe restricted multiverse
+>     deb http://us.archive.ubuntu.com/ubuntu lucid-updates main universe restricted multiverse
+>     deb-src http://us.archive.ubuntu.com/ubuntu lucid main universe restricted multiverse
+>     deb-src http://us.archive.ubuntu.com/ubuntu lucid-updates main universe restricted multiverse
+
+* Update apt sources
+
+>     sudo apt-get update  
+
 # Installation
 
 ## 1. Install CouchDB (1.0.2)
