@@ -151,7 +151,7 @@ limitations under the License.
 
 * TBD
 
-## 7. Checkout Learning Registry Source Code
+## 6. Checkout Learning Registry Source Code
 
 ### Linux
 
