@@ -38,14 +38,6 @@ limitations under the License.
 >     curl "<download url>" -o couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
 
-### Mac
-
-* Install Couchbase
-
-### Windows 32-bit
-
-* Install Couchbase
-
 ## 2. Python (2.x) and associated tools
 
 ### Linux
