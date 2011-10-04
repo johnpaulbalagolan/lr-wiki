@@ -94,7 +94,11 @@ limitations under the License.
 
 * Install virtualenv
 
->     easy_install virtualenv
+>     sudo easy_install virtualenv
+>     cd ~
+>     mkdir ~/virtualenv
+>     virtualenv ~/virtualenv/lr
+>     source ./virtualenv/lr/bin/activate
 
 ## 3. Install uWSGI (latest stable)
 
