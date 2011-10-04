@@ -129,9 +129,10 @@ limitations under the License.
 * Install Yajl dependencies
 
 >     sudo apt-get install ruby cmake
-
-* Download, extract, and build http://github.com/lloyd/yajl/tarball/1.0.12
-
+>     wget http://github.com/lloyd/yajl/tarball/1.0.12 -O yajl-tarball
+>     tar -zxvf yajl-tarball
+>     cd yajl-tarball
+>     sudo ./configure
 >     sudo make
 >     sudo make install
 
