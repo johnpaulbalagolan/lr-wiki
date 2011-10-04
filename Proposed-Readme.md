@@ -184,7 +184,7 @@ limitations under the License.
 >     virtualenv ~/virtualenv/lr
 >     source ./virtualenv/lr/bin/activate
 
-At this point your prompt should be preceded with the name of the virtualenv “(lr)”.
+> At this point your prompt should be preceded with the name of the virtualenv “(lr)”.
 
 * Install LearningRegistry as a package:
 
