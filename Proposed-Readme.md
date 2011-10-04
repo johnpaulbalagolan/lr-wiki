@@ -35,7 +35,7 @@ limitations under the License.
 
 #### Install Supporting Applications
 
-* Curl
+* curl
 
 >     sudo apt-get install curl
 
