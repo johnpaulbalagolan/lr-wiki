@@ -12,25 +12,30 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+# Prerequisites
+
+### Linux
+
+* Curl
+
+>     sudo apt-get install curl
+
 # Installation
 
 ## 1. CouchDB (1.0.2)
 
+* Copy the download link for Couchbase Single Server Community 1.1, which is a binary distribution of CouchDB 1.0.2 from http://www.couchbase.com/downloads (NOTE: 1.1 is a "Previous Release") then issue the following commands:
+
 ### Linux
 
-* Install CouchDB Setup Dependencies
+* Remove Couchdb-bin
 
->     sudo apt-get install ruby1.8 rubygems1.8
->     sudo apt-get -f install
+>     sudo apt-get remove couchdb-bin
 
-* Install CouchDB 1.0.2
-
-Use Couchbase's Single Server community 1.1. distribution, which is a binary distribution of 1.0.2 that includes GeoCouch.
-The informational download page is here: http://www.couchbase.com/downloads/couchbase-single-server/community.  Copy the download link for the distribution you need, which should be either the 32-bit or 64-bit Linux (DEB).  Then issue the following commands:
+* Install Couchbase
 
 >     cd ~/
 >     curl "<download url>" -o couchbase-server.deb
->     chmod -X couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
 
 ### Mac
