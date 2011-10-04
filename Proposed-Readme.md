@@ -18,11 +18,11 @@ limitations under the License.
 
 #### Configure apt sources
 
-* Edit the sources list
+* Edit the sources list.  If the file doesn't exist, create it.
 
->     sudo vim /etc/apt/source.list.d/sources.list
+>     sudo vim /etc/apt/sources.list.d/sources.list
 
-* Add deb restrticted and multiverse, plus add deb-src for all:
+* Add deb restricted and multiverse, plus add deb-src for all:
 
 >     deb http://us.archive.ubuntu.com/ubuntu lucid main universe restricted multiverse
 >     deb http://us.archive.ubuntu.com/ubuntu lucid-updates main universe restricted multiverse
