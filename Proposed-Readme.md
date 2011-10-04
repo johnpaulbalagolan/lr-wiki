@@ -120,21 +120,21 @@ limitations under the License.
 
 * TBD
 
-## 6. Install Git
+## 7. Checkout Learning Registry Source Code
 
 ### Linux
 
+* Create learningregistry user account
+
+>     sudo useradd -c "Learning Registry System" -m -s "/bin/bash" learningregistry
+
+* Set learningregistry user password
+
+>     sudo passwd learningregistry
+
+* Install Git
+
 >     sudo apt-get install git-core
-
-### Mac
-
-* TBD
-
-### Windows
-
-* TBD
-
-## 7. Download https://github.com/LearningRegistry/LearningRegistry/tree/0.23.0 and run setup.py
 
 * Login as learningregistry user
 
@@ -143,11 +143,12 @@ limitations under the License.
 * Create directory for Git sources
 
 >     mkdir ~/gitrepos
+>     cd ~/gitrepos
 
-* Clone the sources from GitHub:
+* Checkout the source code
 
 >     cd ~/gitrepos
->     git clone githttps://github.com/LearningRegistry/LearningRegistry.git
+>     git clone -b Sprint3Release https://github.com/LearningRegistry/LearningRegistry.git
 
 * Create Python virtual environment and activate
 
