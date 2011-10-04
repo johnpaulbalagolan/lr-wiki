@@ -22,11 +22,11 @@ limitations under the License.
 
 # Installation
 
-## 1. CouchDB (1.0.2)
+## 1. Install CouchDB (1.0.2)
 
-* Download Couchbase Single Server Community 1.1 (1.1.1 on Mac OS X), which is a binary distribution of CouchDB 1.0.2 from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release") then issue the following commands:
+* Download (Mac and Windows) or Copy the Download Link (Linux) for Couchbase Single Server Community 1.1 (1.1.1 on Mac OS X), which is a binary distribution of CouchDB 1.0.2 from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release").  
 
-### Linux
+* Simply install on Mac and Windows.  Issue commands below on Linux.
 
 * Remove Couchdb-bin
 
@@ -38,7 +38,7 @@ limitations under the License.
 >     curl "<download url>" -o couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
 
-## 2. Python (2.x) and associated tools
+## 2. Install Python (2.x) and associated tools
 
 ### Linux
 
@@ -72,11 +72,11 @@ limitations under the License.
 
 >     easy_install virtualenv
 
-## 3. uWSGI (latest stable)
+## 3. Install uWSGI (latest stable)
 
 >     pip install uwsgi
 
-## 4. Nginx (1.0.5)
+## 4. Install Nginx (1.0.5)
 
 ### Linux
 
@@ -89,19 +89,13 @@ limitations under the License.
 
 * TBD
 
-### Windows 64-bit
+### Windows
 
-* Download and install http://www.box.net/shared/cei9z3799ga6oy92neec
-
->     start-nginx.bat
-
-### Windows 32-bit
-
-* Download and install http://www.box.net/shared/iamlv5n5i3zr4gofu10s
+* Download and install from http://www.kevinworthington.com/nginx-for-windows-archives/
 
 >     start-nginx.bat
 
-## 5. yajl (1.0.12)
+## 5. Install Yajl (1.0.12)
 
 ### Linux
 
@@ -140,7 +134,7 @@ limitations under the License.
 
 * TBD
 
-## 7. Download latest stable tagged release and run setup.py
+## 7. Download https://github.com/LearningRegistry/LearningRegistry/tree/0.23.0 and run setup.py
 
 * Login as learningregistry user
 
