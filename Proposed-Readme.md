@@ -76,7 +76,7 @@ limitations under the License.
 
 >     sudo apt-get install python-dev python-libxml2 python-libxslt1 libxml2-dev libxslt1-dev
 
-* Install virtualenv
+* Install and activate virtualenv
 
 >     sudo easy_install virtualenv
 >     cd ~
