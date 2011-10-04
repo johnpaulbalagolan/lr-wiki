@@ -106,7 +106,7 @@ limitations under the License.
 
 >     pip install uwsgi
 
-## 4. Install Nginx (1.0.5)
+## 4. Install Nginx (1.0.4+)
 
 ### Linux
 
