@@ -24,7 +24,7 @@ limitations under the License.
 
 ## 1. CouchDB (1.0.2)
 
-* Copy the download link for Couchbase Single Server Community 1.1, which is a binary distribution of CouchDB 1.0.2 from http://www.couchbase.com/downloads (NOTE: 1.1 is a "Previous Release") then issue the following commands:
+* Download Couchbase Single Server Community 1.1 (1.1.1 on Mac OS X), which is a binary distribution of CouchDB 1.0.2 from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release") then issue the following commands:
 
 ### Linux
 
@@ -40,15 +40,15 @@ limitations under the License.
 
 ### Mac
 
-* TBD
+* Install Couchbase
 
-### Windows
+### Windows 32-bit
 
-* Download and install https://github.com/downloads/dch/couchdb/setup-couchdb-1.0.2+COUCHDB-963_otp_R14B01+OTP-9139.exe
+* Install Couchbase
 
 ## 2. Python (2.x) and associated tools
 
-### Linux (2.6.x)
+### Linux
 
 * This guide assumes python is installed on Linux operating system.
 
