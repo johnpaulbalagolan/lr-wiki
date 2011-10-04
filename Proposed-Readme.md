@@ -16,14 +16,6 @@ limitations under the License.
 
 ### Linux
 
-* Curl
-
->     sudo apt-get install curl
-
-* vim
-
->     sudo apt-get install vim
-
 #### Configure apt sources
 
 * Edit the sources list
@@ -40,6 +32,17 @@ limitations under the License.
 * Update apt sources
 
 >     sudo apt-get update  
+
+#### Install Supporting Applications
+
+* Curl
+
+>     sudo apt-get install curl
+
+* vim
+
+>     sudo apt-get install vim
+
 
 # Installation
 
