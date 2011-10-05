@@ -16,7 +16,7 @@ limitations under the License.
 
 ### Linux
 
-#### Configure apt sources
+#### 1. Configure apt sources
 
 * Edit the sources list.  If the file doesn't exist, create it.
 
@@ -35,7 +35,7 @@ limitations under the License.
 
 >     sudo apt-get update  
 
-#### Install Supporting Applications
+#### 2. Install Supporting Applications
 
 * curl
 
@@ -204,6 +204,13 @@ limitations under the License.
 
 ## 8. Configure CouchDB log rotation
 
+* These steps are only necessary if you installed from source.
+
+* Open logrotate.conf.
+
+* Uncomment the the compress option, this will allow logrotate to compress old log files into a gzip file.
+
+* run ln -s /usr/local/etc/logrotate.d/couch /etc/logrotate.d/couchdb as root or using sudo to create the couchdb entry for logrotate
 
 ## 9. Configure Nginx
 
