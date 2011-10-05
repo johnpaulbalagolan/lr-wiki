@@ -51,7 +51,8 @@ limitations under the License.
 
 * Download (Mac and Windows) or Copy the Download Link (Linux) for Couchbase Single Server Community 1.1 (1.1.1 on Mac OS X), which is a binary distribution of CouchDB 1.0.2 from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release").  
 
-* Simply install on Mac and Windows.  Issue commands below on Linux.
+###Linux
+Issue commands below on Linux.
 
 * Remove Couchdb-bin
 
@@ -63,6 +64,12 @@ limitations under the License.
 >     curl "<download url>" -o couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
 
+###Windows 
+Simply download and run the installer.
+
+###Mac
+Download the .zip file, extract, and double-click the .app file to start couchDB.
+ 
 ## 2. Install Python (2.x) and associated tools
 
 ### Linux
