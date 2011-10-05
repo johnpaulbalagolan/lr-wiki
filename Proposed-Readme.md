@@ -96,7 +96,13 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ### Mac
 
-* TBD
+* Install Python 2.7.x, easy_install, and pip via homebrew
+
+>     brew install python
+
+* Install virtualenv via easy_install
+
+>     sudo easy_install virtualenv
 
 ### Windows (2.7.x)
 
