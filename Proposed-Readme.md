@@ -16,7 +16,17 @@ limitations under the License.
 
 ### Linux
 
-#### 1. Configure apt sources
+#### 1. Install Supporting Applications
+
+* curl
+
+>     sudo apt-get install curl
+
+* vim
+
+>     sudo apt-get install vim
+
+#### 2. Configure apt sources
 
 * Edit the sources list.  If the file doesn't exist, create it.
 
@@ -34,17 +44,6 @@ limitations under the License.
 * Update apt sources
 
 >     sudo apt-get update  
-
-#### 2. Install Supporting Applications
-
-* curl
-
->     sudo apt-get install curl
-
-* vim
-
->     sudo apt-get install vim
-
 
 # Installation
 
