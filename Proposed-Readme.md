@@ -45,6 +45,11 @@ limitations under the License.
 
 >     sudo apt-get update  
 
+### Mac
+* Install homebrew:
+
+>     /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+
 # Installation
 
 ## 1. Install CouchDB (1.0.2)
