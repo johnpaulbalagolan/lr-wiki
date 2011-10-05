@@ -200,7 +200,11 @@ limitations under the License.
 
 ### Mac
 
+* TBD
+
 ### Windows
+
+* TBD
 
 ## 8. Configure CouchDB log rotation
 
