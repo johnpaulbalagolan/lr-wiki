@@ -204,7 +204,9 @@ limitations under the License.
 
 ## 8. Configure CouchDB log rotation
 
+
 ## 9. Configure Nginx
+
 
 ### Linux
 
