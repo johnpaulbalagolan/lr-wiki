@@ -128,7 +128,7 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ### Mac
 
-* TBD
+>     brew install nginx
 
 ### Windows
 
