@@ -1,3 +1,5 @@
+# Troubleshooting
+
 ## CouchDB
 
 * Verify you have CouchDB 1.0.2 running:
