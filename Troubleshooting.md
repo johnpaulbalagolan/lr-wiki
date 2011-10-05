@@ -1,4 +1,4 @@
-# CouchDB
+## CouchDB
 
 * Verify you have CouchDB 1.0.2 running:
 
@@ -6,7 +6,7 @@
 
 > Should return {"couchdb":"Welcome","version":"1.0.2"}
 
-# Yajl
+## Yajl
 
 * Verify you have yajl properly configured by:
 
