@@ -233,11 +233,9 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 * TBD
 
-## 8. Configure CouchDB log rotation
+## 7. Configure CouchDB log rotation
 
-test
-
-* These steps are only necessary if you installed from source.
+These steps are only necessary if you installed from source.
 
 * Open logrotate.conf.
 
