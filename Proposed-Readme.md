@@ -134,7 +134,17 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ## 4. Install uWSGI (latest stable)
 
+### Linux
+
 >     sudo pip install uwsgi
+
+### Mac
+
+* TBD
+
+### Windows
+
+* TBD
 
 ## 5. Install Yajl (1.0.12)
 
@@ -224,6 +234,8 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 * TBD
 
 ## 8. Configure CouchDB log rotation
+
+test
 
 * These steps are only necessary if you installed from source.
 
