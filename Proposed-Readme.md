@@ -237,18 +237,7 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 * TBD
 
-## 7. Configure CouchDB log rotation
-
-These steps are only necessary if you installed from source.
-
-* Open logrotate.conf.
-
-* Uncomment the the compress option, this will allow logrotate to compress old log files into a gzip file.
-
-* run ln -s /usr/local/etc/logrotate.d/couch /etc/logrotate.d/couchdb as root or using sudo to create the couchdb entry for logrotate
-
-## 8. Configure Nginx
-
+## 7. Configure Nginx
 
 ### Linux
 
@@ -261,6 +250,6 @@ These steps are only necessary if you installed from source.
 >     sudo cp nginx.conf /etc/nginx/nginx.conf
 >     sudo service nginx start
 
-## 9. Start LR Code
+## 8. Start LR Code
 
 >     uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
