@@ -243,7 +243,7 @@ These steps are only necessary if you installed from source.
 
 * run ln -s /usr/local/etc/logrotate.d/couch /etc/logrotate.d/couchdb as root or using sudo to create the couchdb entry for logrotate
 
-## 9. Configure Nginx
+## 8. Configure Nginx
 
 
 ### Linux
@@ -257,6 +257,6 @@ These steps are only necessary if you installed from source.
 >     sudo cp nginx.conf /etc/nginx/nginx.conf
 >     sudo service nginx start
 
-## 10. Start LR Code
+## 9. Start LR Code
 
 >     uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
