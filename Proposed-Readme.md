@@ -167,6 +167,10 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 >     export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
+* Install ijson
+
+>     sudo pip install ijson
+
 ### Mac
 
 * TBD
