@@ -114,7 +114,7 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 * Install virtualenv
 
->     sudo easy_install virtualenv
+>     easy_install virtualenv
 
 ## 3. Install uWSGI (latest stable)
 
