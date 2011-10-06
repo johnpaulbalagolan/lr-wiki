@@ -158,12 +158,12 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 >     wget http://github.com/lloyd/yajl/tarball/1.0.12 -O yajl-tarball
 >     tar -zxvf yajl-tarball
->     cd yajl-tarball
+>     cd lloyd-yajl-17b1790
 >     sudo ./configure
 >     sudo make
 >     sudo make install
 
-* Update your LD_LIBRARY_PATH to include /usr/local/lib. Add the following line to ~learningregisty/.bashrc.d/defaults or /etc/bach.bashrc
+* Update your LD_LIBRARY_PATH to include /usr/local/lib. Add the following line to ~learningregisty/.bashrc.d/defaults or /etc/bash.bashrc
 
 >     export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
