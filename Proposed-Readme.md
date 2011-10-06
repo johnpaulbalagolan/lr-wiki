@@ -116,11 +116,7 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 >     easy_install virtualenv
 
-## 3. Install uWSGI (latest stable)
-
->     pip install uwsgi
-
-## 4. Install Nginx (1.0.4+)
+## 3. Install Nginx (1.0.4+)
 
 ### Linux
 
@@ -135,6 +131,10 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 * Download and install from http://www.kevinworthington.com/nginx-for-windows-archives/
 
 >     start-nginx.bat
+
+## 4. Install uWSGI (latest stable)
+
+>     sudo pip install uwsgi
 
 ## 5. Install Yajl (1.0.12)
 
