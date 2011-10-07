@@ -250,6 +250,14 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 >     sudo cp nginx.conf /etc/nginx/nginx.conf
 >     sudo service nginx start
 
+### Mac
+
+* TBD
+
+### Windows
+
+* TBD
+
 ## 8. Start LR Code
 
 >     uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
