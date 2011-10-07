@@ -12,6 +12,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+# Introduction
+
+Installation instructions to setup a new Learning Registry Node (0.23.0) on Linux (Ubuntu 10.04 LTS), Mac (Snow Leopard), and Windows 7 are provided below.  
+
+If you would prefer to use an existing Amazon Machine Instance (AMI), please see http://goo.gl/fhdg3.
+
 # Prerequisites
 
 ### Linux
@@ -252,7 +258,7 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ### Mac
 
-* TBD
+>     sudo cp nginx.conf /etc/nginx/nginx.conf
 
 ### Windows
 
