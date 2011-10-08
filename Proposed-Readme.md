@@ -14,9 +14,11 @@ limitations under the License.
 
 # Introduction
 
-Installation instructions to setup a new Learning Registry Node (0.23.0) on Linux (Ubuntu 10.04 LTS), Mac (Snow Leopard), and Windows 7 are provided below.  
+There are two recommended approaches to get a new Learning Registry node running using the latest stable code (0.23.0): 1) via an Amazon Machine Instance (AMI) or 2) via installing the code.  
 
-If you would prefer to use an existing Amazon Machine Instance (AMI), please see http://goo.gl/fhdg3.
+Instructions for using an existing AMI are available from http://goo.gl/fhdg3.  
+
+The installation instructions below describe eight steps to get a new Learning Registry node running using the latest stable code.  These instructions are provided for Linux, Mac, and Windows and have been tested with Ubuntu 10.04 LTS, Snow Leopard, and Windows 7.
 
 # Prerequisites
 
