@@ -249,13 +249,15 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ### Linux
 
+> NOTE: Run the commands below as a user that is in the sudoers file
+
 * Backup your original nginx.conf file
 
 >     sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.bak
 
 * Copy the ngnix.conf file from repository
 
->     sudo cp nginx.conf /etc/nginx/nginx.conf
+>     sudo cp /home/learningregistry/gitrepos/LearningRegistry/etc/nginx/nginx.conf /etc/nginx/nginx.conf
 >     sudo service nginx start
 
 ### Mac
@@ -268,4 +270,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ## 8. Start LR Code
 
->     uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
+> NOTE: Run the command below as the learningregistry user
+
+>     uwsgi --ini-paste ~/gitrepos/LearningRegistry/LR/development.ini --virtualenv ~/virtualenv/lr/
