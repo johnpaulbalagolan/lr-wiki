@@ -17,3 +17,12 @@
 
 > If no error is generated, yajl should be working properly.
 
+## uwsgi
+
+* Starting uwsgi
+
+>     uwsgi --ini-paste development.ini --virtualenv ~/virtualenv/lr/
+
+* Stopping uwsgi
+
+>     killall -9 uwsgi
