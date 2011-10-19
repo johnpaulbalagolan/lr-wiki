@@ -251,18 +251,41 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 > NOTE: Run the commands below as a user that is in the sudoers file
 
-* Backup your original nginx.conf file
+* Backup your original nginx directory
 
->     sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.bak
+>     sudo cp -R /etc/nginx /etc/nginx.bak
 
-* Copy the ngnix.conf file from repository
+* Copy the ngnix directory from repository
 
->     sudo cp /home/learningregistry/gitrepos/LearningRegistry/etc/nginx/nginx.conf /etc/nginx/nginx.conf
+>     sudo cp -R /home/learningregistry/gitrepos/LearningRegistry/etc/nginx /etc/nginx
+
+* Create symbolic link
+
+>     sudo ln -s /etc/nginx/site-available/learningregistry /etc/nginx/sites-enabled/learningregistry
+
+* Start nginx
+
 >     sudo service nginx start
 
 ### Mac
 
->     sudo cp nginx.conf /etc/nginx/nginx.conf
+> NOTE: Run the commands below as a user that is in the sudoers file
+
+* Backup your original nginx directory
+
+>     sudo cp -R /etc/nginx /etc/nginx.bak
+
+* Copy the ngnix directory from repository
+
+>     sudo cp -R /home/learningregistry/gitrepos/LearningRegistry/etc/nginx /etc/nginx
+
+* Create symbolic link
+
+>     sudo ln -s /etc/nginx/site-available/learningregistry /etc/nginx/sites-enabled/learningregistry
+
+* Start nginx
+
+>     sudo service nginx start
 
 ### Windows
 
