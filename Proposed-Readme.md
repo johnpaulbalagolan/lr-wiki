@@ -64,7 +64,7 @@ The installation instructions below describe eight steps to get a new Learning R
 
 * Download (Mac and Windows) or Copy the Download Link (Linux) for Couchbase Single Server Community 1.1 (1.1.1 on Mac OS X), which is a binary distribution of CouchDB 1.0.2 from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release").  
 
-###Linux
+### Linux
 Issue commands below on Linux.
 
 * Remove Couchdb-bin
@@ -77,10 +77,10 @@ Issue commands below on Linux.
 >     curl "<download url>" -o couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
 
-###Windows 
+### Windows 
 Simply download and run the installer.
 
-###Mac
+### Mac
 Download the .zip file, extract, and double-click the .app file to start couchDB.
  
 ## 2. Install Python (2.x) and associated tools
@@ -249,7 +249,7 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ### Linux
 
-> NOTE: Run the commands below as a user that is in the sudoers file
+NOTE: Run the commands below as a user that is in the sudoers file
 
 * Backup your original nginx directory
 
@@ -269,7 +269,7 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ### Mac
 
-> NOTE: Run the commands below as a user that is in the sudoers file
+NOTE: Run the commands below as a user that is in the sudoers file
 
 * Backup your original nginx directory
 
@@ -293,6 +293,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ## 8. Start LR Code
 
-> NOTE: Run the command below as the learningregistry user
+NOTE: Run the command below as the learningregistry user
 
 >     uwsgi --ini-paste ~/gitrepos/LearningRegistry/LR/development.ini --virtualenv ~/virtualenv/lr/
