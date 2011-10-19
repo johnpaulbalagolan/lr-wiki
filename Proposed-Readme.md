@@ -275,9 +275,9 @@ NOTE: Run the commands below as a user that is in the sudoers file
 
 >     sudo cp -R /etc/nginx /etc/nginx.bak
 
-* Copy the ngnix directory from repository
+* Copy the ngnix directory from repository into the /etc/nginx directory
 
->     sudo cp -R /home/learningregistry/gitrepos/LearningRegistry/etc/nginx /etc/nginx
+>     sudo cp -R /home/learningregistry/gitrepos/LearningRegistry/etc/nginx /etc/
 
 * Create symbolic link
 
