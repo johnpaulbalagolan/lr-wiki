@@ -8,13 +8,9 @@ https://docs.google.com/spreadsheet/ccc?key=0AtOSW7g7E8Y5dHI2UU52RkJpdUdiZnEzNlJ
 
 ## Performance Testing
 
-Current performance testing is limited to stress testing publish.  Results are available at:
+Current performance testing is limited to stress testing publish.  Results are available at: http://goo.gl/H7Dhr
 
-http://goo.gl/H7Dhr
-
-Discussion thread is available at:
-
-http://goo.gl/TdIVL 
+Discussion thread is available at: http://goo.gl/TdIVL 
 
 ## Test Server Status
 
