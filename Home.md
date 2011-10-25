@@ -16,7 +16,7 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 
 * Slice (from, [until]) - http://lrtest01.learningregistry.org/slice?any_tags=science&from=2011-05-11&until=2011-10-31
 
-* Harvest - http://lrtest01.learningregistry.org/harvest/getrecord?request_ID=[doc_ID]&by_doc_ID=true
+* Harvest - http://lrtest01.learningregistry.org/harvest/getrecord?request_ID=0e67e2195d9d45348c00a4b36ab1cfac&by_doc_ID=true
 
 * Status - http://lrtest01.learningregistry.org/status
 
