@@ -4,14 +4,6 @@ Welcome to the Learning Registry wiki! The Learning Registry makes digital learn
 
 The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d/12nvvm5ClvLxSWptlo52rTwIDvobiFylYhWLVPbVcesU/edit?hl=en_US) guide will get you rolling with creating, uploading, downloading, and verifying envelopes in and out of Learning Registry servers whether you're using Windows, Linux, or Mac OS X.
 
-## Developer Basics
-
-* The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
-
-* The Learning Registry Project maintains a node at [lrtest01](http://lrtest01.learningregistry.org) for users trying to integrate with the LR service APIs. LR web services can be accessed by software clients written in any programming language and [lrtest01](http://lrtest01.learningregistry.org) can be used to publish and access resource data using the LR service APIs from the client.  For the latest status on what code test servers are running, please consult the [server status spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtOSW7g7E8Y5dFRsSW5HRFlSalFpZjFvMmVKNGdpd2c&hl=en_US#gid=0).
-
-### Example Requests
-
 * Slice (tags) - http://lrtest01.learningregistry.org/slice?any_tags=science
 
 * Slice (identity) - http://lrtest01.learningregistry.org/slice?identity=ADL
@@ -23,6 +15,14 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 * Status - http://lrtest01.learningregistry.org/status
 
 * Obtain - http://lrtest01.learningregistry.org/obtain
+
+## Developer Basics
+
+* The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
+
+* The Learning Registry Project maintains a node at [lrtest01](http://lrtest01.learningregistry.org) for users trying to integrate with the LR service APIs. LR web services can be accessed by software clients written in any programming language and [lrtest01](http://lrtest01.learningregistry.org) can be used to publish and access resource data using the LR service APIs from the client.  
+
+* For the latest status on what code test servers are running, please consult the [server status spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtOSW7g7E8Y5dFRsSW5HRFlSalFpZjFvMmVKNGdpd2c&hl=en_US#gid=0).
 
 ## Setting Up an LR Node
 
