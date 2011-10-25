@@ -62,7 +62,7 @@ The installation instructions below describe eight steps to get a new Learning R
 
 ## 1. Install CouchDB (1.0.2)
 
-* Download (Mac and Windows) or Copy the Download Link (Linux) for Couchbase Single Server Community 1.1 (1.1.1 on Mac OS X), which is a binary distribution of CouchDB 1.0.2 from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release").  
+* Download (Mac and Windows) or Copy the Download Link (Linux) for Couchbase Single Server Community 1.1.x, which is a binary distribution of CouchDB 1.0.x from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release").  
 
 ### Linux
 Issue commands below on Linux.
