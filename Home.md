@@ -16,6 +16,8 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 
 * Obtain - http://lrtest01.learningregistry.org/obtain
 
+* Services - http://lrtest01.learningregistry.org/services
+
 ## Developer Basics
 
 * The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
