@@ -26,6 +26,8 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 
 * For the latest status on what code test servers are running, please consult the [server status spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtOSW7g7E8Y5dFRsSW5HRFlSalFpZjFvMmVKNGdpd2c&hl=en_US#gid=0).
 
+* If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
+
 ## Setting Up an LR Node
 
 There are two recommended approaches to get a new Learning Registry node running using the latest stable code.  The current version of the code implements the [Learning Registry Technical Specification v0.23.0](https://docs.google.com/document/d/1fRbDpM0BKvNc4WzDzX0pNUpfPtFAsKpKGnOyRhRok-8/edit?hl=en_US).  The first approach is to setup an LR node using an Amazon Machine Instance (AMI).  The second approach is to install a new node LR node on a Windows, Linux, or Mac OS X machine following installation instructions.
