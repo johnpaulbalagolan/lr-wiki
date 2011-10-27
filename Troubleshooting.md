@@ -8,6 +8,12 @@
 
 > Should return {"couchdb":"Welcome","version":"1.0.2"}
 
+* Verify you have the appropriate CouchDB databases:
+
+>     curl -X http://localhost:5984/_all_dbs
+
+> Should return ["community","node","resource_data","_users","network"]
+
 ## Yajl
 
 * Verify you have yajl properly configured by:
