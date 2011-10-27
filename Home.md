@@ -28,7 +28,7 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 
 * If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
 
-* Publishing Guidance using OAI-PMH: http://goo.gl/yOihy
+* Publishing guidance using OAI-PMH: http://goo.gl/yOihy
 
 ## Setting Up an LR Node
 
