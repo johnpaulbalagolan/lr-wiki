@@ -10,25 +10,26 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 
 * Slice (from, [until]) - http://lrtest01.learningregistry.org/slice?any_tags=science&from=2011-05-11&until=2011-10-31
 
-* Harvest - http://lrtest01.learningregistry.org/harvest/getrecord?request_ID=0e67e2195d9d45348c00a4b36ab1cfac&by_doc_ID=true
-
-* Status - http://lrtest01.learningregistry.org/status
-
-* Obtain - http://lrtest01.learningregistry.org/obtain
-
-* Services - http://lrtest01.learningregistry.org/services
-
 ## Developer Basics
 
-* The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
+The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
 
-* The Learning Registry Project maintains a node at [lrtest01](http://lrtest01.learningregistry.org) for users trying to integrate with the LR service APIs. LR web services can be accessed by software clients written in any programming language and [lrtest01](http://lrtest01.learningregistry.org) can be used to publish and access resource data using the LR service APIs from the client.  
+* The Learning Registry Project maintains a node at [lrtest01](http://lrtest01.learningregistry.org) for users trying to integrate with the LR service APIs.
 
 * For the latest status on what code test servers are running, please consult the [server status spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtOSW7g7E8Y5dFRsSW5HRFlSalFpZjFvMmVKNGdpd2c&hl=en_US#gid=0).
 
 * If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
 
-* Publishing guidance using OAI-PMH: http://goo.gl/yOihy
+* [Publishing guidance using OAI-PMH](http://goo.gl/yOihy)
+
+* Harvest (by ID) - http://lrtest01.learningregistry.org/harvest/getrecord?request_ID=0e67e2195d9d45348c00a4b36ab1cfac&by_doc_ID=true
+
+* Obtain - http://lrtest01.learningregistry.org/obtain
+
+* Services - http://lrtest01.learningregistry.org/services
+
+* Status - http://lrtest01.learningregistry.org/status
+
 
 ## Setting Up an LR Node
 
