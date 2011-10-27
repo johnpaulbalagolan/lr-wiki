@@ -36,6 +36,8 @@ There are two recommended approaches to get a new Learning Registry node running
 
 ## Getting Help
 
+* Report a bug: https://github.com/LearningRegistry/LearningRegistry/issues
+
 * General questions: info@learningregistry.org
 
 * Learning Registry Developers List: http://groups.google.com/group/learningreg-dev?pli=1
