@@ -158,6 +158,15 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 ### Linux
 
+* Install Yajl using apt-get
+
+
+>     sudo apt-get install lib-yajl1
+
+
+* or you can install from source
+
+
 * Install Yajl dependencies
 
 >     sudo apt-get install ruby cmake
