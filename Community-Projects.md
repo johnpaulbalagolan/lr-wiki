@@ -39,7 +39,7 @@ Extendable Python library and command line tools that can be used to sign LR res
 ## Node Administration
 Anything that may be useful in setting up, monitoring, or administering your own Learning Registry Node
 
-## LRMonitor
+### LRMonitor
 A Python module that can query CouchDB status message and format into a suitable format to be digested by Cacti.
 
 > Language: Python
