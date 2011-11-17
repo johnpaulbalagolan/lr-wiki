@@ -55,6 +55,8 @@ There are two recommended approaches to get a new Learning Registry node running
 
 ## Get Involved
 
-* Have a solution you want share: https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects
+Do you have some solution where you have either built utilities or extended the core code to do something interesting? Please share it here:
+
+* [Community Projects](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects)
 
 
