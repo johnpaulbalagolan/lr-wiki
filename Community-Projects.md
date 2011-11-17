@@ -1,6 +1,28 @@
 Have you built a utility for Learning Registry? List it here.
 Have you extended core Learning Registry? List it here.
 
+# Demonstrations
+Here are some demonstration projects that either extend or augment Learning Registry in some manner.
+
+## Plugfest 1 Hackday - Browser Plugin
+A prototype that injects learning registry resource data into internet search results.
+
+> Author: Pat Lockley
+
+> URL: [Chrome Plugin Source](https://github.com/patlockley/learning_registry_chrome)
+
+> URL: [Firefox Plugin Source](https://github.com/patlockley/learning_registry_firefox)
+
+
+## Repofringe 2011 Hackday - Visual Browser
+Built against a modified version of the node distribution, provides a very simple visual interface to search a
+node for specific terms and identify resources that have been tagged with common keys.
+
+> Author: Jim Klo (SRI International)
+
+> URL: [Source Code](https://github.com/jimklo/LearningRegistry/tree/RepoFringe)
+
+
 # External Utilities
 The following projects are designed to work with the Learning Registry services and are not part of the node installation.
 
@@ -20,7 +42,7 @@ Harvests an OAI-PMH NSDL_DC repository and publishes as signed LR resource data 
 
 
 
-## Envelope Signing
+## Resource Document Signing
 These are solutions to help get your resource data signed with your own PGP key.
 
 ### LRSignature
