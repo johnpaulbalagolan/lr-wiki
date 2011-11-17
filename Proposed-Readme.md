@@ -69,6 +69,15 @@ The installation instructions below describe eight steps to get a new Learning R
      * Click **Install**
 * If successful, when right clicking on any file you should now have a **7-Zip** option
 
+#### 2. Configure Internet Information Services (IIS)
+* Enable IIS and the correct IIS tools
+     * Click **Start** -> **Control Panel** -> **Programs** -> **Turn Windows features on or off**
+     * Check the box next to **Internet Information Services**
+     * Expand **Internet Information Services** and check the box next to **Web Management Tools**
+     * Also be sure the box next to **World Wide Web Services** is checked
+     * Expand **Application Development Features** inside of **World Wide Web Services** and check the boxes next to **CGI** and **ISAPI Extensions**
+     * Click **OK** to save your changes
+
 # Installation
 
 ## 1. Install CouchDB (1.0.2)
