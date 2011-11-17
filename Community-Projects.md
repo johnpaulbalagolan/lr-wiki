@@ -4,7 +4,7 @@ Have you extended core Learning Registry? List it here.
 # Demonstrations
 Here are some demonstration projects that either extend or augment Learning Registry in some manner.
 
-## Plugfest 1 Hackday - Browser Plugin
+### Plugfest 1 Hackday - Browser Plugin
 A prototype that injects learning registry resource data into internet search results.
 
 > Author: Pat Lockley
@@ -14,7 +14,7 @@ A prototype that injects learning registry resource data into internet search re
 > URL: [Firefox Plugin Source](https://github.com/patlockley/learning_registry_firefox)
 
 
-## Repofringe 2011 Hackday - Visual Browser
+### Repofringe 2011 Hackday - Visual Browser
 Built against a modified version of the node distribution, provides a very simple visual interface to search a
 node for specific terms and identify resources that have been tagged with common keys.
 
