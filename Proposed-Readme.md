@@ -58,6 +58,8 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
 
+###Windows 7
+
 # Installation
 
 ## 1. Install CouchDB (1.0.2)
