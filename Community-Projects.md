@@ -1,5 +1,9 @@
 Have you built a utility for Learning Registry? List it here.
+
 Have you extended core Learning Registry? List it here.
+
+Have you done something cool with Learning Registry? List it here.
+
 
 # Demonstrations
 Here are some demonstration projects that either extend or augment Learning Registry in some manner.
