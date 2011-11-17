@@ -17,3 +17,15 @@ Harvests an OAI-PMH NSDL_DC repository and publishes as signed LR resource data 
 > URL: [https://github.com/jimklo/LRDataPump](https://github.com/jimklo/LRDataPump)
 
 
+## Envelope Signing
+
+### LRSignature
+Extendable Python library and command line tools that can be used to sign LR resource data documents.
+
+> Language: Python
+
+> License: Apache 2
+
+> Author: Jim Klo (SRI International)
+
+> URL: [https://github.com/jimklo/LRSignature](https://github.com/jimklo/LRSignature)
