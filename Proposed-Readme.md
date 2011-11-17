@@ -64,7 +64,8 @@ The installation instructions below describe eight steps to get a new Learning R
 * Click **Run** and follow the setup instructions
      * Click **Next**
      * Accept the terms in the Licence Agreement and click **Next**
-     * Choose the path you want to install it in by clicking **Browse...** then click **Next**
+     * Choose the path you want to install it in by clicking **Browse...**
+     * Click **Next**
      * Click **Install**
 * If successful, when right clicking on any file you should now have a **7-Zip** option
 
