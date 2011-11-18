@@ -4,6 +4,7 @@ Have you extended core Learning Registry? List it here.
 
 Have you done something cool with Learning Registry? List it here.
 
+We are using Apache 2: http://www.apache.org/licenses/LICENSE-2.0.html to license code, we prefer if community contributions used that too. We understand there may be situations where this might not be possible, and we will take that into account if your contribution needs to be merged into core code.
 
 # Demonstrations
 Here are some demonstration projects that either extend or augment Learning Registry in some manner.
