@@ -11,7 +11,9 @@ Here are some demonstration projects that either extend or augment Learning Regi
 ### Plugfest 1 Hackday - Browser Plugin
 A prototype that injects learning registry resource data into internet search results.
 
-> Author: Pat Lockley
+> Author: [Pat Lockley](https://github.com/patlockley/)
+
+> URL: [Project Information](http://blogs.cetis.ac.uk/othervoices/2011/08/11/learning-registry-plugfest-report-and-developments/)
 
 > URL: [Chrome Plugin Source](https://github.com/patlockley/learning_registry_chrome)
 
@@ -22,9 +24,22 @@ A prototype that injects learning registry resource data into internet search re
 Built against a modified version of the node distribution, provides a very simple visual interface to search a
 node for specific terms and identify resources that have been tagged with common keys.
 
-> Author: Jim Klo (SRI International)
+> Author: [Jim Klo](https://github.com/jimklo/) (SRI International) 
 
 > URL: [Source Code](https://github.com/jimklo/LearningRegistry/tree/RepoFringe)
+
+
+### Learning Registry Drupal Module
+This project is a module to plug into the content management capabilities of Drupal and publish/consume resources from the Learning Registry.
+
+> License: GPL
+
+> Tech Info: PHP and Drupal 6
+
+> Authors: [Ali Lotia](https://github.com/lotia) and [Jason Hoekstra](https://github.com/jasonhoekstra)
+
+> URL: [Source Code](https://github.com/openmichigan/lr_publish)
+
 
 
 # External Utilities
@@ -40,7 +55,7 @@ Harvests an OAI-PMH NSDL_DC repository and publishes as signed LR resource data 
 
 > License: Apache 2
 
-> Author: Jim Klo (SRI International)
+> Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
 > URL: [https://github.com/jimklo/LRDataPump](https://github.com/jimklo/LRDataPump)
 
@@ -56,7 +71,7 @@ Extendable Python library and command line tools that can be used to sign LR res
 
 > License: Apache 2
 
-> Author: Jim Klo (SRI International)
+> Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
 > URL: [https://github.com/jimklo/LRSignature](https://github.com/jimklo/LRSignature)
 
@@ -72,6 +87,6 @@ A Python module that can query CouchDB status message and format into a suitable
 
 > License: Apache 2
 
-> Author: Jim Klo (SRI International)
+> Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
 > URL: [https://github.com/jimklo/LRMonitor](https://github.com/jimklo/LRMonitor)
