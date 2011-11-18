@@ -13,6 +13,8 @@ A prototype that injects learning registry resource data into internet search re
 
 > Author: [Pat Lockley](https://github.com/patlockley/)
 
+> Tech Info: Javascript
+
 > * [Project Information](http://blogs.cetis.ac.uk/othervoices/2011/08/11/learning-registry-plugfest-report-and-developments/)
 
 > * [Chrome Plugin Source](https://github.com/patlockley/learning_registry_chrome)
@@ -24,7 +26,11 @@ A prototype that injects learning registry resource data into internet search re
 Built against a modified version of the node distribution, provides a very simple visual interface to search a
 node for specific terms and identify resources that have been tagged with common keys.
 
+> License: Apache 2
+
 > Author: [Jim Klo](https://github.com/jimklo/) (SRI International) 
+
+> Tech Info: Javascript and HTML5
 
 > * [Source Code](https://github.com/jimklo/LearningRegistry/tree/RepoFringe)
 
