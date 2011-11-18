@@ -87,7 +87,7 @@ The installation instructions below describe eight steps to get a new Learning R
 * Enable IIS and the correct IIS tools
      * Click **Start** -> **Control Panel** -> **Programs** -> **Turn Windows features on or off**
      * Check the box next to **Internet Information Services**
-     * Expand **Internet Information Services** and check the box next to **Web Management Tools**
+     * Expand **Internet Information Services** and check the box next to **Web Management Tools** if it not already filled in
      * Also be sure the box next to **World Wide Web Services** is checked
      * Expand **Application Development Features** inside of **World Wide Web Services** and check the boxes next to **CGI** and **ISAPI Extensions**
      * Click **OK** to save your changes
