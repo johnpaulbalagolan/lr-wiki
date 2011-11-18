@@ -13,11 +13,11 @@ A prototype that injects learning registry resource data into internet search re
 
 > Author: [Pat Lockley](https://github.com/patlockley/)
 
-> URL: [Project Information](http://blogs.cetis.ac.uk/othervoices/2011/08/11/learning-registry-plugfest-report-and-developments/)
+> * [Project Information](http://blogs.cetis.ac.uk/othervoices/2011/08/11/learning-registry-plugfest-report-and-developments/)
 
-> URL: [Chrome Plugin Source](https://github.com/patlockley/learning_registry_chrome)
+> * [Chrome Plugin Source](https://github.com/patlockley/learning_registry_chrome)
 
-> URL: [Firefox Plugin Source](https://github.com/patlockley/learning_registry_firefox)
+> * [Firefox Plugin Source](https://github.com/patlockley/learning_registry_firefox)
 
 
 ### Repofringe 2011 Hackday - Visual Browser
@@ -26,7 +26,7 @@ node for specific terms and identify resources that have been tagged with common
 
 > Author: [Jim Klo](https://github.com/jimklo/) (SRI International) 
 
-> URL: [Source Code](https://github.com/jimklo/LearningRegistry/tree/RepoFringe)
+> * [Source Code](https://github.com/jimklo/LearningRegistry/tree/RepoFringe)
 
 
 ### Learning Registry Drupal Module
@@ -38,7 +38,7 @@ This project is a module to plug into the content management capabilities of Dru
 
 > Authors: [Ali Lotia](https://github.com/lotia) and [Jason Hoekstra](https://github.com/jasonhoekstra)
 
-> URL: [Source Code](https://github.com/openmichigan/lr_publish)
+> * [Source Code](https://github.com/openmichigan/lr_publish)
 
 
 
@@ -57,7 +57,7 @@ Harvests an OAI-PMH NSDL_DC repository and publishes as signed LR resource data 
 
 > Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
-> URL: [https://github.com/jimklo/LRDataPump](https://github.com/jimklo/LRDataPump)
+> * [Source Code](https://github.com/jimklo/LRDataPump)
 
 
 
@@ -73,7 +73,7 @@ Extendable Python library and command line tools that can be used to sign LR res
 
 > Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
-> URL: [https://github.com/jimklo/LRSignature](https://github.com/jimklo/LRSignature)
+> * [Source Code](https://github.com/jimklo/LRSignature)
 
 
 
@@ -89,4 +89,4 @@ A Python module that can query CouchDB status message and format into a suitable
 
 > Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
-> URL: [https://github.com/jimklo/LRMonitor](https://github.com/jimklo/LRMonitor)
+> * [Source Code](https://github.com/jimklo/LRMonitor)
