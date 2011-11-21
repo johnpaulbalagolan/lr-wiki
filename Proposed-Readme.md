@@ -111,9 +111,6 @@ Issue commands below on Linux.
 >     curl "<download url>" -o couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
 
-### Windows 
-Simply download and run the installer.
-
 ### Mac
 Download the .zip file, extract, and double-click the .app file to start couchDB.
  
@@ -146,18 +143,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 >     sudo easy_install virtualenv
 
-### Windows (2.7.x)
-
-* Download and install Python 2.7.x from http://python.org/.
-
-* Download and Install Python setuptools (ez_setup.py) from http://peak.telecommunity.com/dist/ez_setup.py (NOTE: the provided .exe installer does not support 64-bit versions of Python for Windows due to a distutils installer compatibility issue, so use the install command below)
-
->     python ez_setup.py install
-
-* Install virtualenv
-
->     easy_install virtualenv
-
 ## 3. Install Nginx (1.0.4+)
 
 ### Linux
@@ -168,12 +153,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 >     brew install nginx
 
-### Windows
-
-* Download and install from http://www.kevinworthington.com/nginx-for-windows-archives/
-
->     start-nginx.bat
-
 ## 4. Install uWSGI (latest stable)
 
 ### Linux
@@ -181,10 +160,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 >     sudo pip install uwsgi
 
 ### Mac
-
-* TBD
-
-### Windows
 
 * TBD
 
@@ -223,10 +198,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 >     sudo pip install ijson
 
 ### Mac
-
-* TBD
-
-### Windows
 
 * TBD
 
@@ -284,10 +255,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 * TBD
 
-### Windows
-
-* TBD
-
 ## 7. Configure Nginx
 
 ### Linux
@@ -329,10 +296,6 @@ NOTE: Run the commands below as a user that is in the sudoers file
 * Start nginx
 
 >     sudo service nginx start
-
-### Windows
-
-* TBD
 
 ## 8. Start LR Code
 
