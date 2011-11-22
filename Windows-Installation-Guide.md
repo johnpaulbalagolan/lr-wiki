@@ -105,3 +105,18 @@ Unless required by applicable law or agreed to in writing, software distributed 
      * Make sure **Python Version 2.7** is highlighted and click **Next**
      * Click **Next** again to begin the install
      * Click **Finish** when done
+
+# CouchDB
+## CouchDB 1.1.1
+1. Go [here](https://github.com/dch/couchdb/downloads) and download the **setup-couchdb-1.1.1_js185_otp_R14B03+fix-win32-crypto.exe** file
+     * Click **Run** and follow setup instructions
+     * Click **Next**
+     * Accept the agreement and click **Next**
+     * If you would like to select a different folder for installation click **Browse...** else just click **Next**
+     * Make sure **Install couchdb as a Windows service** and **Start the service after installation** boxes are checked and click **Next**
+     * Click **Install**
+     * If prompted to Restart Computer select **Yes** and click **Finish**
+2. Make sure CouchDB is running correctly by going [here](http://localhost)
+
+##CouchApp
+1. In the Windows command prompt, enter the command **pip install couchapp**
