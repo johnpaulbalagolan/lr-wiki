@@ -1,4 +1,3 @@
-**(GUIDE IS CURRENTLY UNDER CONSTRUCTION AND IS NOT YET COMPLETE)**
 Copyright 2011 SRI International
 
 Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at
@@ -7,11 +6,10 @@ Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you ma
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-(Guide created for **Windows 7 64-bit** environment; different tools may be required for different Windows environments.)
+_Guide created for **Windows 7 64-bit** environment; different tools may be required for different Windows environments._
 
 #Prerequisites 
 
-###Windows 7 64-Bit
 #### 1. Install Git
 * Install **Git** [here](http://code.google.com/p/msysgit/downloads/detail?name=Git-1.7.7.1-preview20111027.exe&amp;can=2&amp;q=)
 * Click **Run** and follow setup instructions
@@ -46,6 +44,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
      * Click **OK** to save your changes
 
 #### 4. Enable FastCGI module for IIS
+**NOTE: We are encountering a PicklingError when starting the application and are working on the problem now. Whenever the error has been fixed the appropriate steps for enabling FastCGI will be added.**
      
 # Python
 ## Python 2.7.2 32-bit
@@ -70,7 +69,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ## Pip
 1. Open the Windows command prompt (**Start** -> search for **cmd**)
-2. In the command prompt, enter the command **easy_install pip** and it will load pip on your machine, then you can proceed to install the other necessary modules:
+2. In the command prompt, enter the command `easy_install pip` and it will load pip on your machine, then you can proceed to install the other necessary modules:
 3. virtualenv `pip install virtualenv`
 4. pylons `pip install pylons`
 5. ijson `pip install ijson`
@@ -99,7 +98,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
      * Click **Finish** when done
 
 ## Pywin32
-1. Go [here](http://sourceforge.net/projects/pywin32/files/pywin32/Build%20216/) and install the **pywin32-216.win32-py2.7.exe** Windows installer
+1. Go [here](http://sourceforge.net/projects/pywin32/files/pywin32/Build216/) and install the **pywin32-216.win32-py2.7.exe** Windows installer
 2. Click **Run** and follow setup instructions
      * Click **Next** when prompted
      * Make sure **Python Version 2.7** is highlighted and click **Next**
@@ -116,7 +115,43 @@ Unless required by applicable law or agreed to in writing, software distributed 
      * Make sure **Install couchdb as a Windows service** and **Start the service after installation** boxes are checked and click **Next**
      * Click **Install**
      * If prompted to Restart Computer select **Yes** and click **Finish**
-2. Make sure CouchDB is running correctly by going [here](http://localhost)
+2. Make sure CouchDB is running correctly by going [here](http://localhost:5984), you should see **{"couchdb":"Welcome","version":"1.1.1"}**
 
 ##CouchApp
-1. In the Windows command prompt, enter the command **pip install couchapp**
+1. If your Windows command prompt is still open, close it.
+2. Reopen the Windows command prompt (**Start** -> search for **cmd**) and enter the command `pip install couchapp`
+
+#Checkout Learning Registry Source Code
+1. Open the **Git Bash** (**Start** -> search for **Git Bash**)
+2. Navigate to where you want your repository by using the `cd [directory_name]` command
+3. To gather the LR code from github, run the command `git clone https://github.com/LearningRegistry/LearningRegistry` 
+4. Once it is done cloning, run the command, `cd LearningRegistry` to move into the LearningRegistry directory
+5. Run the command `git tag –l` to find the latest tag
+6. Checkout the latest tag by running the command, `git checkout [latest tag version]`  
+
+# Running the LR Node
+## Push the CouchApps
+1. If your Windows command prompt is still open, close it. 
+2. Reopen the Windows command prompt (**Start** -> search for **cmd**)
+3. Create a **virtual environment** to sandbox your LR instance
+     * Run the command `mkdir virtualenv` and move into that directory `cd virtualenv`
+     * Run the command `virtualenv lr` (lr will be the name of your virtual environment) 
+     * Navigate to the **Scripts** directory of lr `cd lr/scripts`
+     * Run the command `activate`
+     * **(lr)** should now appear at the beginning of your command line if successful
+4.Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
+5. Run the command `python setup_node.py`
+6. When prompted, enter **http://localhost** as your endpoint URL
+7. For the rest of the setup, just hit **enter** whenever prompted to input the default parameters
+8. When finished you should receive a message displaying, **All CouchApps Pushed**
+
+## Install the LR Node
+1. Navigate back to the main LR directory (using the command `cd..`
+2. Navigate to the LR directory (using the command `cd lr`)
+3. Run the command `python setup.py install`
+4. When finished you should receive a message displaying, **Finished processing dependencies for LR==0.1dev**
+
+## Start Application Server 
+**NOTE: We are encountering a PicklingError when starting the application and are working on the problem now. These next few steps are subject to change depending on the solution for the error.**
+
+1. While still in the LR directory, run the command `paster serve development.ini`
