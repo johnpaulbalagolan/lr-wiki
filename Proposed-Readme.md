@@ -18,7 +18,7 @@ There are two recommended approaches to get a new Learning Registry node running
 
 Instructions for using an existing AMI are available from http://goo.gl/fhdg3.  
 
-The installation instructions below describe eight steps to get a new Learning Registry node running using the latest stable code.  These instructions are provided for Linux, Mac, and Windows and have been tested with Ubuntu 10.04 LTS, Snow Leopard, and Windows 7.
+The installation instructions below describe eight steps to get a new Learning Registry node running using the latest stable code.  These instructions are provided for Linux and Mac and have been tested with Ubuntu 10.04 LTS and Snow Leopard.
 
 # Prerequisites
 
@@ -58,39 +58,6 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
 
-###Windows 7 64-Bit
-#### 1. Install Git
-* Install **Git** [here](http://code.google.com/p/msysgit/downloads/detail?name=Git-1.7.7.1-preview20111027.exe&can=2&q=)
-* Click **Run** and follow setup instructions
-     * Click **Next**
-     * Click **Next**
-     * Choose the path where you want to install it by clicking **Browse...**
-     * Click **Next**
-     * Keep the default **selected components** and click **Next**
-     * If you would like to select a different folder for the shortcuts click **Browse..**
-     * Click **Next**
-     * Select **Use Git Bash Only** and click **Next**
-     * Select **Checkout Windows-style, commit Unix-style line endings** and click **Next**
-     * Click **Finish**
-
-#### 2. Install 7-Zip
-* Install the **64-bit .msi** file [here](http://www.7-zip.org/)
-* Click **Run** and follow the setup instructions
-     * Click **Next**
-     * Accept the terms in the Licence Agreement and click **Next**
-     * Choose the path you want to install it in by clicking **Browse...**
-     * Click **Next**
-     * Click **Install**
-* If successful, when right clicking on any file you should now have a **7-Zip** option
-
-#### 3. Configure Internet Information Services (IIS)
-* Enable IIS and the correct IIS tools
-     * Click **Start** -> **Control Panel** -> **Programs** -> **Turn Windows features on or off**
-     * Check the box next to **Internet Information Services**
-     * Expand **Internet Information Services** and check the box next to **Web Management Tools** if it not already filled in
-     * Also be sure the box next to **World Wide Web Services** is checked
-     * Expand **Application Development Features** inside of **World Wide Web Services** and check the boxes next to **CGI** and **ISAPI Extensions**
-     * Click **OK** to save your changes
 
 # Installation
 
