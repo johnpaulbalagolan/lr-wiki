@@ -41,8 +41,6 @@ There are two recommended approaches to get a new Learning Registry node running
 
 * [Windows Installation Guide](https://github.com/LearningRegistry/LearningRegistry/wiki/Windows-Installation-Guide) - Instructions for setting up a node on a Windows 7 64-bit environment.
 
-* [Troubleshooting](https://github.com/LearningRegistry/LearningRegistry/wiki/Troubleshooting)
-
 ## Get Involved
 
 Do you have some solution where you have either built utilities or extended the core code to do something interesting? Please share it here:
