@@ -30,6 +30,8 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * Status - https://node01.public.learningregistry.net/status
 
+* Description - https://node01.public.learningregistry.net/description
+
 
 ## Setting Up an LR Node
 
