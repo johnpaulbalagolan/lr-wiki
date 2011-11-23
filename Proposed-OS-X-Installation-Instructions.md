@@ -6,7 +6,7 @@
 This can be done with a single line:
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"`
+/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
 ```
 
 ### Python
@@ -28,5 +28,13 @@ git clone git://github.com/iriscouch/build-couchdb
 cd build-couchdb
 git submodule init
 git submodule update
+rake
 ```
+Go get some coffee or something. It's gonna be a little while.
+
+To start couch, run
+```bash
+build/bin/couchdb
+```
+
 
