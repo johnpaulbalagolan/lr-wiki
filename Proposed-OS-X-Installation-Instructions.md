@@ -55,11 +55,35 @@ brew install nginx
 
 ### Configure virtualenv
 
+This is useful for sandboxing your development environment. Any dependencies you install will be local to the virtualenv you installed them in.
+
 ```bash
 cd ~
 mkdir virtualenv
 virtualenv virtualenv/lr
 . virtualenv/lr/bin/activate
+```
+
+You should see your prompt preceded by `(lr)`, indicating you have successfully activated your virtual environment.
+
+### Get the Source Code
+
+Run the following commands to grab the master branch from this GitHub repository:
+
+```bash
+cd ~
+mkdir gitrepos; cd gitrepos
+git clone https://github.com/LearningRegistry/LearningRegistry.git
+```
+
+### Install dependencies
+
+This step will fetch all of the necessary dependencies and install them into your virtualenv, assuming you have followed this guide in sequence and are currently in the virtualenv previously created:
+
+```bash
+cd ~/gitrepos/LearningRegistry/LR
+pip install -e ./
+pip install uwsgi
 ```
 
 
