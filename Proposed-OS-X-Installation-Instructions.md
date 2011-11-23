@@ -5,12 +5,16 @@
 ### Homebrew
 This can be done with a single line:
 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"`
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"`
+```
 
 ### Python
 Using homebrew:
 
-`brew install python`
+```bash
+brew install python
+```
 
 **Note that if you have XCode installed, you should already have a version of python that will work, and this step can be omitted. However, you will need to install easy_install and pip manually.**
 
@@ -19,8 +23,10 @@ The most stable and reliable way of building the latest CouchDB is to use the ir
 
 The iriscouch method is replicated here for convenience:
 
-`git clone git://github.com/iriscouch/build-couchdb
+```bash
+git clone git://github.com/iriscouch/build-couchdb
 cd build-couchdb
 git submodule init
-git submodule update`
+git submodule update
+```
 
