@@ -30,6 +30,7 @@ git submodule init
 git submodule update
 rake
 ```
+
 Go get some coffee or something. It's gonna be a little while.
 
 To start couch, run
