@@ -24,6 +24,10 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * Harvest (by ID) - https://node01.public.learningregistry.net/harvest/getrecord?request_ID=4ebf25ff043841f48f5c0d61ffdf5d81&by_doc_ID=true
 
+* Harvest (metadata formats) - https://node01.public.learningregistry.net/harvest/listmetadataformats
+
+* Harvest (harvest endpoint) - https://node01.public.learningregistry.net/harvest/identify
+
 * Obtain - https://node01.public.learningregistry.net/obtain
 
 * Services - https://node01.public.learningregistry.net/services
