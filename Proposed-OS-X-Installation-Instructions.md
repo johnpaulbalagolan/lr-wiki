@@ -12,7 +12,7 @@ Using homebrew:
 
 `brew install python`
 
-**Note that if you have XCode installed, you should already have a version of python that will work, and this step can be omitted. **
+** Note that if you have XCode installed, you should already have a version of python that will work, and this step can be omitted. **
 
 ### CouchDB
 The ea
