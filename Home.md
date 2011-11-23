@@ -4,11 +4,11 @@ Welcome to the Learning Registry wiki! The Learning Registry makes digital learn
 
 The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d/12nvvm5ClvLxSWptlo52rTwIDvobiFylYhWLVPbVcesU/edit?hl=en_US) guide will get you rolling with creating, uploading, downloading, and verifying envelopes in and out of Learning Registry servers whether you're using Windows, Linux, or Mac OS X.
 
-* Slice (tags) - http://lrtest01.learningregistry.org/slice?any_tags=science
+* Slice (tags) - https://node01.public.learningregistry.net/slice?any_tags=science
 
-* Slice (identity) - http://lrtest01.learningregistry.org/slice?identity=ADL
+* Slice (identity) - https://node01.public.learningregistry.net/slice?identity=ADL
 
-* Slice (from, [until]) - http://lrtest01.learningregistry.org/slice?any_tags=science&from=2011-05-11&until=2011-10-31
+* Slice (from, [until]) - https://node01.public.learningregistry.net/slice?any_tags=science&from=2011-05-11&until=2011-10-31
 
 ## Developer Basics
 
@@ -22,13 +22,13 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * [Publishing guidance using OAI-PMH](http://goo.gl/yOihy)
 
-* Harvest (by ID) - http://lrtest01.learningregistry.org/harvest/getrecord?request_ID=0e67e2195d9d45348c00a4b36ab1cfac&by_doc_ID=true
+* Harvest (by ID) - https://node01.public.learningregistry.net/harvest/getrecord?request_ID=0002d23015b34b018f378e9027af5abf&by_doc_ID=true
 
-* Obtain - http://lrtest01.learningregistry.org/obtain
+* Obtain - https://node01.public.learningregistry.net/obtain
 
-* Services - http://lrtest01.learningregistry.org/services
+* Services - https://node01.public.learningregistry.net/services
 
-* Status - http://lrtest01.learningregistry.org/status
+* Status - https://node01.public.learningregistry.net/status
 
 
 ## Setting Up an LR Node
