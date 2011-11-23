@@ -9,7 +9,7 @@ This can be done with a single line:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
 ```
 
-### Python
+### Python, easy_install, pip
 Using homebrew:
 
 ```bash
@@ -17,6 +17,12 @@ brew install python
 ```
 
 **Note that if you have XCode installed, you should already have a version of python that will work, and this step can be omitted. However, you will need to install easy_install and pip manually.**
+
+### Python Packages
+You will need virtualenv
+```bash
+pip install virtualenv
+```
 
 ### CouchDB
 The most stable and reliable way of building the latest CouchDB is to use the iriscouch installer scripts. It is to be mentioned that this method requires XCode, however, so those looking to avoid this dependency may opt to download the latest 1.1.x from http://www.couchbase.com/downloads.
@@ -36,6 +42,24 @@ Go get some coffee or something. It's gonna be a little while.
 To start couch, run
 ```bash
 build/bin/couchdb
+```
+
+### nginx
+
+Again, this is easiest to do with Homebrew:
+```bash
+brew install nginx
+```
+
+## Installation
+
+### Configure virtualenv
+
+```bash
+cd ~
+mkdir virtualenv
+virtualenv virtualenv/lr
+. virtualenv/lr/bin/activate
 ```
 
 
