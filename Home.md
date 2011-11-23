@@ -22,7 +22,7 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * [Publishing guidance using OAI-PMH](http://goo.gl/yOihy)
 
-* Harvest (by ID) - https://node01.public.learningregistry.net/harvest/getrecord?request_ID=0002d23015b34b018f378e9027af5abf&by_doc_ID=true
+* Harvest (by ID) - https://node01.public.learningregistry.net/harvest/getrecord?request_ID=4ebf25ff043841f48f5c0d61ffdf5d81&by_doc_ID=true
 
 * Obtain - https://node01.public.learningregistry.net/obtain
 
