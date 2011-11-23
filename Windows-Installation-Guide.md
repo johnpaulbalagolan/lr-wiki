@@ -8,6 +8,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 _Guide created for **Windows 7 64-bit** environment; different tools may be required for different Windows environments._
 
+_**A pre-existing C/C++ compiler must exist on your machine**_
 #Prerequisites 
 
 #### 1. Install Git
