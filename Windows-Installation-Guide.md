@@ -24,15 +24,15 @@ _Guide created for **Windows 7 64-bit** environment; different tools may be requ
      * Select **Checkout Windows-style, commit Unix-style line endings** and click **Next**
      * Click **Finish**
 
-#### 2. Install 7-Zip
-* Install the **64-bit .msi** file [here](http://www.7-zip.org/)
-* Click **Run** and follow the setup instructions
+#### 2. CMake
+* Go [here](http://www.cmake.org/cmake/resources/software.html) and download the **cmake-2.8.6-win32-x86.exe** file
+* Click **Run** and follow setup instructions
      * Click **Next**
-     * Accept the terms in the Licence Agreement and click **Next**
-     * Choose the path you want to install it in by clicking **Browse...**
-     * Click **Next**
-     * Click **Install**
-* If successful, when right clicking on any file you should now have a **7-Zip** option
+     * Click **I Agree**
+     * Choose **Add CMake to the system PATH for all users** and click **Next**
+     * Click **Browse...** if you would like to change the **Destination Folder**, else just click **Next**
+     * Type a new name for the **Start Menu folder** if you'd like, else just click **Install**
+     
 
 #### 3. Configure Internet Information Services (IIS)
 * Enable IIS and the correct IIS tools
@@ -83,11 +83,27 @@ _Guide created for **Windows 7 64-bit** environment; different tools may be requ
      * Make sure **Python Version 2.7** is highlighted and click **Next**
      * Click **Next** again to begin the install
      * Click **Finish**
-11. Visit [here](http://lloyd.github.com/yajl/) and download **yajl-2.0.1.tar.gz**
-     * Go into your **Downloads** folder and find the **lloyd-yajl-2.0.1.tar.gz** file
-     * Right click on the **lloyd-yajl-2.0.1.tar.gz** file, hover over **7-Zip** and choose **Extract Here**
-     * Right click on the new **lloyd-yajl-2.0.1.tar** file, hover over **7-Zip** and choose **Extract Files...**
-     * Click the **...** button and navigate to **[Directory]\Python27\Lib** and click **OK**
+
+## YAJL
+1. Visit [here](http://lloyd.github.com/yajl/) and download **yajl-1.0.12.zip**
+     * Go into your **Downloads** folder and find the **lloyd-yajl-1.0.12.zip** file
+     * Right click on the **lloyd-yajl-1.0.12.zip** file, and click **Extract All...**
+     * Click **Browse...** and navigate to **[Directory]\Python27\Lib**
+     * Click **Extract**
+2. Open your Visual Studio Command Prompt (**Start** -> search for **Visual Studio Command Prompt**)
+3. Navigate to where you extracted the YAJL files - **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src** - using the **cd** command
+4. Make a build directory using the command `mkdir build`
+5. Navigate into the build directory using the command `cd build`
+6. Run the command `cmake -G"NMake Makefiles" -DCMAKE_BUILD_TYPE=Release ..`
+     * If successful, the prompt should display **Build files have been written to : [Directory]/Python27/Lib/lloyd-yajl-17b1790/src/build**
+7. Run the command `nmake` to build all of the YAJL files
+     * If successful, you will not get any error messages
+8. Open your **Windows Explorer** and navigate to **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src/lib**
+9. Copy the **yajl.dll** file and paste it into **C:\Windows\SysWOW64**
+     * To check if successful, open the Windows Command Prompt (**Start** -> search for **cmd**)
+     * Run the command `python`, then `import ijson`
+     * If there are no errors YAJL has been successfully installed
+     
 
 ## Py2exe
 1. Go [here](http://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/) and install the **py2exe-0.6.9.win32-py2.7.exe** Windows installer
