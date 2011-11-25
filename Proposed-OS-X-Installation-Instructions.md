@@ -51,6 +51,8 @@ Again, this is easiest to do with Homebrew:
 brew install nginx
 ```
 
+### Yajl JSON Library
+
 ## Installation
 
 ### Configure virtualenv
@@ -84,6 +86,24 @@ This step will fetch all of the necessary dependencies and install them into you
 cd ~/gitrepos/LearningRegistry/LR
 pip install -e ./
 pip install uwsgi
+pip install ijson
 ```
 
+### Configure nginx
+Assuming you installed with Homebrew, you should have a folder at `/usr/local/etc/nginx`. Back this folder up in case you need to use the default nginx configuration later. Then, copy the nginx configuration folder found in the git repository cloned earlier:
 
+```bash
+#optional
+cp -R /usr/local/etc/nginx /usr/local/etc/nginx.bak 
+
+#required
+cp -R ~/gitrepos/LearningRegistry/etc/nginx /usr/local/etc/nginx
+mkdir /usr/local/etc/nginx/sites-enabled
+ln -s /usr/local/etc/nginx/sites-available/learningregistry /usr/local/etc/nginx/sites-enabled/learningregistry
+```
+
+If you installed with Homebrew, you will have to change a couple nginx global and LR-specific configuration files. 
+
+Inside `/usr/local/etc/nginx/nginx.conf`, comment out `use epoll`, and prepend `/usr/local` to anything beginning with `/etc` or `/var`. 
+
+Inside `/usr/local/etc/nginx/sites-enabled/learningregistry`, first repeat the `/usr/local` prepend step as above. Then, change line 79 from `listen <ip_address>:5984` to just `listen 5984`.
