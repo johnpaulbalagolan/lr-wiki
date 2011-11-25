@@ -16,11 +16,9 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
 * Click **Run** and follow setup instructions
      * Click **Next**
      * Click **Next**
-     * Choose the path where you want to install it by clicking **Browse...**
-     * Click **Next**
+     * If you would like to change the path where you want to install it, click **Browse...** else click **Next**
      * Keep the default **selected components** and click **Next**
-     * If you would like to select a different folder for the shortcuts click **Browse..**
-     * Click **Next**
+     * If you would like to select a different folder for the shortcuts click **Browse..** else click **Next**
      * Select **Use Git Bash Only** and click **Next**
      * Select **Checkout Windows-style, commit Unix-style line endings** and click **Next**
      * Click **Finish**
@@ -33,6 +31,7 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
      * Choose **Add CMake to the system PATH for all users** and click **Next**
      * Click **Browse...** if you would like to change the **Destination Folder**, else just click **Next**
      * Type a new name for the **Start Menu folder** if you'd like, else just click **Install**
+     * Click **Finish**
      
 
 #### 3. Configure Internet Information Services (IIS)
@@ -51,11 +50,12 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
 ## Python 2.7.2 32-bit
 1. Install the **Windows x86 MSI Installer(2.7.2)(sig)** [here](http://www.python.org/getit/releases/2.7.2/)
 2. Click **Run** and follow setup instructions
-     * Choose **Install for all users**
-     * Choose your **Destination Directory** (default is C:\Python27)
+     * Choose **Install for all users** and click **Next**
+     * Choose your **Destination Directory** (default is C:\Python27) then click **Next**
      * Click **Next** when asked to **Customize Python 2.7.2**
+     * Click **Finish**
 3. Once installation is complete, add Python to your system path
-     * Click **Start** -> Right click **Computer** -> click **Properties** -> click **Advanced system settings** -> click  **Environment Variables**
+     * Click **Start** -> Right click **Computer** -> click **Properties** -> click **Advanced system settings** -> click  **Environment Variables...**
      * Highlight the **Path** variable under **System variables** and click **Edit...**
      * Add **[Directory]\Python27;[Directory]\Python27\Scripts;** to the end of **Variable value** (ex: if Python was downloaded in your C:\ root, you would add **C:\Python27;C:\Python27\Scripts;**)
      * Click **OK** to exit the **Edit System Variable Window**, then click **OK** to exit the **Environment Variables** window, then click **OK** to exit the **System Properties** window
@@ -89,7 +89,7 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
 1. Visit [here](http://lloyd.github.com/yajl/) and download **yajl-1.0.12.zip**
      * Go into your **Downloads** folder and find the **lloyd-yajl-1.0.12.zip** file
      * Right click on the **lloyd-yajl-1.0.12.zip** file, and click **Extract All...**
-     * Click **Browse...** and navigate to **[Directory]\Python27\Lib**
+     * Click **Browse...** and navigate to **[Directory]\Python27\Lib** then click **OK**
      * Click **Extract**
 2. Open your Visual Studio Command Prompt (**Start** -> search for **Visual Studio Command Prompt**)
 3. Navigate to where you extracted the YAJL files - **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src** - using the **cd** command
@@ -97,6 +97,7 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
 5. Navigate into the build directory using the command `cd build`
 6. Run the command `cmake -G"NMake Makefiles" -DCMAKE_BUILD_TYPE=Release ..`
      * If successful, the prompt should display **Build files have been written to : [Directory]/Python27/Lib/lloyd-yajl-17b1790/src/build**
+     * If you receive an error please review the Troubleshooting [page](https://github.com/LearningRegistry/LearningRegistry/wiki/Troubleshooting)
 7. Run the command `nmake` to build all of the YAJL files
      * If successful, you will not get any error messages
 8. Open your **Windows Explorer** and navigate to **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src/lib**
@@ -129,6 +130,7 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
      * Click **Next**
      * Accept the agreement and click **Next**
      * If you would like to select a different folder for installation click **Browse...** else just click **Next**
+     * If you would like to create the program's shortcuts click **Browse..** else just click **Next**
      * Make sure **Install couchdb as a Windows service** and **Start the service after installation** boxes are checked and click **Next**
      * Click **Install**
      * If prompted to Restart Computer select **Yes** and click **Finish**
