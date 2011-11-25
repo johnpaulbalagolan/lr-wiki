@@ -16,7 +16,7 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
 * Click **Run** and follow setup instructions
      * Click **Next**
      * Click **Next**
-     * If you would like to change the path where you want to install it, click **Browse...** else click **Next**
+     * If you would like to select a different folder for installation click **Browse...** else just click **Next**
      * Keep the default **selected components** and click **Next**
      * If you would like to select a different folder for the shortcuts click **Browse..** else click **Next**
      * Select **Use Git Bash Only** and click **Next**
@@ -29,7 +29,7 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
      * Click **Next**
      * Click **I Agree**
      * Choose **Add CMake to the system PATH for all users** and click **Next**
-     * Click **Browse...** if you would like to change the **Destination Folder**, else just click **Next**
+     * If you would like to change the **Destination Folder** for installation click **Browse...** else just click Next
      * Type a new name for the **Start Menu folder** if you'd like, else just click **Install**
      * Click **Finish**
      
@@ -158,14 +158,14 @@ _**A pre-existing C/C++ compiler must exist on your machine**_
      * Navigate to the **Scripts** directory of lr `cd lr/scripts`
      * Run the command `activate`
      * **(lr)** should now appear at the beginning of your command line if successful
-4.Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
+4. Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
 5. Run the command `python setup_node.py`
 6. When prompted, enter **http://localhost** as your endpoint URL
 7. For the rest of the setup, just hit **enter** whenever prompted to input the default parameters
 8. When finished you should receive a message displaying, **All CouchApps Pushed**
 
 ## Install the LR Node
-1. Navigate back to the main LR directory (using the command `cd..`
+1. Navigate back to the main LR directory (using the command `cd..`)
 2. Navigate to the LR directory (using the command `cd lr`)
 3. Run the command `python setup.py install`
 4. When finished you should receive a message displaying, **Finished processing dependencies for LR==0.1dev**
