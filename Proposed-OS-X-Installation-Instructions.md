@@ -107,6 +107,15 @@ pip install uwsgi
 pip install ijson
 ```
 
+### Setup New Learning Registry Node
+This part is very easy. Just run
+
+```bash
+python ~/gitrepos/LearningRegistry/config/setup_node.py
+```
+
+Follow the prompts. The default values should be OK, though you may opt to turn flow control on for each service, which is NOT enabled by default.
+
 ### Configure nginx
 Assuming you installed with Homebrew, you should have a folder at `/usr/local/etc/nginx`. Back this folder up in case you need to use the default nginx configuration later. Then, copy the nginx configuration folder found in the git repository cloned earlier:
 
@@ -125,3 +134,14 @@ If you installed with Homebrew, you will have to change a couple nginx global an
 Inside `/usr/local/etc/nginx/nginx.conf`, comment out `use epoll`, and prepend `/usr/local` to anything beginning with `/etc` or `/var`. 
 
 Inside `/usr/local/etc/nginx/sites-enabled/learningregistry`, first repeat the `/usr/local` prepend step as above. Then, change line 79 from `listen <ip_address>:5984` to just `listen 5984`.
+
+### Start Learning Registry Node
+
+These may or may not require sudo:
+
+```bash
+/usr/local/sbin/nginx
+uwsgi --ini-paste ~/gitrepos/LearningRegistry/LR/development.ini
+```
+
+If both of these steps execute without error, you now have a LR node successfully set up! To verify, visit `http://localhost/services` with curl or in the browser and you should see a JSON document that describes all of the available services the LR offers. If you would like to further verify your application is working correctly, run some of the `nosetests` individually and ensure that any errors are consistent with those reported as issues in the master branch.
