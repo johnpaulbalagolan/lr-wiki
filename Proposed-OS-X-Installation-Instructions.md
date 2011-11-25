@@ -52,6 +52,24 @@ brew install nginx
 ```
 
 ### Yajl JSON Library
+First, download and install yajl:
+
+```bash
+wget http://github.com/lloyd/yajl/tarball/1.0.12 -O yajl-tarball
+tar -zxvf yajl-tarball
+cd lloyd-yajl-17b1790
+sudo ./configure
+sudo make
+sudo make install
+```
+
+Then you will need to add a new environment variable that loads every time you start a new terminal session. I used the global `/etc/bashrc`, but others may opt to use the user-specific bashrc or profile files. Either way, append the following line: 
+
+```bash
+export DYLD_LIBRARY_PATH=/usr/local/lib
+```
+
+If you are planning on continuing the installation now, **it is recommended that you also run that as a command so that you don't have to start a new terminal session for the variable to load.**
 
 ## Installation
 
