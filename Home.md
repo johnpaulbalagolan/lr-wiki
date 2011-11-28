@@ -41,11 +41,13 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 There are two recommended approaches to get a new Learning Registry node running using the latest stable code.  The current version of the code implements the [Learning Registry Technical Specification v0.23.0](https://docs.google.com/document/d/1fRbDpM0BKvNc4WzDzX0pNUpfPtFAsKpKGnOyRhRok-8/edit?hl=en_US).  The first approach is to setup an LR node using an Amazon Machine Instance (AMI).  The second approach is to install a new node LR node on a Windows, Linux, or Mac OS X machine following installation instructions.
 
-* [AMI Install Guide](http://goo.gl/fhdg3) - Instructions for setting up a node using an existing AMI.  
+* [AMI Installation](http://goo.gl/fhdg3) - Instructions for setting up a node using an existing Amazon Machine Instance.  
 
-* Instructions for setting up an LR Node on Ubuntu 10.04 onwards and MacOS 10.6.x (Snow Leopard) can be found at <https://github.com/LearningRegistry/LearningRegistry/blob/master/README.md>. The instructions are for manually setting up a node as well as for automatically installing all software necessary for node setup. The [Sprint3Release branch](https://github.com/LearningRegistry/LearningRegistry/tree/Sprint3Release) of the source tree is the most stable version and should be used if you are trying to setup a node for the first time.
+* [Linux Installation](https://github.com/LearningRegistry/LearningRegistry/blob/master/README.md) - Instructions for setting up a node on Ubuntu 10.04 LTS onwards.
 
-* [Windows Installation Guide](https://github.com/LearningRegistry/LearningRegistry/wiki/Windows-Installation-Guide) - Instructions for setting up a node on a Windows 7 64-bit environment.
+* [Windows Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Windows-Installation-Guide) - Instructions for setting up a node on a Windows 7 64-bit environment.
+
+* [OS X Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Proposed-OS-X-Installation-Instructions)
 
 ## Get Involved
 
