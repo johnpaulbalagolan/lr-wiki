@@ -53,12 +53,6 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     sudo apt-get update  
 
-### Mac
-* Install homebrew:
-
->     /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
-
-
 # Installation
 
 ## 1. Install CouchDB (1.0.2)
@@ -77,9 +71,6 @@ Issue commands below on Linux.
 >     cd ~/
 >     curl "<download url>" -o couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
-
-### Mac
-Download the .zip file, extract, and double-click the .app file to start couchDB.
  
 ## 2. Install Python (2.x) and associated tools
 
@@ -100,35 +91,17 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 >     sudo easy_install pip 
 >     sudo easy_install virtualenv
 
-### Mac
-
-* Install Python 2.7.x, easy_install, and pip via homebrew
-
->     brew install python
-
-* Install virtualenv via easy_install
-
->     sudo easy_install virtualenv
-
 ## 3. Install Nginx (1.0.4+)
 
 ### Linux
 
 >     sudo apt-get install nginx
 
-### Mac
-
->     brew install nginx
-
 ## 4. Install uWSGI (latest stable)
 
 ### Linux
 
 >     sudo pip install uwsgi
-
-### Mac
-
-* TBD
 
 ## 5. Install Yajl (1.0.12)
 
@@ -163,10 +136,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 * Install ijson
 
 >     sudo pip install ijson
-
-### Mac
-
-* TBD
 
 ## 6. Checkout Learning Registry Source Code
 
@@ -218,10 +187,6 @@ Download the .zip file, extract, and double-click the .app file to start couchDB
 
 * Answer the questions as prompted.
 
-### Mac
-
-* TBD
-
 ## 7. Configure Nginx
 
 ### Linux
@@ -233,26 +198,6 @@ NOTE: Run the commands below as a user that is in the sudoers file
 >     sudo cp -R /etc/nginx /etc/nginx.bak
 
 * Copy the ngnix directory from repository
-
->     sudo cp -R /home/learningregistry/gitrepos/LearningRegistry/etc/nginx /etc/
-
-* Create symbolic link
-
->     sudo ln -s /etc/nginx/site-available/learningregistry /etc/nginx/sites-enabled/learningregistry
-
-* Start nginx
-
->     sudo service nginx start
-
-### Mac
-
-NOTE: Run the commands below as a user that is in the sudoers file
-
-* Backup your original nginx directory
-
->     sudo cp -R /etc/nginx /etc/nginx.bak
-
-* Copy the ngnix directory from repository into the /etc/nginx directory
 
 >     sudo cp -R /home/learningregistry/gitrepos/LearningRegistry/etc/nginx /etc/
 
