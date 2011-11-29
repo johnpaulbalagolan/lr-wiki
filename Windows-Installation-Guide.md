@@ -8,7 +8,8 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 _Guide created for **Windows 7 64-bit** environment; different tools may be required for different Windows environments._
 
-_**A pre-existing C/C++ compiler must exist on your machine**_
+_**A pre-existing C/C++ compiler must exist on your machine. Having the full version of Visual Studio 2008 or Visual Studio 2010 is recommended.**_
+
 #Prerequisites 
 
 #### 1. Install Git
