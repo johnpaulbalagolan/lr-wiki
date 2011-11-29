@@ -32,7 +32,7 @@ node for specific terms and identify resources that have been tagged with common
 > * [Source Code](https://github.com/jimklo/LearningRegistry/tree/RepoFringe)
 
 ### Learning Registry Browser
-Adapted from Jim Ko's Visual Browser - allows users to perform a search using a key or identity. Results are displayed both as a list of documents and as a graph of related terms found in those documents. The graph can be used to explore further related terms, allowing the user to explore the semantic landscape of the Learning Registry. Document display summarizes Learning Registry entries for discovered documents, links to full Learning Registry documents, to described Learning Resources, and to related paradata.
+Adapted from Jim Klo's Visual Browser - allows users to perform a search using a key or identity. Results are displayed both as a list of documents and as a graph of related terms found in those documents. The graph can be used to explore further related terms, allowing the user to explore the semantic landscape of the Learning Registry. Document display summarizes Learning Registry entries for discovered documents, links to full Learning Registry documents, to described Learning Resources, and to related paradata.
 
 The Browser is running here:
 http://demolearningregistry.sri.com/browse/
