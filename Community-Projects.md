@@ -101,8 +101,10 @@ Publish/Browse/Use BasicLTI tools from Moodle. The idea is to publish tools in L
 
 > License: GPL2
 
-> Author: [Antoni Bertran](http://sourceforge.net/projects/learningapps) (Universitat Oberta de Catalunya)
+> Author: [Antoni Bertran] (Universitat Oberta de Catalunya)
 
-> Wiki: https://sourceforge.net/apps/mediawiki/learningapps/index.php?title=Moodle4BLTI_LR_English#Learning_Registry_Integration
+> * Project page: http://sourceforge.net/projects/learningapps
+
+> * Wiki: https://sourceforge.net/apps/mediawiki/learningapps/index.php?title=Moodle4BLTI_LR_English#Learning_Registry_Integration
 
 > * [Source Code](https://sourceforge.net/scm/?type=svn&group_id=388815) SVN
