@@ -101,7 +101,7 @@ Publish/Browse/Use BasicLTI tools from Moodle. The idea is to publish tools in L
 
 > License: GPL2
 
-> Author: [Antoni Bertran] /http://sourceforge.net/users/antonib) [Universitat Oberta de Catalunya](http://www.uoc.edu)
+> Author: [Antoni Bertran] (http://sourceforge.net/users/antonib) [Universitat Oberta de Catalunya](http://www.uoc.edu)
 
 > * Project page: http://sourceforge.net/projects/learningapps
 
