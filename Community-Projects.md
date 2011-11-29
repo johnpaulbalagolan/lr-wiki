@@ -93,3 +93,16 @@ A Python module that can query CouchDB status message and format into a suitable
 > Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
 > * [Source Code](https://github.com/jimklo/LRMonitor)
+
+### Moodle4BLTI_LR
+Publish/Browse/User BasicLTI tools from Moodle. The idea is to publish tools in Learning Registry, using BasicLTI (http://www.imsglobal.org/lti/). Then in LR can share not only static content but tools. To launch remote tools the mechanism is BasicLTI.
+
+> Language: PHP
+
+> License: GPL2
+
+> Author: [Antoni Bertran](http://sourceforge.net/projects/learningapps) (Universitat Oberta de Catalunya)
+
+> Wiki: https://sourceforge.net/apps/mediawiki/learningapps/index.php?title=Moodle4BLTI_LR_English#Learning_Registry_Integration
+
+> [Source Code](https://sourceforge.net/scm/?type=svn&group_id=388815) SVN
