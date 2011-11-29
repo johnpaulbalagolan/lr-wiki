@@ -34,6 +34,12 @@ node for specific terms and identify resources that have been tagged with common
 ### Learning Registry Browser
 Adapted from Jim Ko's Visual Browser - allows users to perform a search using a key or identity. Results are displayed both as a list of documents and as a graph of related terms found in those documents. The graph can be used to explore further related terms, allowing the user to explore the semantic landscape of the Learning Registry. Document display summarizes Learning Registry entries for discovered documents, links to full Learning Registry documents, to described Learning Resources, and to related paradata.
 
+The Browser is running here:
+http://demolearningregistry.sri.com/browse/
+
+The Browser can also be run in debug mode, which allows the user to select which LR node (including their own) that it points at:
+http://demolearningregistry.sri.com/browse/index.html?debug=true
+
 > License: Apache 2
 
 > Author: [John Brecht](https://github.com/jbrecht/) (SRI International) 
