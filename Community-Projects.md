@@ -5,6 +5,18 @@ We are using Apache 2: http://www.apache.org/licenses/LICENSE-2.0.html to licens
 # Demonstrations
 Here are some demonstration projects that either extend or augment Learning Registry in some manner.
 
+### AMPlified Search for Chrome™ (AMPS)
+AMPS is a Chrome browser extension that examines your Google™ search results and uses Learning Registry metadata and paradata to identify Learning Resources with the resource's alignment to standards information and social activity data. 
+Additional standards information is located via Jes&Co. Identified resources will have the additional data displayed inline, but beneath each search result.
+
+> License: Apache 2
+
+> Author: [Jim Klo](https://github.com/jimklo/) (SRI International) 
+
+> Tech Info: Javascript
+
+> * [Source Code](https://github.com/jimklo/AMPS-Chrome/)
+
 ### Plugfest 1 Hackday - Browser Plugin
 A prototype that injects learning registry resource data into internet search results.
 
