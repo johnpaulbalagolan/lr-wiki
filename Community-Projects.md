@@ -134,3 +134,5 @@ Publish/Browse/Use BasicLTI tools from Moodle. The idea is to publish tools in L
 > * Wiki: https://sourceforge.net/apps/mediawiki/learningapps/index.php?title=Moodle4BLTI_LR_English#Learning_Registry_Integration
 
 > * [Source Code](https://sourceforge.net/scm/?type=svn&group_id=388815) SVN
+
+> * Demo Video http://vimeo.com/32982697
