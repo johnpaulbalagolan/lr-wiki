@@ -33,11 +33,14 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * If you would like to change the **Destination Folder** for installation click **Browse...** else just click Next
      * Type a new name for the **Start Menu folder** if you'd like, else just click **Install**
      * Click **Finish**
-     
+     * Click **I have read and accept the license terms** and click **Next**
+
 #### 3. Visual C++ 2008 Express Edition (C/C++ Compiler)
 * Go [here](http://www.microsoft.com/visualstudio/en-us/products/2008-editions/express) and click **Visual C++ Express Edition with SP1**
 * Select your language and click **Free Download**
 * Click **Run** and follow setup instructions
+     * Click **Next**
+     * Click **Install**
  
 #### 4. Configure Internet Information Services (IIS)
 * Enable IIS and the correct IIS tools
@@ -48,7 +51,7 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * Expand **Application Development Features** inside of **World Wide Web Services** and check the boxes next to **CGI** and **ISAPI Extensions**
      * Click **OK** to save your changes
 
-#### 4. Enable FastCGI module for IIS
+#### 5. Enable FastCGI module for IIS
 **NOTE: We are encountering a PicklingError when starting the application and are working on the problem now. Whenever the error has been fixed the appropriate steps for enabling FastCGI will be added.**
      
 # Python
@@ -102,7 +105,7 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * Right click on the **lloyd-yajl-1.0.12.zip** file, and click **Extract All...**
      * Click **Browse...** and navigate to **[Directory]\Python27\Lib** then click **OK**
      * Click **Extract**
-2. Open your Visual Studio Command Prompt (**Start** -> search for **Visual Studio Command Prompt**)
+2. Open your Visual C++ (or Studio) Command Prompt (**Start** -> search for **Visual Command Prompt**)
 3. Navigate to where you extracted the YAJL files - **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src** - using the **cd** command
 4. Make a build directory using the command `mkdir build`
 5. Navigate into the build directory using the command `cd build`
