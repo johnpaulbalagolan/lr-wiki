@@ -34,6 +34,14 @@
 >     killall -9 uwsgi
 
 ## Windows Installation
+### Visual C++ 2008 Express
+1. If you are receiving a message displaying **An earlier version of Microsoft Visual Studio 2008 has been detected on the system that must be updated to SP1 before installation can proceed.  Please update all other versions of Visual Studio 2008 to SP1 level by visiting Microsoft Update, and then install Visual Studio 2008 Express SP1.**, follow these instructions:
+     * Click the associated **Visual Studio 2008 Service Pack 1** link
+     * Click **Download**
+     * Click **Run** and follow setup instructions
+          * Click **Next**
+          * Check the **I have read and accept the license terms** box and click **Next**
+
 ### YAJL
 1. If you are receiving a **CMake Error at CMakeLists.txt:58 (SET_TARGET_PROPERTIES):set_target_properties called with incorrect number of arguments** message, follow these instructions:
      * In **Windows Explorer** navigate to your YAJL source folder: **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src**
