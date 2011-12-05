@@ -8,7 +8,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 _Guide created for **Windows 7 64-bit** environment; different tools may be required for different Windows environments._
 
-_**A pre-existing C/C++ compiler must exist on your machine. Having the full version of Visual Studio 2008 or Visual Studio 2010 is recommended.**_
+_**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual C++ 2008 Express since it is available for everyone, if you already have full versions of either Visual Studio 2008 or Visual Studio 2010 you can skip the installation step of Visual C++ 2008 Express.**_
 
 #Prerequisites 
 
@@ -34,8 +34,12 @@ _**A pre-existing C/C++ compiler must exist on your machine. Having the full ver
      * Type a new name for the **Start Menu folder** if you'd like, else just click **Install**
      * Click **Finish**
      
-
-#### 3. Configure Internet Information Services (IIS)
+#### 3. Visual C++ 2008 Express Edition (C/C++ Compiler)
+* Go [here](http://www.microsoft.com/visualstudio/en-us/products/2008-editions/express) and click **Visual C++ Express Edition with SP1**
+* Select your language and click **Free Download**
+* Click **Run** and follow setup instructions
+ 
+#### 4. Configure Internet Information Services (IIS)
 * Enable IIS and the correct IIS tools
      * Click **Start** -&gt; **Control Panel** -&gt; **Programs** -&gt; **Turn Windows features on or off**
      * Check the box next to **Internet Information Services**
@@ -73,6 +77,12 @@ _**A pre-existing C/C++ compiler must exist on your machine. Having the full ver
 1. Open the Windows command prompt (**Start** -> search for **cmd**)
 2. In the command prompt, enter the command `easy_install pip` and it will load pip on your machine, then you can proceed to install the other necessary modules:
 3. virtualenv `pip install virtualenv`
+     * Create a **virtual environment** to sandbox your LR instance
+     * Run the command `mkdir virtualenv` and move into that directory `cd virtualenv`
+     * Run the command `virtualenv lr` (lr will be the name of your virtual environment) 
+     * Navigate to the **Scripts** directory of lr `cd lr/scripts`
+     * Run the command `activate`
+     * **(lr)** should now appear at the beginning of your command line if successful
 4. pylons `pip install pylons`
 5. ijson `pip install ijson`
 6. flup `pip install flup`
@@ -153,12 +163,7 @@ _**A pre-existing C/C++ compiler must exist on your machine. Having the full ver
 ## Push the CouchApps
 1. If your Windows command prompt is still open, close it. 
 2. Reopen the Windows command prompt (**Start** -> search for **cmd**)
-3. Create a **virtual environment** to sandbox your LR instance
-     * Run the command `mkdir virtualenv` and move into that directory `cd virtualenv`
-     * Run the command `virtualenv lr` (lr will be the name of your virtual environment) 
-     * Navigate to the **Scripts** directory of lr `cd lr/scripts`
-     * Run the command `activate`
-     * **(lr)** should now appear at the beginning of your command line if successful
+
 4. Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
 5. Run the command `python setup_node.py`
 6. When prompted, enter **http://localhost** as your endpoint URL
