@@ -8,7 +8,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 _Guide created for **Windows 7 64-bit** environment; different tools may be required for different Windows environments._
 
-_**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual C++ 2008 Express since it is available for everyone, if you already have full versions of either Visual Studio 2008 or Visual Studio 2010 you can skip the installation step of Visual C++ 2008 Express.**_
+_**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual C++ 2008 Express since it is available for everyone: If you already have full versions of either Visual Studio 2008 or Visual Studio 2010 you can skip the installation step of Visual C++ 2008 Express.**_
 
 #Prerequisites 
 
@@ -148,8 +148,11 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
 2. Make sure CouchDB is running correctly by going [here](http://localhost:5984), you should see **{"couchdb":"Welcome","version":"1.1.1"}**
 
 ##CouchApp
-1. If your Windows command prompt is still open, close it.
-2. Reopen the Windows command prompt (**Start** -> search for **cmd**) and enter the command `pip install couchapp`
+1. Reopen the Windows command prompt (**Start** -> search for **cmd**) and activate your virtual environment
+     * Navigate to the **Scripts** directory of lr `cd lr/scripts`
+     * Run the command `activate`
+     * **(lr)** should now appear at the beginning of your command line if successful 
+2. Enter the command `pip install couchapp`
 
 #Checkout Learning Registry Source Code
 1. Open the **Git Bash** (**Start** -> search for **Git Bash**)
@@ -161,14 +164,15 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
 
 # Running the LR Node
 ## Push the CouchApps
-1. If your Windows command prompt is still open, close it. 
-2. Reopen the Windows command prompt (**Start** -> search for **cmd**)
-
-4. Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
-5. Run the command `python setup_node.py`
-6. When prompted, enter **http://localhost** as your endpoint URL
-7. For the rest of the setup, just hit **enter** whenever prompted to input the default parameters
-8. When finished you should receive a message displaying, **All CouchApps Pushed**
+1. If you closed the Window command prompt, reopen it (**Start** -> search for **cmd**) and activate your virtual environment
+     * Navigate to the **Scripts** directory of lr `cd lr/scripts`
+     * Run the command `activate`
+     * **(lr)** should now appear at the beginning of your command line if successful 
+2. Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
+3. Run the command `python setup_node.py`
+4. When prompted, enter **http://localhost** as your endpoint URL
+5. For the rest of the setup, just hit **enter** whenever prompted to input the default parameters
+6. When finished you should receive a message displaying, **All CouchApps Pushed**
 
 ## Install the LR Node
 1. Navigate back to the main LR directory (using the command `cd..`)
