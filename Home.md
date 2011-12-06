@@ -16,7 +16,7 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * The Learning Registry Project maintains a node at [lrtest02](http://lrtest02.learningregistry.org) for users trying to integrate with the LR service APIs.
 
-* For the latest status on what code test servers are running, please consult the [server status spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtOSW7g7E8Y5dFRsSW5HRFlSalFpZjFvMmVKNGdpd2c&hl=en_US#gid=0).
+* For the latest status on what code and configuration servers are running, please consult the list of [currently running LR nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/nodes).
 
 * If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
 
