@@ -1,9 +1,7 @@
 # The currently running LR nodes
 
 ## LR Dev Network
-These nodes are for use by the core development team.  The code, data, and configuration are all in flux and should not
-
-be used by outside developers to test their code.
+These nodes are for use by the core development team.  The code, data, and configuration are all in flux and should not be used by outside developers to test their code.
 
 [http://lrdev01.learningregistry.org](http://lrdev01.learningregistry.org)
 
