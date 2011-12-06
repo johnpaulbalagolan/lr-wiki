@@ -1,15 +1,14 @@
 # The currently running LR nodes
 
 ## LR Dev Network
-These nodes are for use by the core development team.  The code, data, and configuration are all in flux and should not be used by outside developers to test their code.
+These nodes are for use by the core development team.  The code, data, and configuration are all in flux and should not be used by outside developers to test their code.  They are currently running the 0.23.3 branch
 
 [http://lrdev01.learningregistry.org](http://lrdev01.learningregistry.org)
 
 [http://lrdev02.learningregistry.org](http://lrdev02.learningregistry.org)
 
 ## LR Test Node
-This node mirrors the configuration and code on the production network, and is intended for outside developer(s) to test
-their code against.
+This node mirrors the configuration and code on the production network, and is intended for outside developer(s) to test their code against.  This node is currently running the 0.23.3 release.
 
 [http://lrtest02.learningregistry.org](http://lrtest02.learningregistry.org)
 
