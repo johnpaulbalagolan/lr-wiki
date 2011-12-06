@@ -14,7 +14,7 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 
 The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
 
-* The Learning Registry Project maintains a node at [lrtest01](http://lrtest01.learningregistry.org) for users trying to integrate with the LR service APIs.
+* The Learning Registry Project maintains a node at [lrtest02](http://lrtest02.learningregistry.org) for users trying to integrate with the LR service APIs.
 
 * For the latest status on what code test servers are running, please consult the [server status spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AtOSW7g7E8Y5dFRsSW5HRFlSalFpZjFvMmVKNGdpd2c&hl=en_US#gid=0).
 
