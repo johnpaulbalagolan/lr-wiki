@@ -9,15 +9,21 @@ These nodes are for use by the core development team.  The code, data, and confi
 
 ## LR Test Node
 This node mirrors the configuration and code on the production network, and is intended for outside developer(s) to test their code against.  This node is currently running the 0.23.3 release.
+
 username: lrdev
+
 password: lrdev
+
 [http://lrtest02.learningregistry.org](http://lrtest02.learningregistry.org)
 
 ## LR Alpha Node
 
 This node mirror the production networks configuration but is running the latest stable build.  It is intended for use by any developer(s) that want to test against the next potential stable release
+
 username: lralpha
+
 password: lralpha
+
 [http://alpha.learningregistry.org](http://alpah.learningregistry.org)
 
 ## LR Production Network
