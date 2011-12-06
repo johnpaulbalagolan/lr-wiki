@@ -13,13 +13,13 @@ be used by outside developers to test their code.
 This node mirrors the configuration and code on the production network, and is intended for outside developer(s) to test
 their code against.
 
-[http://lrtest01.learningregistry.org](http://lrtest01.learningregistry.org)
+[http://lrtest02.learningregistry.org](http://lrtest02.learningregistry.org)
 
 ## LR Beta Node
 
 This node mirror the production networks configuration but is running the latest stable build.  It is intended for use by any developer(s) that want to test against the next potential stable release
 
-[http://lrtest02.learningregistry.org](http://lrtest02.learningregistry.org)
+[http://alpha.learningregistry.org](http://alpah.learningregistry.org)
 
 ## LR Production Network
 
