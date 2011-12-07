@@ -1,4 +1,10 @@
-# LR Core
+There are two ways you can contribute to the Learning Registry:
+* by fixing/augmenting/improving the LR core code itself 
+* modules and extensions for existing systems integration or features not defined by the Technical Specification
+
+We will provide an overview of both methods, as well as guide you on how to best sync with our current workflow.
+
+## LR Core
 
 The LR core codebase on Github is not intended for changes to be pushed to directly. We are currently using the "fork + pull" model for contributing code. If you are not familiar with this way of contribution, we suggest you read this overview before moving forward with serious LR development: http://help.github.com/send-pull-requests/.
 
