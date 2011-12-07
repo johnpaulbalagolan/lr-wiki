@@ -1,4 +1,5 @@
 There are two ways you can contribute to the Learning Registry:
+
 * by fixing/augmenting/improving the LR core code itself 
 * modules and extensions for existing systems integration or features not defined by the Technical Specification
 
