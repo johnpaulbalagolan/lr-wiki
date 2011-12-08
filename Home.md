@@ -54,7 +54,8 @@ There are two recommended approaches to get a new Learning Registry node running
 Are you interested in making the Learning Registry a faster, better platform? 
 
 * [Contributing](Contributing) - Information about the easiest way to collaborate with the core development team.
-* [Community Projects](Community-Projects) - Please share here any utilities, demonstrations, or extensions to the core code.
+
+* [Community Projects](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects) - Please share here any utilities, demonstrations, or extensions to the core code.
 
 ## Getting Help
 
