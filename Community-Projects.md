@@ -49,14 +49,13 @@ Adapted from Jim Klo's Visual Browser - allows users to perform a search using a
 The Browser is running here:
 http://demolearningregistry.sri.com/browse/
 
-The Browser can also be run in debug mode, which allows the user to select which LR node (including their own) that it points at:
-http://demolearningregistry.sri.com/browse/index.html?debug=true
-
 > License: Apache 2
 
 > Author: [John Brecht](https://github.com/jbrecht/) (SRI International) 
 
 > Tech Info: Javascript and HTML5
+
+> * [Source Code](https://github.com/jbrecht/lrbrowser)
 
 ### Learning Registry Drupal Module
 This project is a module to plug into the content management capabilities of Drupal and publish/consume resources from the Learning Registry.
