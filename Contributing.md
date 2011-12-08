@@ -16,6 +16,3 @@ The LR core codebase on Github is not intended for changes to be pushed to direc
 4. When you are finished with a feature, issue a pull request from your working branch to the original LearningRegistry repository. The core team will perform a code review and, based on feedback, ignore the request or merge it into the current master branch.
 5. If accepted into original master branch, merge your working branch into your own master.
 
-## Contributions
-
-[TODO]
