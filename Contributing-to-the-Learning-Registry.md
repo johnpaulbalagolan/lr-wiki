@@ -3,7 +3,7 @@ There are two ways you can contribute to the Learning Registry:
 * by fixing/augmenting/improving the LR core code itself 
 * modules and extensions for existing systems integration or features not defined by the Technical Specification
 
-We will provide an overview of both methods, as well as guide you on how to best sync with our current workflow.
+We will provide an overview of the former methods, as well as guide you on how to best sync with our current workflow. If you have a module/extension for the LR, or for integration with another software platform, please check out our [Community Projects Page](Community-Projects) for more information.
 
 ## LR Core
 
