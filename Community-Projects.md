@@ -73,6 +73,21 @@ This project is a module to plug into the content management capabilities of Dru
 # External Utilities
 The following projects are designed to work with the Learning Registry services and are not part of the node installation.
 
+## Code Libraries
+These are libraries created for specific programming languages or frameworks to make it easier to access Learning Registry node services.
+
+### LRJavaLib
+Java library for accessing core services for a node, including publishing and consuming data. Base classes are in place and functions are being expanded incrementally. Data consumption will be expanded to support a variety of data schema. 
+
+> Language: Java
+
+> License: Apache 2
+
+> Author: [Navigation North](http://www.navigationnorth.com/)
+
+> * [Source Code](https://github.com/navnorth/LRJavaLib)
+
+
 ## Data Pumps
 These are scripts, programs, and applications that extract data from one source and publish it onto a Learning Registry node.
 
