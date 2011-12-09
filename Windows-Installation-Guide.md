@@ -6,6 +6,10 @@ Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you ma
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
+There are two recommended approaches to get a new Learning Registry node running using the latest stable code (0.23.3): 1) via an Amazon Machine Instance (AMI) or 2) via installing the code.
+
+Instructions for using an existing AMI are available from http://goo.gl/fhdg3.
+
 _Guide created for **Windows 7 64-bit** environment; different tools may be required for different Windows environments._
 
 _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual C++ 2008 Express since it is available for everyone: If you already have full versions of either Visual Studio 2008 or Visual Studio 2010 you can skip the installation step of Visual C++ 2008 Express.**_
