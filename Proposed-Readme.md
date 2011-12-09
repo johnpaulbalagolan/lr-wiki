@@ -14,15 +14,15 @@ limitations under the License.
 
 # Introduction
 
-There are two recommended approaches to get a new Learning Registry node running using the latest stable code (0.23.0): 1) via an Amazon Machine Instance (AMI) or 2) via installing the code.  
+There are two recommended approaches to get a new Learning Registry node running using the latest stable code (0.23.3): 1) via an Amazon Machine Instance (AMI) or 2) via installing the code.  
 
 Instructions for using an existing AMI are available from http://goo.gl/fhdg3.  
 
-The installation instructions below describe eight steps to get a new Learning Registry node running using the latest stable code.  These instructions are provided for Linux and Mac and have been tested with Ubuntu 10.04 LTS and Snow Leopard.
+The installation instructions below describe eight steps to get a new Learning Registry node running using the latest stable code.  These instructions are provided for Linux and have been tested with Ubuntu 10.04 LTS and Ubuntu 11.10.
 
-# Prerequisites
+## Linux
 
-### Linux
+### Prerequisites
 
 #### 1. Install Supporting Applications
 
@@ -53,14 +53,12 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     sudo apt-get update  
 
-# Installation
+### Installation
 
-## 1. Install CouchDB (1.0.2)
+#### 1. Install CouchDB
 
-* Download (Mac and Windows) or Copy the Download Link (Linux) for Couchbase Single Server Community 1.1.x, which is a binary distribution of CouchDB 1.0.x from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release").  
+* If you have Ubuntu 10.04 installed, copy the download link for Couchbase Single Server Community 1.1.x, which is a binary distribution of CouchDB 1.0.x from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release"). If you have Ubuntu 11.10 installed, copy the download link for Couchbase Single Server Community 1.2.x, which is a binary distribution of CouchDB 1.1.x (NOTE: this is a "Latest Release"). 
 
-### Linux
-Issue commands below on Linux.
 
 * Remove Couchdb-bin
 
@@ -72,11 +70,11 @@ Issue commands below on Linux.
 >     curl "<download url>" -o couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
  
-## 2. Install Python (2.x) and associated tools
+#### 2. Install Python (2.x) and associated tools
 
-### Linux
+* This guide assumes Python is installed on Linux operating system. If Python is not installed, run the following command
 
-* This guide assumes python is installed on Linux operating system.
+>     sudo apt-get install python
 
 * Install Python setup tools
 
@@ -91,30 +89,21 @@ Issue commands below on Linux.
 >     sudo easy_install pip 
 >     sudo easy_install virtualenv
 
-## 3. Install Nginx (1.0.4+)
-
-### Linux
+#### 3. Install Nginx (1.0.4+)
 
 >     sudo apt-get install nginx
 
-## 4. Install uWSGI (latest stable)
-
-### Linux
+#### 4. Install uWSGI (latest stable)
 
 >     sudo pip install uwsgi
 
-## 5. Install Yajl (1.0.12)
-
-### Linux
+#### 5. Install Yajl (1.0.12)
 
 * Install Yajl using apt-get
 
-
 >     sudo apt-get install lib-yajl1
 
-
 * or you can install from source
-
 
 * Install Yajl dependencies
 
@@ -137,9 +126,7 @@ Issue commands below on Linux.
 
 >     sudo pip install ijson
 
-## 6. Checkout Learning Registry Source Code
-
-### Linux
+#### 6. Checkout Learning Registry Source Code
 
 * Create learningregistry user account
 
@@ -164,7 +151,7 @@ Issue commands below on Linux.
 * Checkout the source code
 
 >     cd ~/gitrepos
->     git clone -b Sprint3Release https://github.com/LearningRegistry/LearningRegistry.git
+>     git clone -b 0.23.3 https://github.com/LearningRegistry/LearningRegistry.git
 
 * Create Python virtual environment and activate
 
@@ -187,9 +174,7 @@ Issue commands below on Linux.
 
 * Answer the questions as prompted.
 
-## 7. Configure Nginx
-
-### Linux
+#### 7. Configure Nginx
 
 NOTE: Run the commands below as a user that is in the sudoers file
 
@@ -203,13 +188,13 @@ NOTE: Run the commands below as a user that is in the sudoers file
 
 * Create symbolic link
 
->     sudo ln -s /etc/nginx/site-available/learningregistry /etc/nginx/sites-enabled/learningregistry
+>     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry
 
 * Start nginx
 
 >     sudo service nginx start
 
-## 8. Start LR Code
+#### 8. Start LR Code
 
 NOTE: Run the command below as the learningregistry user
 
