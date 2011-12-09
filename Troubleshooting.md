@@ -1,6 +1,7 @@
 # Troubleshooting
+## Linux Installation
 
-## CouchDB
+### CouchDB
 
 * Verify you have CouchDB 1.0.2 running:
 
@@ -14,7 +15,7 @@
 
 > Should return ["community","node","resource_data","_users","network"]
 
-## Yajl
+### Yajl
 
 * Verify you have yajl properly configured by:
 
@@ -23,7 +24,7 @@
 
 > If no error is generated, yajl should be working properly.
 
-## uwsgi
+### uwsgi
 
 * Starting uwsgi
 
@@ -32,6 +33,28 @@
 * Stopping uwsgi
 
 >     killall -9 uwsgi
+
+### apt-get update
+
+* If you receive this error, **GPG error: http://nginx.org lucid Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY XXXXXXXXXXXXXXXX**, while attempting to update apt-get, run these commands (replace XXXXXXXX with the last 8 digits of the PUBKEY):
+
+>     gpg --keyserver keyserver.ubuntu.com --recv XXXXXXXX 
+
+>     gpg --export --armor XXXXXXXX | sudo apt-key add -
+
+>     sudo apt-get update
+
+### Nginx
+* If you receive this error, **WARNING: the following packages cannot be authenticated! nginx**, run the following command
+
+>     sudo apt-get update && sudo apt-get install nginx
+
+### Running the LR code
+* If you receive a **lr.lib.model_parser.SpecValidationException: Invalid value for'service_type'expecting one of: 
+ '('publish', 'access', 'distribute', 'broker', 'administrative')' instead of ''** error or **pkg_resources.DistributionNotFound: LR** error, be sure to checkout the latest code (0.23.3 as of December 2011)
+* Navigate to your LearningRegistry repository and run the following command
+
+>     git checkout 0.23.3
 
 ## Windows Installation
 ### Visual C++ 2008 Express
