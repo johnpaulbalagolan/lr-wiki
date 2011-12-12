@@ -78,3 +78,8 @@
      * Click **File** -> click **Save CMakeLists.txt** and close the window
      * Hit the **Up** arrow key in the **Visual Studio Command Prompt** to retrieve the previous command then hit **Enter**
      * You should now receive the message **Build files have been written to [Directory]**     
+
+### Starting App Server
+1. If you are receiving a **pkg_resources.VersionConflict: (WebOb 1.2b2 ([Directory]\python27\lib\site-packages), Requirement.parse('WebOb==1.1.1'))** message, follow these instructions:
+     * Uninstall WebOb `pip uninstall webob`
+     * Reinstall WebOb with requested version `pip install webob==1.1.1`
