@@ -199,15 +199,14 @@ _* NOTE: Some installations of nginx do not include the **sites-enabled** direct
 
 >     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry 
 
+
+_* Open the learningregistry config file and change what address the CouchDB server is listening to by replacing whatever address is listed after **listen** (located on line 79) with your IP address and port 5984_
+
 >     sudo vim sites-available/learningregistry
 
-_* Change what address the CouchDB server is listening to by replacing whatever address is listed after **listen** (located on line 79) with your IP address and port 5984_
+_* Open the default config file and make sure the port the default server is listening to on line 2 is different than the port you wish to run the LR node on (simply change the port number after **listen** on line 2 if you need to)_
 
 >     sudo vim conf.d/default.conf
-
-_* Make sure the port the default server is listening to on line 2 is different than the port you want to run the LR node on (simply change the port number after **listen** on line 2 if you need to)_
-
-
 
 * Start nginx
 
