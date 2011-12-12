@@ -87,6 +87,16 @@ Java library for accessing core services for a node, including publishing and co
 
 > * [Source Code](https://github.com/navnorth/LRJavaLib)
 
+### .Net LR Submit tool
+A .Net library with classes and functions to build and publish Resource Data Description Documents. Includes an example of writing paradata to the LR test nodes. Uses credentials in a .config files to sign and upload documents. 
+
+> Language: C# .Net
+
+> License: Apache 2
+
+> Author: [Rob Chadwick, ADL] robert.chadwick.ctr@adlnet.gov (http://www.adlnet.gov/)
+
+> * [Source Code](https://github.com/rchadwic/.Net-Learning-Registry-Submit)
 
 ## Data Pumps
 These are scripts, programs, and applications that extract data from one source and publish it onto a Learning Registry node.
