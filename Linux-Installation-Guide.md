@@ -190,6 +190,25 @@ NOTE: Run the commands below as a user that is in the sudoers file
 
 >     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry
 
+
+_* NOTE: Some installations of nginx do not include the **sites-enabled** directory. If you receive a **ln: creating symbolic link /etc/nginx/sites-enabled/learningregistry: No such file or directory** message, follow these tasks:_
+
+>     cd /etc/nginx
+
+>     sudo mkdir sites-enabled
+
+>     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry 
+
+>     sudo vim sites-available/learningregistry
+
+_* Change what address the CouchDB server is listening to by replacing whatever address is listed after **listen** (located on line 79) with your IP address and port 5984_
+
+>     sudo vim conf.d/default.conf
+
+_* Make sure the port the default server is listening to on line 2 is different than the port you want to run the LR node on (simply change the port number after **listen** on line 2 if you need to)_
+
+
+
 * Start nginx
 
 >     sudo service nginx start
