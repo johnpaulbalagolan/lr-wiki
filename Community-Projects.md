@@ -64,9 +64,9 @@ This project is a module to plug into the content management capabilities of Dru
 
 > Tech Info: PHP and Drupal 6
 
-> Authors: [Ali Lotia](https://github.com/lotia) and [Jason Hoekstra](https://github.com/jasonhoekstra)
+> Authors: [Ali Lotia](https://github.com/lotia), [Kevin Coffman](http://drupal.org/user/1016508) [Jason Hoekstra](http://drupal.org/user/589254)
 
-> * [Source Code](https://github.com/openmichigan/lr_publish)
+> * [Source Code](http://drupal.org/sandbox/jasonh/1342822)
 
 
 
