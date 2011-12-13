@@ -18,7 +18,7 @@ Additional standards information is located via Jes&Co. Identified resources wil
 > * [Source Code](https://github.com/jimklo/AMPS-Chrome/)
 
 ### LearningRegistrar (Plugfest 2)
-LearningRegistrar is a few-click solution to placing any internet accessible document into the Learning Registry. It uses Eduworks' 3rd party service, Metaglance, to extract and generate metadata about the document you are currently viewing, and provides a simple solution to placing information into the Learning Registry.
+LearningRegistrar is a few-click solution to placing any internet accessible document into the Learning Registry. It uses Eduworks' 3rd party service, Metaglance, to extract and generate metadata about the document you are currently viewing, and provides a simple solution to placing new entries into the Learning Registry.
 
 > License: Apache 2
 
