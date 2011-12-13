@@ -191,7 +191,7 @@ NOTE: Run the commands below as a user that is in the sudoers file
 >     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry
 
 
-_* NOTE: Some installations of nginx do not include the **sites-enabled** directory. If you receive a **ln: creating symbolic link /etc/nginx/sites-enabled/learningregistry: No such file or directory** message, follow these tasks:_
+_* NOTE: Some installations of nginx do not include the **sites-enabled** directory. If you receive a **ln: creating symbolic link /etc/nginx/sites-enabled/learningregistry: No such file or directory** message, follow these tasks then start nginx normally:_
 
 >     cd /etc/nginx
 
@@ -199,16 +199,19 @@ _* NOTE: Some installations of nginx do not include the **sites-enabled** direct
 
 >     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry 
 
-
-_* Open the learningregistry config file and change what address the CouchDB server is listening to by replacing whatever address is listed after **listen** (located on line 79) with your IP address and port 5984_
+>     Open the learningregistry config file and change what address the CouchDB server is listening to by replacing   whatever address is listed after **listen** (located on line 79) with your IP address and port 5984
 
 >     sudo vim sites-available/learningregistry
 
-_* Open the default config file and make sure the port the default server is listening to on line 2 is different than the port you wish to run the LR node on (simply change the port number after **listen** on line 2 if you need to)_
+>     Open the default config file and make sure the port the default server is listening to on line 2 is different than the port you wish to run the LR node on (simply change the port number after **listen** on line 2 if you need to)
 
 >     sudo vim conf.d/default.conf
+  
+>     You must stop nginx completely after changing the configuration files
 
-* Start nginx
+>     sudo service nginx stop
+
+* Start nginx    
 
 >     sudo service nginx start
 
