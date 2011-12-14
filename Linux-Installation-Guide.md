@@ -74,7 +74,9 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     curl -X GET http://localhost:5984
 
-> Should return {"couchdb":"Welcome","version":"1.X.X", "vendor":{"url":"http://www.couchbase.com/","name":"Couchbase",:"version":"1.X.X}}
+> Ubuntu 11.10 users should see {"couchdb":"Welcome","version":"1.2.0", "vendor":{"url":"http://www.couchbase.com/","name":"Couchbase",:"version":"1.1.X}}
+
+> Ubuntu 10.04 users should see {"couchdb":"Welcome","version":"1.1.2"}
 
 * If you are not receiving a response, please run the following commands:
 
