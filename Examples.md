@@ -3,6 +3,7 @@ Please add links to your examples for using the Learning Registry on this page.
 ## Paradata Examples
 * [Alignment DC Example](Alignment DC Example)
 * [Alignment Paradata Example](Alignment Paradata Example)
+* [Ratings Example](Ratings Example)
 
 ## Assertion Examples
 * [Paradata Same As Examples](Paradata Same As Examples)
