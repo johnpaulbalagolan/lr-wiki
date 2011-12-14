@@ -4,5 +4,6 @@
 * Metadata - 
 * Paradata - 
 * Resource - 
-* Resource - 
+* Resource Data - 
+* Resource Data Type - 
 * Sign - 
