@@ -6,6 +6,7 @@ Please add links to your examples for using the Learning Registry on this page.
 
 ## Assertion Examples
 * [Paradata Same As Examples](Paradata Same As Examples)
+* [Paradata Endorsement Examples](Paradata Endorsement Examples)
 
 ## Query Examples
 * Description - https://node01.public.learningregistry.net/description
