@@ -14,7 +14,7 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 
 The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
 
-* The Learning Registry Project maintains a node at [lrtest02](http://lrtest02.learningregistry.org) for users trying to integrate with the LR service APIs.
+* We maintain a [sandbox](http://sandbox.learningregistry.org) node to allow you to test applications developed with the LR API in a simulated environment.
 
 * For the latest status on what code and configuration servers are running, please consult the list of [currently running LR nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/nodes).
 
