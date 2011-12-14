@@ -16,7 +16,7 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * We maintain a [sandbox](http://sandbox.learningregistry.org) node to allow you to test applications developed with the LR API in a simulated environment.
 
-* [Examples](Examples) - Want to see some examples?
+* [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/nodes) - Want to see some examples?
 
 * For the latest status on what code and configuration servers are running, please consult the list of [currently running LR nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/nodes).
 
