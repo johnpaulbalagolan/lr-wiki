@@ -16,6 +16,8 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * We maintain a [sandbox](http://sandbox.learningregistry.org) node to allow you to test applications developed with the LR API in a simulated environment.
 
+* [Examples](Examples) - Want to see some examples?
+
 * For the latest status on what code and configuration servers are running, please consult the list of [currently running LR nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/nodes).
 
 * If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
