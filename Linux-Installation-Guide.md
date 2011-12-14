@@ -69,6 +69,20 @@ The installation instructions below describe eight steps to get a new Learning R
 >     cd ~/
 >     curl "<download url>" -o couchbase-server.deb
 >     sudo dpkg -i couchbase-server.deb
+
+* Verify you have CouchDB running:
+
+>     curl -X GET http://localhost:5984
+
+> Should return {"couchdb":"Welcome","version":"1.X.X", "vendor":{"url":"http://www.couchbase.com/","name":"Couchbase",:"version":"1.X.X}}
+
+* If you are not receiving a response, please run the following commands:
+
+>     sudo chown -R couchbase:couchbase /opt/couchbase-server
+
+>     sudo apt-get install libssl0.9.8
+
+>     sudo service couchbase-server restart
  
 #### 2. Install Python (2.x) and associated tools
 
@@ -191,23 +205,21 @@ NOTE: Run the commands below as a user that is in the sudoers file
 >     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry
 
 
-_* NOTE: Some installations of nginx do not include the **sites-enabled** directory. If you receive a **ln: creating symbolic link /etc/nginx/sites-enabled/learningregistry: No such file or directory** message, follow these tasks then start nginx normally:_
+_* NOTE: If you receive a **ln: creating symbolic link /etc/nginx/sites-enabled/learningregistry: No such file or directory** message, follow these tasks then start nginx normally:_
 
 >     cd /etc/nginx
-
 >     sudo mkdir sites-enabled
-
 >     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry 
 
->     Open the learningregistry config file and change what address the CouchDB server is listening to by replacing   whatever address is listed after **listen** (located on line 79) with your IP address and port 5984
+> Open the learningregistry config file and check what address the CouchDB server is listening to. If it is not your IP address using port 5984, replace whatever address is listed after **listen** (located on line 79) with your IP address and port 5984
 
 >     sudo vim sites-available/learningregistry
 
->     Open the default config file and make sure the port the default server is listening to on line 2 is different than the port you wish to run the LR node on (simply change the port number after **listen** on line 2 if you need to)
+> Open the default config file and make sure the port the default server is listening to on line 2 is different than the port you wish to run the LR node on (simply change the port number after **listen** on line 2 if you need to)
 
 >     sudo vim conf.d/default.conf
   
->     You must stop nginx completely after changing the configuration files
+> You must stop nginx completely after changing the configuration files
 
 >     sudo service nginx stop
 
