@@ -1,8 +1,10 @@
 * Assertion - 
+* Content - 
 * Envelope - 
 * Identity - 
 * Metadata - 
-* Paradata - 
+* Paradata -
+* Payload -  
 * Resource - 
 * Resource Data - 
 * Resource Data Type - 
