@@ -6,8 +6,9 @@ Please add links to your examples for using the Learning Registry on this page.
 * [Ratings Example](Ratings Example)
 
 ## Assertion Examples
-* [Paradata Same As Examples](Paradata Same As Examples)
-* [Paradata Endorsement Examples](Paradata Endorsement Examples)
+* [Assertion "same as" example using LR Paradata Specification 1.0](Assertion-%22same-as%22-example-using-LR-Paradata-Specification-1.0)
+* [Assertion "same as" example using RDF](https://github.com/LearningRegistry/LearningRegistry/wiki/Assertion-%22same-as%22-example-using-RDF)
+* [Paradata Endorsement Examples](Paradata-Endorsement-Examples)
 
 ## Query Examples
 * Description - https://node01.public.learningregistry.net/description
