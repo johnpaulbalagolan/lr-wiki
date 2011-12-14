@@ -4,12 +4,6 @@ Welcome to the Learning Registry wiki! The Learning Registry makes digital learn
 
 The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d/12nvvm5ClvLxSWptlo52rTwIDvobiFylYhWLVPbVcesU/edit?hl=en_US) guide will get you rolling with creating, uploading, downloading, and verifying envelopes in and out of Learning Registry servers whether you're using Windows, Linux, or Mac OS X.
 
-* Slice (tags) - https://node01.public.learningregistry.net/slice?any_tags=science
-
-* Slice (identity) - https://node01.public.learningregistry.net/slice?identity=ADL
-
-* Slice (from, [until]) - https://node01.public.learningregistry.net/slice?any_tags=science&from=2011-05-11&until=2011-10-31
-
 ## Developer Basics
 
 The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
@@ -23,21 +17,6 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 * If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
 
 * [Publishing guidance using OAI-PMH](http://goo.gl/yOihy)
-
-* Harvest (by ID) - https://node01.public.learningregistry.net/harvest/getrecord?request_ID=4ebf25ff043841f48f5c0d61ffdf5d81&by_doc_ID=true
-
-* Harvest (metadata formats) - https://node01.public.learningregistry.net/harvest/listmetadataformats
-
-* Harvest (harvest endpoint) - https://node01.public.learningregistry.net/harvest/identify
-
-* Obtain - https://node01.public.learningregistry.net/obtain
-
-* Services - https://node01.public.learningregistry.net/services
-
-* Status - https://node01.public.learningregistry.net/status
-
-* Description - https://node01.public.learningregistry.net/description
-
 
 ## Setting Up an LR Node
 
