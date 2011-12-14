@@ -1,3 +1,7 @@
+Full example in the Learning Registry of using LR Paradata 1.0 to publish an endorsement of a group: 
+
+> https://node01.public.learningregistry.net/harvest/getrecord?by_doc_ID=T&request_ID=a97909955603403aa4c07029a240adee
+
 This example is based on a recipe from the [Paradata Cookbook](https://docs.google.com/document/d/1lggCnowWsDgQxrNjYRAgh2KNwKfq-MV8vLJzRXbAaos/edit?hl=en_US), which shows an assertion from a Learning Management System (LMS) endorsing a group. Assertions like this can be particularly helpful when creating trust relationships between systems, especially in the realm of standards alignments and other expert opinions. Information about the group, including id/url, is included in the object space.
 
 Other terms that may be considered valid synonyms for similar actions: vouch, certify, affirm.
