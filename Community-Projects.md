@@ -85,6 +85,17 @@ This project is a module to plug into the content management capabilities of Dru
 
 > * [Source Code](http://drupal.org/sandbox/jasonh/1342822)
 
+### Learning Registry PHP Library (LRPHP)
+A drop-in client-side library and programming interface for a Learning Registry node.  Currently supporting slice, obtain and publish services.
+
+> License: Apache 2
+
+> Authors: [Jeffrey Hill](https://github.com/jeffreyhill/) (Tennessee Curriculum Center), [Jason Hoekstra](https://github.com/jasonhoekstra)
+
+> Tech Info: Requires PHP 5.2+ and PEAR Crypt_GPG library for resource signing
+
+> * [Source Code](https://github.com/jeffreyhill/LRPHP)
+
 ### LRJavaLib
 Java library for accessing core services for a node, including publishing and consuming data. Base classes are in place and functions are being expanded incrementally. Data consumption will be expanded to support a variety of data schema. 
 
