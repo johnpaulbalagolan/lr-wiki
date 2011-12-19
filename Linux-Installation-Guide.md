@@ -55,36 +55,40 @@ The installation instructions below describe eight steps to get a new Learning R
 
 ### Installation
 
-#### 1. Install CouchDB
+#### 1. Install CouchDB (Build-CouchDB)
 
-* If you have Ubuntu 10.04 installed, copy the download link for Couchbase Single Server Community 1.1.x, which is a binary distribution of CouchDB 1.0.x from http://www.couchbase.com/downloads (NOTE: this is a "Previous Release"). If you have Ubuntu 11.10 installed, copy the download link for Couchbase Single Server Community 1.2.x, which is a binary distribution of CouchDB 1.1.x (NOTE: this is a "Latest Release"). 
+* Build CouchDB is a wrapper or master project which pulls in, from official sources, CouchDB plus all of its dependencies. It is the most straightforward and reliable procedure to build official CouchDB releases from source.
 
+* Install the necessary packages
 
-* Remove Couchdb-bin
+>     sudo apt-get install make gcc zlib1g-dev libssl-dev rake
 
->     sudo apt-get remove couchdb-bin
+* Get the Build-CouchDB Code
 
-* Install Couchbase
+>     cd ~
 
->     cd ~/
->     curl "<download url>" -o couchbase-server.deb
->     sudo dpkg -i couchbase-server.deb
+>     git clone git://github.com/iriscouch/build-couchdb
 
-* Verify you have CouchDB running:
+>     cd build-couchdb    
+
+>     git submodule init 
+
+>     git submodule update
+
+* Build CouchDB
+
+>     rake
+
+* Start CouchDB
+
+>     [Install Directory]/build/bin/couchdb
+
+* Verify you have CouchDB Running
 
 >     curl -X GET http://localhost:5984
 
-> Ubuntu 11.10 users should see {"couchdb":"Welcome","version":"1.2.0", "vendor":{"url":"http://www.couchbase.com/","name":"Couchbase",:"version":"1.1.X}}
+> Should return {"couchdb":"Welcome","version":"1.X.X"}
 
-> Ubuntu 10.04 users should see {"couchdb":"Welcome","version":"1.1.2"}
-
-* If you are not receiving a response, please run the following commands:
-
->     sudo chown -R couchbase:couchbase /opt/couchbase-server
-
->     sudo apt-get install libssl0.9.8
-
->     sudo service couchbase-server restart
  
 #### 2. Install Python (2.x) and associated tools
 
