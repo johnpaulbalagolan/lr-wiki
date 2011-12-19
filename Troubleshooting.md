@@ -3,11 +3,11 @@
 
 ### CouchDB
 
-* Verify you have CouchDB 1.0.2 running:
+* Verify you have CouchDB running:
 
 >     curl -X GET http://localhost:5984
 
-> Should return {"couchdb":"Welcome","version":"1.0.2"}
+> Should return {"couchdb":"Welcome","version":"1.X.X"}
 
 * Verify you have the appropriate CouchDB databases:
 
