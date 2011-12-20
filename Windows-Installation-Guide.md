@@ -8,11 +8,13 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 # Introduction
 
-There are two recommended approaches to get a new Learning Registry node running using the latest stable code (0.23.3): 1) via an Amazon Machine Instance (AMI) or 2) via installing the code.
+There are two recommended approaches to get a new Learning Registry node running using the latest stable code: 1) via an Amazon Machine Instance (AMI) or 2) via installing the code.
 
 Instructions for using an existing AMI are available from http://goo.gl/fhdg3.
 
-The installation instructions below the steps to get a new Learning Registry node running using the latest stable code. These instructions are provided for Windows and have been tested with the Windows 7 64-bit environment.
+The installation instructions below the steps to get a new Learning Registry node running using the latest stable code. These instructions are provided for Windows and have been tested with the Windows 7 64-bit environment. 
+
+_NOTE: Some code changes had to be made for Windows' machines. Once these have been fully tested and published the doc will be updated to grab the changes to ensure a successful installation._
 
 # Prerequisites 
 
@@ -73,6 +75,12 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
 1. Open the Windows command prompt (**Start** -> search for **cmd**)
 2. In the command prompt, enter the command `easy_install pip` and it will load pip on your machine, then you can proceed to install the other necessary modules:
 3. virtualenv `pip install virtualenv`
+     * Create a **virtual environment** to sandbox your development environment
+     * Run the command `mkdir virtualenv` and move into that directory `cd virtualenv`
+     * Run the command `virtualenv lr` (lr will be the name of your virtual environment) 
+     * Navigate to the **Scripts** directory of lr `cd lr/scripts`
+     * Run the command `activate`
+     * **(lr)** should now appear at the beginning of your command line if successful
 4. pylons `pip install pylons`
 5. ijson `pip install ijson`
 6. flup `pip install flup`
@@ -132,14 +140,12 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * If you would like to create the program's shortcuts click **Browse..** else just click **Next**
      * Make sure **Install couchdb as a Windows service** and **Start the service after installation** boxes are checked and click **Next**
      * Click **Install**
-     * If prompted to Restart Computer select **Yes** and click **Finish**
 2. Make sure CouchDB is running correctly by going [here](http://localhost:5984), you should see **{"couchdb":"Welcome","version":"1.1.1"}**
 
 ## CouchApp
 1.  Enter the command `pip install couchapp`
 
 # Checkout Learning Registry Source Code
-* MAKE NOTE ABOUT CREATING LR USER, SIGNING IN, RUNNING IN VIRTUALENV
 1. Open the **Git Bash** (**Start** -> search for **Git Bash**)
 2. Navigate to where you want your repository by using the `cd [directory_name]` command
 3. To gather the LR code from github, run the command `git clone https://github.com/LearningRegistry/LearningRegistry` 
@@ -148,7 +154,6 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
 6. Checkout the latest tag by running the command, `git checkout [latest tag version]`  
 
 ## Nginx
-* MAKE NOTE ABOUT RUNNING AS USER
 1. Go [here](http://nginx.org/en/download.html) and download the **nginx/Windows-1.1.11** zip file
      * Go into your **Downloads** folder and find the **nginx-1.1.11.zip** file
      * Right click on the **nginx-1.1.11.zip** file, and click **Extract All...**
@@ -171,7 +176,6 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
 
 # Running the LR Node
 ## Push the CouchApps
-* MAKE NOTE ABOUT RUNNING AS LR USER AND USING VIRTUALENV
 1. Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
 2. Run the command `python setup_node.py`
 3. When prompted, enter **http://localhost** as your endpoint URL
