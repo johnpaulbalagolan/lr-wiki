@@ -12,7 +12,7 @@ There are two recommended approaches to get a new Learning Registry node running
 
 Instructions for using an existing AMI are available from http://goo.gl/fhdg3.
 
-The installation instructions below the steps to get a new Learning Registry node running using the latest stable code. These instructions are provided for Windows and have been tested with Windows 7 64-bit environments.
+The installation instructions below the steps to get a new Learning Registry node running using the latest stable code. These instructions are provided for Windows and have been tested with the Windows 7 64-bit environment.
 
 # Prerequisites 
 
@@ -170,17 +170,13 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * Run the command `start nginx`
 
 # Running the LR Node
-* MAKE NOTE ABOUT RUNNING AS LR USER
 ## Push the CouchApps
-1. If you closed the Windows command prompt, reopen it (**Start** -> search for **cmd**) and activate your virtual environment
-     * Navigate to the **Scripts** directory of lr `cd lr/scripts`
-     * Run the command `activate`
-     * **(lr)** should now appear at the beginning of your command line if successful 
-2. Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
-3. Run the command `python setup_node.py`
-4. When prompted, enter **http://localhost** as your endpoint URL
-5. For the rest of the setup, just hit **enter** whenever prompted to input the default parameters
-6. When finished you should receive a message displaying, **All CouchApps Pushed**
+* MAKE NOTE ABOUT RUNNING AS LR USER AND USING VIRTUALENV
+1. Navigate to the **config** folder of your LR repository `cd [directory]/[LR Repository]/config`
+2. Run the command `python setup_node.py`
+3. When prompted, enter **http://localhost** as your endpoint URL
+4. For the rest of the setup, just hit **enter** whenever prompted to input the default parameters
+5. When finished you should receive a message displaying, **All CouchApps Pushed**
 
 ## Install the LR Node
 1. Navigate back to the main LR directory
