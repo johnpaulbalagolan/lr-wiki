@@ -16,6 +16,10 @@ The plan below is for the upcoming new year 2012 release scheduled for Wednesday
 2.  Fixed OPTIONS method bug
 3.  Jmeter Functional Tests (Service Description and Policy Data Model)
 
+## New Features
+
+1.  CouchDB upgrade
+
 ## Pending bugs
 
 > See https://github.com/LearningRegistry/LearningRegistry/issues
