@@ -40,6 +40,8 @@ Are you interested in making the Learning Registry a faster, better platform?
 
 * [Community Projects](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects) - Please share here any utilities, demonstrations, or extensions to the core code.
 
+* [Releases](Releases) - Information on software releases.
+
 ## Getting Help
 
 * Report a bug: https://github.com/LearningRegistry/LearningRegistry/issues
