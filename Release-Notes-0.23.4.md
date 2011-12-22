@@ -38,7 +38,7 @@ The plan below is for the upcoming new year 2012 release scheduled for Friday, 1
 
 ## Documentation
 
-> https://github.com/LearningRegistry/LearningRegistry/wiki
+> See https://github.com/LearningRegistry/LearningRegistry/wiki
 
 * Windows install guide updated
 * Linux install guide updated
