@@ -1,4 +1,4 @@
-The plan below is for the upcoming new year 2012 release scheduled for Friday, 1/6/2012.  Last release was LR v0.23.3 on October 27.
+The plan below is for the upcoming new year 2012 release scheduled for Wednesday, 1/11/2012.  Last release was LR v0.23.3 on October 27.
 
 ## Proposed process
 
