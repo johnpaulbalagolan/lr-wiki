@@ -10,6 +10,8 @@ The plan below is for the upcoming new year 2012 release scheduled for Friday, 1
 
 ## Pending pull requests
 
+> See https://github.com/LearningRegistry/LearningRegistry/pulls
+
 1.  Fix for issue #152
 2.  Fixed OPTIONS method bug
 3.  Jmeter Functional Tests (Service Description and Policy Data Model)
