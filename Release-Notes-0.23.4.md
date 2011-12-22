@@ -51,5 +51,5 @@ The plan below is for the upcoming new year 2012 release scheduled for Friday, 1
 
 > See https://github.com/LearningRegistry/LearningRegistry/wiki/nodes
 
-* http://sandbox.learningregistry.org replaces http://test01.learningregistry.org and is now running 0.23.4
-* http://alpha.learningregistry.org replaces http://test02.learningregistry.org and is from now on running the latest stable master.
+* **Sandbox** replaces **Test01** and is now running 0.23.4
+* **Alpha** replaces **Test02** and is from now on running the latest stable master.
