@@ -4,7 +4,7 @@ The plan below is for the upcoming new year 2012 release scheduled for Wednesday
 
 1.  Support for CouchDB 1.1
 
-## Closed bugs since last release 
+## Bug Fixes
 
 > See https://github.com/LearningRegistry/LearningRegistry/issues?sort=created&direction=desc&state=closed&page=1
 
