@@ -81,11 +81,10 @@ Below is an excerpt describing the resource data description model (envelope) fr
  "resource_locator":	"string",		// unique locator for the resource described
 						// SHALL resolve to a single unique resource
 						// required
- "keys":	["string"],			// array of hashtag, keyword value list used for filtering
+ "keys":		["string"],		// array of hashtag, keyword value list used for filtering
 						// optional
  "resource_TTL":	integer,		// TTL from resource owner for the resource itself, in days
 						// optional
-
 
 // the actual resource data description elements
 // these elements are optional as a block if the submission is a resource
