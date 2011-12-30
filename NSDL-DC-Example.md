@@ -1,0 +1,1 @@
+http://nsdl.org/contribute/metadata-guide
