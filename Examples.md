@@ -10,6 +10,10 @@ Please add links to your examples for using the Learning Registry on this page.
 * [Assertion "same as" example using RDF](https://github.com/LearningRegistry/LearningRegistry/wiki/Assertion-%22same-as%22-example-using-RDF)
 * [Paradata Endorsement Examples](Paradata-Endorsement-Examples)
 
+## Metadata Examples
+* [LR Envelope Example](LR Envelope Example)
+* [NSDL_DC Example](NSDL_DC Example)
+
 ## Query Examples
 * Description - https://node01.public.learningregistry.net/description
 * Harvest (by ID) - https://node01.public.learningregistry.net/harvest/getrecord?request_ID=4ebf25ff043841f48f5c0d61ffdf5d81&by_doc_ID=true
