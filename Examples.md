@@ -12,7 +12,7 @@ Please add links to your examples for using the Learning Registry on this page.
 
 ## Metadata Examples
 * [LR Envelope Example](LR Envelope Example)
-* [NSDL_DC Example](NSDL_DC Example)
+* [NSDL_DC Example](NSDL-DC-Example)
 
 ## Query Examples
 * Description - https://node01.public.learningregistry.net/description
