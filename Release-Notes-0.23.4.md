@@ -8,11 +8,6 @@ The plan below is for the upcoming new year 2012 release scheduled for Wednesday
 
 > See https://github.com/LearningRegistry/LearningRegistry/issues?sort=created&direction=desc&state=closed&page=1
 
-* Fixed #152 in Merge #155 - 404 page returned as plaintext
-* Fixed #108 in Merge #109 - Proposed fix for issue #37 causes OAI-PMH to fail
-* Fixed #140 in Merge #141 - OAI-PMH test suite failing
-* Fixed #37 - OAI-PMH cannot disseminate format when <!DOCTYPE ...> declaration is present in payload.
-
 ## Documentation
 
 > See https://github.com/LearningRegistry/LearningRegistry/wiki
