@@ -42,7 +42,7 @@ Are you interested in making the Learning Registry a faster, better platform?
 
 * [Releases](https://github.com/LearningRegistry/LearningRegistry/wiki/Releases) - Information on software releases.
 
-* [Release procedure](Release+procedure)
+* [Release procedure](https://github.com/LearningRegistry/LearningRegistry/wiki/Release-procedure) - Describes general procedure for a new release.
 
 ## Getting Help
 
