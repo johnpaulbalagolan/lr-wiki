@@ -9,8 +9,8 @@ The plan below is for the upcoming new year 2012 release scheduled for Wednesday
 
 > See https://github.com/LearningRegistry/LearningRegistry/issues?sort=created&direction=desc&state=closed&page=1
 
-* distribute call not working: distribute_threshold_handler.py lost reference to json (#154)
-* service_type is missing on startup (#146)
+* Distribute call not working: distribute_threshold_handler.py lost reference to json (#154)
+* "service_type" is missing on startup (#146)
 * Service description does not reflect service_https value (#125)
 * Service documents "service_endpoint" does not match spec definition (#34)
 * Node admin email address is not correct (#123)
