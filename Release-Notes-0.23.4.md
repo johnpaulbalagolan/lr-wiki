@@ -38,8 +38,8 @@ The plan below is for the upcoming new year 2012 release scheduled for Wednesday
 
 > See https://github.com/LearningRegistry/LearningRegistry/wiki/nodes
 
-* **Sandbox** replaces **Test01** and is now running 0.23.4
-* **Alpha** replaces **Test02** and is from now on running the latest stable master.
+* **Sandbox** (http://sandbox.learningregistry.org) replaces **Test01** and is now running 0.23.4
+* **Alpha** (http://alpha.learningregistry.org) replaces **Test02** and is from now on running the latest stable master.
 
 ## Updated development process and improved testing
 
