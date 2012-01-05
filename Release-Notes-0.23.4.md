@@ -44,6 +44,7 @@ The plan below is for the upcoming new year 2012 release scheduled for Wednesday
 ## Updated development process and improved testing
 
 Updated development process is documented here: 
-https://github.com/LearningRegistry/LearningRegistry/wiki/Contributing-to-the-Learning-Registry
+
+> https://github.com/LearningRegistry/LearningRegistry/wiki/Contributing-to-the-Learning-Registry
 
 New tests added for sword publish, distribute, OAI-PMH, service descriptions, and service policies.
