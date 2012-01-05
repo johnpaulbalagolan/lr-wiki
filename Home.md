@@ -36,11 +36,13 @@ There are two recommended approaches to get a new Learning Registry node running
 
 Are you interested in making the Learning Registry a faster, better platform? 
 
-* [Contributing](https://github.com/LearningRegistry/LearningRegistry/wiki/Contributing-to-the-Learning-Registry) - Information about the easiest way to collaborate with the core development team.
-
 * [Community Projects](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects) - Please share here any utilities, demonstrations, or extensions to the core code.
 
+* [Contributing](https://github.com/LearningRegistry/LearningRegistry/wiki/Contributing-to-the-Learning-Registry) - Information about the easiest way to collaborate with the core development team.
+
 * [Releases](https://github.com/LearningRegistry/LearningRegistry/wiki/Releases) - Information on software releases.
+
+* [Release procedure](Release+procedure)
 
 ## Getting Help
 
