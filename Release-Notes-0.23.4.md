@@ -2,8 +2,7 @@ The plan below is for the upcoming new year 2012 release scheduled for Wednesday
 
 ## New Features
 
-1.  Support for CouchDB 1.1
-2.  Support for uwsgi
+1. Added support for OPTIONS calls and cross origin requests (CORS) (#151)
 
 ## Bug Fixes
 
