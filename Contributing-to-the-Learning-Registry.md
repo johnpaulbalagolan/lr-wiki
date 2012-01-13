@@ -16,3 +16,5 @@ The LR core codebase on Github is not intended for changes to be pushed to direc
 4. When you are finished with a feature, issue a pull request from your working branch to the original LearningRegistry repository. The core team will perform a code review and, based on feedback, ignore the request or merge it into the current master branch.
 5. If accepted into original master branch, merge your working branch into your own master.
 
+### Releases and Tagging Policy
+Official releases will be tagged using the following format `<version#>.<major#>.<minor#>.zip`. These correspond to releases that have been deployed to official Learning Registry production nodes and are considered to be stable. You may access these tags from the 'Code' -> 'Tags' page.
