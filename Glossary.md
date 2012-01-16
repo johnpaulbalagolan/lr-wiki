@@ -1,7 +1,7 @@
 * **Assertion** - A statement being declared (see Assertion [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples))
 * **Envelope** - The resource data description document (see [Envelope Example](https://github.com/LearningRegistry/LearningRegistry/wiki/LR%20Envelope%20Example))
 * **Identity** - Information about the source of the resource data (e.g., submitter, curator, owner, or signer).
-* Learning Resource - any (digital) resource that is designed for, or has been used, in an educational context.
+* **Learning Resource** - Any (digital) resource that is designed for, or has been used, in an educational context.
 * **Metadata** - Formally authored and curated information describing a learning resource.  Also denoted first party metadata.
 * **Paradata** - Information describing the contextual use of a learning resource.  It includes informally authored information and data obtained directly through monitoring the use of a learning resource, its metadata or its paradata.  Also denoted second party metadata.  See [Paradata in 20 Minutes or Less](https://docs.google.com/a/adlnet.gov/document/d/1QG0lAmJ0ztHJq5DbiTGQj9DnQ8hP0Co0x0fB1QmoBco/edit?hl=en_US) for more information.
 * **Payload** - The resource data relative to the envelope describing it.  It can be placed in the envelope "inline" or it can be "linked" to the envelope by a locator.
