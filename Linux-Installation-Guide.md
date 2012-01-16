@@ -34,6 +34,10 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     sudo apt-get install vim
 
+* git
+
+>     sudo apt-get install git-core
+
 #### 2. Configure apt sources
 
 * Edit the sources list.  If the file doesn't exist, create it.
@@ -155,10 +159,6 @@ The installation instructions below describe eight steps to get a new Learning R
 * Set learningregistry user password
 
 >     sudo passwd learningregistry
-
-* Install Git
-
->     sudo apt-get install git-core
 
 * Login as learningregistry user
 
