@@ -123,12 +123,6 @@ The installation instructions below describe eight steps to get a new Learning R
 
 #### 5. Install Yajl (1.0.12)
 
-* Install Yajl using apt-get
-
->     sudo apt-get install lib-yajl1
-
-* or you can install from source
-
 * Install Yajl dependencies
 
 >     sudo apt-get install ruby cmake
@@ -142,7 +136,7 @@ The installation instructions below describe eight steps to get a new Learning R
 >     sudo make
 >     sudo make install
 
-* Update your LD_LIBRARY_PATH to include /usr/local/lib. Add the following line to ~learningregisty/.bashrc.d/defaults or /etc/bash.bashrc
+* Update your LD_LIBRARY_PATH to include /usr/local/lib. Add the following line to /etc/bash.bashrc
 
 >     export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
