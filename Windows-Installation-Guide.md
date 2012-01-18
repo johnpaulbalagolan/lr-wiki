@@ -151,7 +151,7 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
 3. To gather the LR code from github, run the command `git clone https://github.com/LearningRegistry/LearningRegistry` 
 4. Once it is done cloning, run the command, `cd LearningRegistry` to move into the LearningRegistry directory
 5. Run the command `git tag –l` to find the latest tag
-6. Checkout the latest tag by running the command, `git checkout [latest tag version]`  
+6. Checkout the latest tag by running the command, `git checkout [latest tag version]` (0.23.4 as of Jan. 18th, 2012)  
 
 ## Nginx
 1. Go [here](http://nginx.org/en/download.html) and download the **nginx/Windows-1.1.11** zip file
