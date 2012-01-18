@@ -162,12 +162,12 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     mkdir ~/gitrepos
 
-* Checkout the source code
+* Checkout the source code (latest tag is 0.23.4 as of Jan.18th, 2012)
 
 >     cd ~/gitrepos 
 >     git clone https://github.com/LearningRegistry/LearningRegistry.git
 >     git tag -l
->     git checkout [latest tag version] (0.23.4 as of Jan.18th, 2012)
+>     git checkout [latest tag version] 
 
 * Create Python virtual environment and activate
 
