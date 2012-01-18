@@ -213,7 +213,7 @@ _* NOTE: If you receive a **ln: creating symbolic link /etc/nginx/sites-enabled/
 >     sudo mkdir sites-enabled
 >     sudo ln -s /etc/nginx/sites-available/learningregistry /etc/nginx/sites-enabled/learningregistry 
 
-> Open the learningregistry config file and check what address the CouchDB server is listening to. If it is not your IP address using port 5984, replace whatever address is listed after **listen** (located on line 79) with your IP address and port 5984
+> Open the learningregistry config file and check what address the CouchDB server is listening to. If it is not your IP address using port 5984, replace whatever address is listed after **listen** (located on line 79) with your IP address and port 5984. (If you want to run on localhost DO NOT use 127.0.0.1. Instead perform the `ifconfig` command and use your inet addr)
 
 >     sudo vim sites-available/learningregistry
 
