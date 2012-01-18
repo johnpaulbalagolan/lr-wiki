@@ -165,7 +165,7 @@ The installation instructions below describe eight steps to get a new Learning R
 * Checkout the source code
 
 >     cd ~/gitrepos
->     git clone -b 0.23.3 https://github.com/LearningRegistry/LearningRegistry.git
+>     git clone https://github.com/LearningRegistry/LearningRegistry.git
 
 * Create Python virtual environment and activate
 
