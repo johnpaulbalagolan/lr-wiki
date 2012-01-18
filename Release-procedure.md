@@ -6,3 +6,6 @@ The general release process is:
 1. Release to production nodes
 1. Release to sandbox node
 1. Send email describing release to all LR Google groups.
+1. Update Linux, Windows, and Mac install guides to reference new tag.
+1. Update AMI
+1. Update AMI install guide 
