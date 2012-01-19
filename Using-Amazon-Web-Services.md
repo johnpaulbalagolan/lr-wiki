@@ -1,1 +1,0 @@
-These resources provide instructions on how to create an LR node from a base Ubuntu 10.04 LTS Amazon Machine Image (AMI), use the base installation to create a new AMI as a template for more EC@ images, and use a prebuilt image to launch new LR node instances.
