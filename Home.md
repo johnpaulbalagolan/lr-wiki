@@ -24,7 +24,7 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 There are two recommended approaches to get a new Learning Registry node running using the latest stable code.  The current version of the code implements the [Learning Registry Technical Specification v0.23.0](https://docs.google.com/document/d/1fRbDpM0BKvNc4WzDzX0pNUpfPtFAsKpKGnOyRhRok-8/edit?hl=en_US).  The first approach is to setup an LR node using an Amazon Machine Instance (AMI).  The second approach is to install a new node LR node on a Windows, Linux, or Mac OS X machine following installation instructions.
 
-* [AMI Installation](http://goo.gl/fhdg3) - Instructions for setting up a node using an existing Amazon Machine Instance.  
+* [AMI Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Using-Amazon-Web-Services) - Instructions for setting up a node using an existing Amazon Machine Instance.  
 
 * [Linux Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Linux-Installation-Guide) - Instructions for setting up a node on Ubuntu 10.04 LTS onwards.
 
