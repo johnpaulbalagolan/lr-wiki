@@ -20,11 +20,9 @@ Instructions for using an existing AMI are available from http://goo.gl/fhdg3.
 
 The installation instructions below describe eight steps to get a new Learning Registry node running using the latest stable code.  These instructions are provided for Linux and have been tested with Ubuntu 10.04 LTS and Ubuntu 11.10.
 
-## Linux
+## Prerequisites
 
-### Prerequisites
-
-#### 1. Install Supporting Applications
+### 1. Install Supporting Applications
 
 * curl
 
@@ -38,7 +36,7 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     sudo apt-get install git-core
 
-#### 2. Configure apt sources
+### 2. Configure apt sources
 
 * Edit the sources list.  If the file doesn't exist, create it.
 
@@ -57,9 +55,9 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     sudo apt-get update  
 
-### Installation
+## Installation
 
-#### 1. Install CouchDB (Build-CouchDB)
+### 1. Install CouchDB (Build-CouchDB)
 
 * Build CouchDB is a wrapper or master project which pulls in, from official sources, CouchDB plus all of its dependencies. It is the most straightforward and reliable procedure to build official CouchDB releases from source.
 
@@ -94,7 +92,7 @@ The installation instructions below describe eight steps to get a new Learning R
 > Should return {"couchdb":"Welcome","version":"1.X.X"}
 
  
-#### 2. Install Python (2.x) and associated tools
+### 2. Install Python (2.x) and associated tools
 
 * This guide assumes Python is installed on Linux operating system. If Python is not installed, run the following command
 
@@ -113,15 +111,15 @@ The installation instructions below describe eight steps to get a new Learning R
 >     sudo easy_install pip 
 >     sudo easy_install virtualenv
 
-#### 3. Install Nginx (1.0.4+)
+### 3. Install Nginx (1.0.4+)
 
 >     sudo apt-get install nginx
 
-#### 4. Install uWSGI (latest stable)
+### 4. Install uWSGI (latest stable)
 
 >     sudo pip install uwsgi
 
-#### 5. Install Yajl (1.0.12)
+### 5. Install Yajl (1.0.12)
 
 * Install Yajl dependencies
 
@@ -144,7 +142,7 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     sudo pip install ijson
 
-#### 6. Checkout Learning Registry Source Code
+### 6. Checkout Learning Registry Source Code
 
 * Create learningregistry user account
 
@@ -190,7 +188,7 @@ The installation instructions below describe eight steps to get a new Learning R
 
 * Answer the questions as prompted.
 
-#### 7. Configure Nginx
+### 7. Configure Nginx
 
 NOTE: Run the commands below as a user that is in the sudoers file
 
@@ -229,7 +227,7 @@ _* NOTE: If you receive a **ln: creating symbolic link /etc/nginx/sites-enabled/
 
 >     sudo service nginx start
 
-#### 8. Start LR Code
+### 8. Start LR Code
 
 NOTE: Run the command below as the learningregistry user
 
