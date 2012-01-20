@@ -164,6 +164,7 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     cd ~/gitrepos 
 >     git clone https://github.com/LearningRegistry/LearningRegistry.git
+>     cd LearningRegistry
 >     git tag -l
 >     git checkout [latest tag version] 
 
