@@ -11,3 +11,5 @@ To upgrade a node to the latest release, please follow the recommended steps bel
 ## 2. Run the setup node python script
 
 > python setup_node.py -d
+
+NOTE: It is important to run the setup node script as a new version of the code may change configuration files.
