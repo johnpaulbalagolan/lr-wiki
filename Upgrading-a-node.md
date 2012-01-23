@@ -1,6 +1,6 @@
 To upgrade a node to the latest release, please follow the recommended steps below:
 
-## Pull the most recent tag from git
+## 1. Pull the most recent tag from git
 
 > cd <your path to git repository>/LearningRegistry
 
@@ -8,6 +8,6 @@ To upgrade a node to the latest release, please follow the recommended steps bel
 
 > git checkout [latest tag version]
 
-## Run the setup node python script
+## 2. Run the setup node python script
 
 > python setup_node.py -d
