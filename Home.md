@@ -30,9 +30,9 @@ There are two recommended approaches to get a new Learning Registry node running
 
 * [Windows Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Windows-Installation-Guide) - Instructions for setting up a node on a Windows 7 64-bit environment.
 
-* [OS X Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Proposed-OS-X-Installation-Instructions)
+* [OS X Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Proposed-OS-X-Installation-Instructions) - Instructions for setting up a node on Mac OS X.
 
-* [Upgrading a Node](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node)
+* [Upgrading a Node](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node) - Instructions for upgrading a node to the latest release.
 
 ## Get Involved
 
