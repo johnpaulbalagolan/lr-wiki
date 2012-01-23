@@ -32,6 +32,8 @@ There are two recommended approaches to get a new Learning Registry node running
 
 * [OS X Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Proposed-OS-X-Installation-Instructions)
 
+* [Upgrading a Node](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node)
+
 ## Get Involved
 
 Are you interested in making the Learning Registry a faster, better platform? 
