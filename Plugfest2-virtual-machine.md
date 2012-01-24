@@ -2,7 +2,11 @@ The virtual machine has been tested to work with VirtualBox and VMware Player.
 
 ## Download
 
-* Download the .ova file.
+* http://lr.vmimages.s3.amazonaws.com/plugfest2/Learning%20Registry%20%2832-bit%29.ova
+
+> NOTE: this is an .ova file: http://en.wikipedia.org/wiki/Open_Virtualization_Format
+
+> NOTE: If using VMware Player, be sure to use at least version 4 as version 3 is a bit too picky on the OVF schema validation.
 
 ## Help
 
