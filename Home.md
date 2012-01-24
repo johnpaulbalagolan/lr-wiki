@@ -26,6 +26,8 @@ There are two recommended approaches to get a new Learning Registry node running
 
 * [AMI Installation](https://docs.google.com/a/adlnet.gov/document/d/1XxEyv1y6Nv2ELTPAoS7l3UHwjuwg7Q981xGbQ-5v6yQ/edit?hl=en_US) - Instructions for setting up a node using an existing Amazon Machine Instance.  
 
+* [List of AMIs](https://github.com/LearningRegistry/LearningRegistry/wiki/Current-AMI-Instances) - List of currently available LR Amazon Machine Instances (AMIs).
+
 * [Linux Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Linux-Installation-Guide) - Instructions for setting up a node on Ubuntu 10.04 LTS onwards.
 
 * [Windows Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Windows-Installation-Guide) - Instructions for setting up a node on a Windows 7 64-bit environment.
