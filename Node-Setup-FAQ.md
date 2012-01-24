@@ -1,3 +1,5 @@
+Below is a list of frequently asked questions when setting up or running a node.  Please add your own questions and/or answers.
+
 ### How do I update my node to the latest LR release?
 
 * See [Upgrading a Node](Upgrading-a-Node)
