@@ -32,6 +32,8 @@ There are two recommended approaches to get a new Learning Registry node running
 
 * [OS X Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Proposed-OS-X-Installation-Instructions) - Instructions for setting up a node on Mac OS X.
 
+* [PlugFest2 Virtual Machine](https://github.com/LearningRegistry/LearningRegistry/wiki/PlugFest2-Virtual-Machine) - Jim distributed LR Virtual Machines at the PlugFest2 event loaded with an LR node instance and various tools.
+
 * [Upgrading a Node](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node) - Instructions for upgrading a node to the latest release.
 
 ## Get Involved
