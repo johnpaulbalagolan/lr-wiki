@@ -6,7 +6,7 @@
 
 * Suraiya is working on an approach to address this: https://www.pivotaltracker.com/story/show/14857159
 
-#### How do I reset the node name or node description?
+### How do I reset the node name or node description?
 
 * Re-run the setup node script
 
