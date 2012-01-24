@@ -14,7 +14,7 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples.
 
-* [Known Nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/nodes) - A list of known LR nodes.
+* [Known Nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/Known-Nodes) - A list of known LR nodes.
 
 * [Publishing guidance using OAI-PMH](http://goo.gl/yOihy) - A short Google Doc with code examples and links to working code projects to pull data from OAI-PMH repositories and push the data into the Learning Registry.
 
