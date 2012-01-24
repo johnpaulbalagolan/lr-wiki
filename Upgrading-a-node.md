@@ -6,7 +6,7 @@ To upgrade a node to the latest release, please follow the recommended steps bel
 
 > git checkout origin master
 
-> git pull origin master
+> git pull 
 
 > git tag -l
 
