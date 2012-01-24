@@ -1,4 +1,4 @@
-This page is intended to list all known Learning Registry nodes. For each node, it would be helpful to list the current configuration (e.g., network, community, name) as well as information about the platform or code running.
+This page is intended to list all known Learning Registry nodes.
 
 ## LR Sandbox Node
 
