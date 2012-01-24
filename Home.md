@@ -36,6 +36,8 @@ There are two recommended approaches to get a new Learning Registry node running
 
 * [Upgrading a Node](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node) - Instructions for upgrading a node to the latest release.
 
+* [Node Setup FAQ](https://github.com/LearningRegistry/LearningRegistry/wiki/Node-Setup-FAQ) - Frequently Asked Questions when setting up or running a node. 
+
 ## Get Involved
 
 Are you interested in making the Learning Registry a faster, better platform? 
