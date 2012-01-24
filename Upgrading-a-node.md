@@ -4,6 +4,10 @@ To upgrade a node to the latest release, please follow the recommended steps bel
 
 > cd <your path to git repository>/LearningRegistry
 
+> git checkout origin master
+
+> git pull origin master
+
 > git tag -l
 
 > git checkout [latest tag version]
