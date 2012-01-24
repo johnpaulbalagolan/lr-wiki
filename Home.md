@@ -14,9 +14,9 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples.
 
-* For the latest status on what code and configuration servers are running, please consult the list of [currently running LR nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/nodes).
+* [Known Nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/nodes) - A list of known LR nodes.
 
-* [Publishing guidance using OAI-PMH](http://goo.gl/yOihy)
+* [Publishing guidance using OAI-PMH](http://goo.gl/yOihy) - A short Google Doc with code examples and links to working code projects to pull data from OAI-PMH repositories and push the data into the Learning Registry.
 
 * If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
 
