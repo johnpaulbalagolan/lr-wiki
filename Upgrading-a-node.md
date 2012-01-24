@@ -16,4 +16,4 @@ To upgrade a node to the latest release, please follow the recommended steps bel
 
 > python setup_node.py -d
 
-NOTE: It is important to run the setup node script as a new version of the code may change configuration files.
+NOTE: Please keep remember your configuration settings as this process will overwrite them.  It is important to run the setup node script as a new version of the code may change configuration files.
