@@ -12,7 +12,7 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * [Sandbox](http://sandbox.learningregistry.org) - Test applications developed with the Learning Registry API in a simulated environment.
 
-* [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples (metadata, paradata, assertions, ...).
+* [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples (metadata, paradata, queries).
 
 * [Known Nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/Known-Nodes) - A list of known LR nodes.
 
