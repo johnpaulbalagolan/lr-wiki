@@ -1,13 +1,17 @@
 Please add links to your examples for using the Learning Registry on this page.
 
-## Paradata Examples
+## Alignment Examples
 * [Alignment DC Example](Alignment DC Example)
 * [Alignment Paradata Example](Alignment Paradata Example)
+
+## Ratings Example
 * [Ratings Example](Ratings Example)
 
-## Assertion Examples
+## Same As Examples
 * [Assertion "same as" example using LR Paradata Specification 1.0](Assertion-%22same-as%22-example-using-LR-Paradata-Specification-1.0)
 * [Assertion "same as" example using RDF](https://github.com/LearningRegistry/LearningRegistry/wiki/Assertion-%22same-as%22-example-using-RDF)
+
+## Endorsement Examples
 * [Paradata Endorsement Examples](Paradata-Endorsement-Examples)
 
 ## Metadata Examples
