@@ -52,6 +52,8 @@ Are you interested in making the Learning Registry a faster, better platform?
 
 * [Release procedure](https://github.com/LearningRegistry/LearningRegistry/wiki/Release-procedure) - Describes general procedure for a new release.
 
+* [Use Cases](https://github.com/LearningRegistry/LearningRegistry/wiki/Release-procedure) - List of use cases.  Please add yours!
+
 ## Getting Help
 
 * Report a bug: https://github.com/LearningRegistry/LearningRegistry/issues
