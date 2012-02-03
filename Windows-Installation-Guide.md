@@ -109,7 +109,7 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
 7. Run the command `nmake` to build all of the YAJL files
      * If successful, you will not get any error messages
 8. Open your **Windows Explorer** and navigate to **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src/lib**
-9. Copy the **yajl.dll** file and paste it into **C:\Windows\SysWOW64**
+9. Copy the **yajl.dll** file and paste it into **C:\Windows\SysWOW64**-for 32 bits windows XP into **C:\Windows\system32**
      * To check if successful, open the Windows Command Prompt
      * Run the command `python`, then `import ijson`
      * If there are no errors YAJL has been successfully installed
