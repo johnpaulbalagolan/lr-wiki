@@ -1,4 +1,4 @@
-Full example in the Learning Registry of using DC conformsTo element to align a resource to an academic standard:
+Full example in the Learning Registry of using DC conformsTo element based on [NSDL_DC guidelines](http://nsdl.org/contribute/metadata-guide) to align a resource to an academic standard:
 
 > https://node01.public.learningregistry.net/harvest/getrecord?by_doc_ID=t&request_ID=00031c9545e5430aaf407889c98de376
 
