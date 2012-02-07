@@ -23,6 +23,12 @@ Highlighted changes:
 * Production 3: http://node03.public.learningregistry.net
 * Sandbox: http://sandbox.learningregistry.org
 
+## Upgrading Your Node
+
+> See https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node
+
+Use the new 0.23.5 tag
+
 ## Issues
 
 An issues list is maintained on Github along with the source code. If you discover an issue, please add it to: https://github.com/LearningRegistry/LearningRegistry/issues
