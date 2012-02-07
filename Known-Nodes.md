@@ -2,7 +2,7 @@ This page is intended to list all known Learning Registry nodes.
 
 ## LR Sandbox Node
 
-This node mirrors the configuration and code on the production network, and is intended for outside developer(s) to test their code against.  This node is currently running the 0.23.4 release.
+This node mirrors the configuration and code on the production network, and is intended for outside developer(s) to test their code against.  This node is currently running the 0.23.5 release.
 
 > username: lrdev
 
@@ -22,7 +22,7 @@ This node mirror the production networks configuration but is running the latest
 
 ## LR Production Network
 
-These nodes are for developer(s) to use for their production system.  The data on these nodes is backed up daily.  These nodes require SSL and a Basic HTTP auth username/password. They are currently running the 0.23.4 branch.
+These nodes are for developer(s) to use for their production system.  The data on these nodes is backed up daily.  These nodes require SSL and a Basic HTTP auth username/password. They are currently running the 0.23.5 branch.
 
 For a username/password contact Walt Grata at walt.grata.ctr@adlnet.gov
 
@@ -33,7 +33,7 @@ For a username/password contact Walt Grata at walt.grata.ctr@adlnet.gov
 * [http://node03.public.learningregistry.net](http://node03.public.learningregistry.net)
 
 ## LR Dev Network
-These nodes are for use by the core development team.  The code, data, and configuration are all in flux and should not be used by outside developers to test their code.  They are currently running the 0.23.4 branch
+These nodes are for use by the core development team.  The code, data, and configuration are all in flux and should not be used by outside developers to test their code.  They are currently running the 0.23.5 branch
 
 * [http://lrdev01.learningregistry.org](http://lrdev01.learningregistry.org)
 
