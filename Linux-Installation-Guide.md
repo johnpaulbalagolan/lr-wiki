@@ -160,7 +160,7 @@ The installation instructions below describe eight steps to get a new Learning R
 
 >     mkdir ~/gitrepos
 
-* Checkout the source code (latest tag is 0.23.4 as of Jan.18th, 2012)
+* Checkout the source code (latest tag is 0.23.5 as of Feb. 7th, 2012)
 
 >     cd ~/gitrepos 
 >     git clone https://github.com/LearningRegistry/LearningRegistry.git
