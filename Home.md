@@ -2,7 +2,7 @@ Welcome to the Learning Registry wiki! The Learning Registry makes digital learn
 
 ## Getting Started
 
-The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d/12nvvm5ClvLxSWptlo52rTwIDvobiFylYhWLVPbVcesU/edit?hl=en_US) [PDF](http://www.adlnet.gov/wp-content/uploads/2012/02/learning_registry_20_minutes.pdf) guide will get you rolling with creating, uploading, downloading, and verifying envelopes in and out of Learning Registry servers whether you're using Windows, Linux, or Mac OS X.
+The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d/12nvvm5ClvLxSWptlo52rTwIDvobiFylYhWLVPbVcesU/edit?hl=en_US) ([PDF](http://www.adlnet.gov/wp-content/uploads/2012/02/learning_registry_20_minutes.pdf)) guide will get you rolling with creating, uploading, downloading, and verifying envelopes in and out of Learning Registry servers whether you're using Windows, Linux, or Mac OS X.
 
 * [Glossary](https://github.com/LearningRegistry/LearningRegistry/wiki/Glossary)
 
@@ -22,7 +22,7 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 ## Setting Up an LR Node
 
-There are two recommended approaches to get a new Learning Registry node running using the latest stable code.  The current version of the code implements the [Learning Registry Technical Specification v0.23.0](https://docs.google.com/document/d/1fRbDpM0BKvNc4WzDzX0pNUpfPtFAsKpKGnOyRhRok-8/edit?hl=en_US) [PDF](http://www.adlnet.gov/wp-content/uploads/2012/02/learning_registry_technical_specification_0.23.0.pdf).  The first approach is to setup an LR node using an Amazon Machine Instance (AMI).  The second approach is to install a new LR node on a Windows, Linux, or Mac OS X machine following installation instructions.
+There are two recommended approaches to get a new Learning Registry node running using the latest stable code.  The current version of the code implements the [Learning Registry Technical Specification v0.23.0](https://docs.google.com/document/d/1fRbDpM0BKvNc4WzDzX0pNUpfPtFAsKpKGnOyRhRok-8/edit?hl=en_US) ([PDF](http://www.adlnet.gov/wp-content/uploads/2012/02/learning_registry_technical_specification_0.23.0.pdf)).  The first approach is to setup an LR node using an Amazon Machine Instance (AMI).  The second approach is to install a new LR node on a Windows, Linux, or Mac OS X machine following installation instructions.
 
 * [AMI Installation](https://docs.google.com/a/adlnet.gov/document/d/1XxEyv1y6Nv2ELTPAoS7l3UHwjuwg7Q981xGbQ-5v6yQ/edit?hl=en_US) - Instructions for setting up a node using an existing Amazon Machine Instance.  
 
