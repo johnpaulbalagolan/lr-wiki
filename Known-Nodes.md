@@ -32,9 +32,12 @@ For a username/password contact Walt Grata at walt.grata.ctr@adlnet.gov
 
 * [http://node03.public.learningregistry.net](http://node03.public.learningregistry.net)
 
-## LR Dev Network
+## LR Dev Network 
+
+**NOTE: ALL DEV NODES CURRENTLY OFFLINE**
+
 These nodes are for use by the core development team.  The code, data, and configuration are all in flux and should not be used by outside developers to test their code.  They are currently running the 0.23.5 branch
 
-* [http://lrdev01.learningregistry.org](http://lrdev01.learningregistry.org)
+* [http://lrdev01.learningregistry.org](http://lrdev01.learningregistry.org) 
 
 * [http://lrdev02.learningregistry.org](http://lrdev02.learningregistry.org)
