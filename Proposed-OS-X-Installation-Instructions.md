@@ -94,6 +94,9 @@ Run the following commands to grab the master branch from this GitHub repository
 cd ~
 mkdir gitrepos; cd gitrepos
 git clone https://github.com/LearningRegistry/LearningRegistry.git
+cd LearningRegistry
+git tag -l
+git checkout [latest tag version] (latest tag version is 0.23.5 as of Feb. 7th 2012)
 ```
 
 ### Install dependencies
