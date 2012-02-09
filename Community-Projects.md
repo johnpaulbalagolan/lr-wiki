@@ -107,7 +107,7 @@ Java library for accessing core services for a node, including publishing and co
 
 > * [Source Code](https://github.com/navnorth/LRJavaLib)
 
-### .Net LR Submit tool
+### LR.Net
 LR.Net is a client library for the Learning Registry project. It is written in C# and provides basic access to a Learning Registry node. Currently, obtain, publish, and harvest are supported, with plans to implement slice in the near future.
 
 > Language: C# .Net
