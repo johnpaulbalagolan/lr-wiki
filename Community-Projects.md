@@ -184,3 +184,17 @@ Publish/Browse/Use BasicLTI tools from Moodle. The idea is to publish tools in L
 > * [Source Code](https://sourceforge.net/scm/?type=svn&group_id=388815) SVN
 
 > * Demo Video http://vimeo.com/32982697
+
+
+### LR-Data
+This is a small utility to help pull the data from the Learning Registry into a datastore of you choice.
+
+> Language: Python, RabbitMQ, Redis, Celery
+
+> License: Apache 2
+
+> Author: [Walt Grata](https://github.com/wegrata) ([ADL](https://github.com/adlnet/))
+
+> * [Source Code](https://github.com/adlnet/lr-data)
+
+> Type: Utility
