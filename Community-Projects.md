@@ -108,15 +108,26 @@ Java library for accessing core services for a node, including publishing and co
 > * [Source Code](https://github.com/navnorth/LRJavaLib)
 
 ### .Net LR Submit tool
-A .Net library with classes and functions to build and publish Resource Data Description Documents. Includes an example of writing paradata to the LR test nodes. Uses credentials in a .config files to sign and upload documents. 
+LR.Net is a client library for the Learning Registry project. It is written in C# and provides basic access to a Learning Registry node. Currently, obtain, publish, and harvest are supported, with plans to implement slice in the near future.
 
 > Language: C# .Net
 
 > License: Apache 2
 
-> Author: [Rob Chadwick, ADL] robert.chadwick.ctr@adlnet.gov (http://www.adlnet.gov/)
+> Author: [Rob Chadwick](robert.chadwick.ctr@adlnet.gov), [ADL](https://github.com/adlnet/), Austin Montoya, [ADL](https://github.com/adlnet/)
 
-> * [Source Code](https://github.com/rchadwic/.Net-Learning-Registry-Submit)
+> * [Source Code](https://github.com/adlnet/LR.Net)
+
+### LR Publisher
+LR Publisher is a graphical user interface designed for publishing resource description documents to a Learning Registry node. It is designed to ease with development and testing of the Learning Registry service APIs, as well as to familiarize new users to the data model of the LR.
+
+> Language: C# .Net
+
+> License: Apache 2
+
+> Author: Austin Montoya, [ADL](https://github.com/adlnet/)
+
+> * [Source Code](https://github.com/adlnet/lr-publisher)
 
 ### LRDataPump
 Harvests an OAI-PMH NSDL_DC repository and publishes as signed LR resource data to a specific node. Utility is designed to work as a differential task. Subsequent execution will harvest from the configured repository since the last successful harvest. Tool is also resumable, if for some reason a failure occurs, the next run will pick up harvesting where it left off, and not republish.
