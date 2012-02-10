@@ -33,7 +33,7 @@ Reducing size of data and cost/size of server
 * Integration/functional tests (use our existing framework)
 
 
-## Prototype elements and associated PT stories
+## Prototype Elements and Associated PT Stories
 
 ### Map/Extraction Functions: Standards alignment
 
@@ -44,7 +44,7 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * Give me all alignment data
 * Give me all aligned resources for a URL pattern / site
 
-> 1a Story (Jim): What defines "alignment data"?
+> 1a Story (Jim): [What defines "alignment data"?](https://www.pivotaltracker.com/story/show/24774751)
 
 * Anything that starts with "http://purl.org/ASN/resources/*"
 * XML with dct:conforms_to
@@ -54,7 +54,7 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * wiki article
 
 
-> 1a Story (Jim): How do we organize (pattern) the data so it can be accessed in a consistent manner
+> 1a Story (Jim): [How do we organize (pattern) the data so it can be accessed in a consistent manner](https://www.pivotaltracker.com/story/show/24785323)
 
 * by date
 * by sender
@@ -63,7 +63,7 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * by standard
 * related to API format definition
 
-> 1a Story (Jim): How to use the Java View Server to write the map functions?
+> 1a Story (Jim): [How to use the Java View Server to write the map functions?](https://www.pivotaltracker.com/story/show/24785651)
 
 * How to setup Maven
 * Java
@@ -71,7 +71,7 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * source code repository for views?
 * wiki article
 
-> 1b Story: How to use the JavaScript to write the map functions?
+> 1b Story: [How to use the JavaScript to write the map functions?](https://www.pivotaltracker.com/story/show/24785905)
 
 * Javascript
 * not rich query interface
@@ -90,13 +90,13 @@ Use restful-like interface but modified to support parameters
    * Model: http://lr-node/obtain_view/[view-name]/[primary-parameter]?sender=[value]
    * Live: http://lr-node/obtain_view/view-by-standards-url/http%3A%2F%2Fwww.youtube.com%3Fv%3Dxyzabc?sender=http%3A%2F%2Fpool.sks-keyservers.net%3A11371%2Fpks%2Flookup%3Fop%3Dget%26search%3D0xBFF13965146B1740
 
-> 1a Story (Walt/Jim): What is the API definition?
+> 1a Story (Walt/Jim): [What is the API definition?](https://www.pivotaltracker.com/story/show/24775061)
 
 * related to organize (pattern) data story
 * leverage CouchDB tools, but abstract the API to use them (e.g., how to use CouchDB List function/view/regex, so we may need abstract a way to pass arbitrary parameters (e.g., domain name regex) through API to a CouchDB List?)
 * unrestricted, but obivously no access to internal views
 
-> 6 Story (Austin, LM security): Define how to restrict access to the API
+> 6 Story (Austin, LM security): [Define how to restrict access to the API](https://www.pivotaltracker.com/story/show/24786655)
 
 * Define security
    * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
@@ -104,7 +104,7 @@ Use restful-like interface but modified to support parameters
    * role-based access (single role initially as discriminator)?
 * document in wiki
 
-> 6 Story (Austin): How to restrict access to the API?
+> 6 Story (Austin): [How to restrict access to the API?](https://www.pivotaltracker.com/story/show/24786785)
 
 * Implement security
    * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
@@ -120,12 +120,12 @@ Use restful-like interface but modified to support parameters
    * Ability to chain result sets together
    * Optional/bonus: Ability to submit result_data docs back into LR network
 
-> 1a Story (Walt, Dan): What is the result format for the service?
+> 1a Story (Walt, Dan): [What is the result format for the service?](https://www.pivotaltracker.com/story/show/24774765)
 
 * model obtain
 * wiki article 
 
-> 1a Story (Walt, Dan): What is the result format for the envelope?
+> 1a Story (Walt, Dan): [What is the result format for the envelope?](https://www.pivotaltracker.com/story/show/24774019)
 
 * model after resource_data, but with relaxed element definitions
 * doc_type="result_data"
