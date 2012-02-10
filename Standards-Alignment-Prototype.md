@@ -12,6 +12,7 @@
 
 ## Development Approach
 
+* Rapid prototyping producing documentation on GitHub wiki
 * Separate branch for standards alignment prototyping using pull request model
 * Part of the asynchronous development process is writing tests and doing code reviews
 
