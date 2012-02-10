@@ -76,20 +76,16 @@ Provide these capabilities (maybe one per view or maybe integrated):
 
 ### Calling / API format
 
- Use restful-like interface but modified to support parameters
-   Call it "obtain_view" (or suggest alt)
- Parameters include: Which map/extract to run, primary param (URL of
-resource or whatever), secondary params (provided after "?")
- Security / access
-   - Each map/extract design doc needs to hold an arbitrary parameter
-that describes if the map/extract is permitted to be accessed from the
-"obtain_view" interface (obtain_view must honor this)
-   - Possibly also enable access from "obtain_view" by convention of
-naming the map/extract view function with a particular prefix like
-"view-[name]" (e.g., "view-by-standards-url")
- Example:
-   Model: http://lr-node/obtain_view/[view-name]/[primary-parameter]?sender=[value]
-   Live: http://lr-node/obtain_view/view-by-standards-url/http%3A%2F%2Fwww.youtube.com%3Fv%3Dxyzabc?sender=http%3A%2F%2Fpool.sks-keyservers.net%3A11371%2Fpks%2Flookup%3Fop%3Dget%26search%3D0xBFF13965146B1740
+Use restful-like interface but modified to support parameters
+
+* Call it "obtain_view" (or suggest alt)
+* Parameters include: Which map/extract to run, primary param (URL of resource or whatever), secondary params (provided after "?")
+* Security / access
+   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
+   * Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
+* Example:
+   * Model: http://lr-node/obtain_view/[view-name]/[primary-parameter]?sender=[value]
+   * Live: http://lr-node/obtain_view/view-by-standards-url/http%3A%2F%2Fwww.youtube.com%3Fv%3Dxyzabc?sender=http%3A%2F%2Fpool.sks-keyservers.net%3A11371%2Fpks%2Flookup%3Fop%3Dget%26search%3D0xBFF13965146B1740
 
 > 1a Story (Walt/Jim): What is the API definition?
 
