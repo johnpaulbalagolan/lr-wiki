@@ -1,13 +1,16 @@
 Priorities:
+
 1. Get data services working (project elements described below)
 1.1. Just get alignment data going
-1. All the features we discussed today...
-1. Get a trimmed down node running w/out slice -- ready for development. Install data services on it - show it works. (This is a question - I think this step make sense)
-1. Prove out test cases on this work
-1.1.  Get docs in shape for examples and code lib
-1.1. Get one more example data service going: maybe ratings
-1.1. Get replicate working better (including this stuff but also pull-replicate)
-1.1. Get publish signing on a node working
+1.1. All the features we discussed today...
+1. Get a trimmed down node running w/out slice -- ready for development. Install data services on it - show it works. (This is a question - I think this step make sense) (Lou, modify install should map services and associated view dependencies, so that if xyz services are installed, only xyz views are installed)
+1. Prove out test cases on this work (Joe, Susan, Aaron, Agilix)
+1. Get docs in shape for examples and code lib (Lou, Damon, Simulator)
+1. Get one more example data service going: maybe ratings
+1. Get replicate working better (including this stuff but also pull-replicate) (Get Lou smart on Jim's approach)
+1. Get publish signing on a node working (Austin, + version 2 of signing algorithm -- address data that can't be bencoded, switch to tagged-data? as a new spec, or use protocol buffers)
+
+Separate branch for standards alignment prototyping using pull request model
 
 Map/Extraction Functions: Standards alignment
  Provide these capabilities (maybe one per view or maybe integrated):
@@ -36,6 +39,7 @@ Map/Extraction Functions: Standards alignment
 * How to setup Maven
 * Java
 * not rich query interface
+* source code repository for views?
 * wiki article
 
 1b Story: How to use the JavaScript to write the map functions?
