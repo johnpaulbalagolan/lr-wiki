@@ -16,14 +16,14 @@
 * Separate branch for standards alignment prototyping using pull request model
 * Part of the asynchronous development process is writing tests and doing code reviews
 
-### Design goal: Reduce server cost, improve performance, reduce resource allocation
+### Design Goal: Reduce Server Cost, Improve Performance, Reduce Resource Allocation
 
 Reducing size of data and cost/size of server
 
 * Data results window size needs to be small
-* Going to EBS for disk storage
+* Going to Amazon [Elastic Block Storage (EBS)](http://aws.amazon.com/ebs/) for disk storage
 
-### Design goal: Simplicity
+### Design Goal: Simplicity
 
 * Every step can be done with curl
 
@@ -35,7 +35,7 @@ Reducing size of data and cost/size of server
 
 ## Prototype Elements and Associated PT Stories
 
-### Map/Extraction Functions: Standards alignment
+### Map/Extraction Functions: Standards Alignment
 
 Provide these capabilities (maybe one per view or maybe integrated):
 
@@ -52,7 +52,6 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * validate with Joe and Brian to identify rules of thumb
 * define regex
 * wiki article
-
 
 > 1.1 Story (Jim): [How do we organize (pattern) the data so it can be accessed in a consistent manner](https://www.pivotaltracker.com/story/show/24785323)
 
@@ -77,7 +76,7 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * not rich query interface
 * wiki article
 
-### Calling / API format
+### Calling / API Format
 
 Use restful-like interface but modified to support parameters
 
@@ -111,7 +110,7 @@ Use restful-like interface but modified to support parameters
    * Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
    * role-based access
 
-### Result formats
+### Result Formats
 
 * Use obtain result format
    * Relax certain LR envelope elements for output by creating a new envelope doc_type: "result_data"
@@ -131,7 +130,7 @@ Use restful-like interface but modified to support parameters
 * doc_type="result_data"
 * wiki article
 
-### Filter Functions: Standards alignment and/or general purpose
+### Filter Functions: Standards Alignment and/or General Purpose
 
 * Examine whether performance requires some filters to be map/extractions.
    * Filter by sender
@@ -139,7 +138,7 @@ Use restful-like interface but modified to support parameters
 
 > Addressed in above 1a story (organize data, API definition)
 
-### View server
+### View Server
 
 * Templates for view
    * Helper functions and other templatizing tools
@@ -154,7 +153,7 @@ Use restful-like interface but modified to support parameters
 
 ## Second project: Submission envelopes signing by nodes
 
-### Signing submissions via node
+### Signing Submissions via Node
 
 * Wizard for creating public/private keys and uploading to key servers
 * Associate public/private keys to basic_auth login users
