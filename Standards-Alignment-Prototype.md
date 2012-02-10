@@ -1,4 +1,4 @@
-## Priorities:
+## Priorities
 
 1. Get data services working (project elements described below)
    1. Just get alignment data going
