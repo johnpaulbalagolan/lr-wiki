@@ -34,13 +34,14 @@ Reducing size of data and cost/size of server
 
 ### Map/Extraction Functions: Standards alignment
 
- Provide these capabilities (maybe one per view or maybe integrated):
-   Give me all standards aligned to URL/resource
-   Give me all URLs associated with a standard
-   Give me all alignment data
-   Give me all aligned resources for a URL pattern / site
+Provide these capabilities (maybe one per view or maybe integrated):
 
-> 1a Story: What defines "alignment data"?
+* Give me all standards aligned to URL/resource
+* Give me all URLs associated with a standard
+* Give me all alignment data
+* Give me all aligned resources for a URL pattern / site
+
+> 1a Story (Jim): What defines "alignment data"?
 
 * Anything that starts with "http://purl.org/ASN/resources/*"
 * XML with dct:conforms_to
@@ -48,6 +49,7 @@ Reducing size of data and cost/size of server
 * validate with Joe and Brian to identify rules of thumb
 * define regex
 * wiki article
+
 
 > 1a Story (Jim): How do we organize (pattern) the data so it can be accessed in a consistent manner
 
