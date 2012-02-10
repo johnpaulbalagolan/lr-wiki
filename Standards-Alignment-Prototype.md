@@ -44,7 +44,7 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * Give me all alignment data
 * Give me all aligned resources for a URL pattern / site
 
-> 1a Story (Jim): [What defines "alignment data"?](https://www.pivotaltracker.com/story/show/24774751)
+> 1.1 Story (Jim): [What defines "alignment data"?](https://www.pivotaltracker.com/story/show/24774751)
 
 * Anything that starts with "http://purl.org/ASN/resources/*"
 * XML with dct:conforms_to
@@ -54,7 +54,7 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * wiki article
 
 
-> 1a Story (Jim): [How do we organize (pattern) the data so it can be accessed in a consistent manner](https://www.pivotaltracker.com/story/show/24785323)
+> 1.1 Story (Jim): [How do we organize (pattern) the data so it can be accessed in a consistent manner](https://www.pivotaltracker.com/story/show/24785323)
 
 * by date
 * by sender
@@ -71,7 +71,7 @@ Provide these capabilities (maybe one per view or maybe integrated):
 * source code repository for views?
 * wiki article
 
-> 1b Story: [How to use the JavaScript to write the map functions?](https://www.pivotaltracker.com/story/show/24785905)
+> 1.2 Story: [How to use the JavaScript to write the map functions?](https://www.pivotaltracker.com/story/show/24785905)
 
 * Javascript
 * not rich query interface
@@ -90,7 +90,7 @@ Use restful-like interface but modified to support parameters
    * Model: http://lr-node/obtain_view/[view-name]/[primary-parameter]?sender=[value]
    * Live: http://lr-node/obtain_view/view-by-standards-url/http%3A%2F%2Fwww.youtube.com%3Fv%3Dxyzabc?sender=http%3A%2F%2Fpool.sks-keyservers.net%3A11371%2Fpks%2Flookup%3Fop%3Dget%26search%3D0xBFF13965146B1740
 
-> 1a Story (Walt/Jim): [What is the API definition?](https://www.pivotaltracker.com/story/show/24775061)
+> 1.1 Story (Walt/Jim): [What is the API definition?](https://www.pivotaltracker.com/story/show/24775061)
 
 * related to organize (pattern) data story
 * leverage CouchDB tools, but abstract the API to use them (e.g., how to use CouchDB List function/view/regex, so we may need abstract a way to pass arbitrary parameters (e.g., domain name regex) through API to a CouchDB List?)
@@ -120,12 +120,12 @@ Use restful-like interface but modified to support parameters
    * Ability to chain result sets together
    * Optional/bonus: Ability to submit result_data docs back into LR network
 
-> 1a Story (Walt, Dan): [What is the result format for the service?](https://www.pivotaltracker.com/story/show/24774765)
+> 1.1 Story (Walt, Dan): [What is the result format for the service?](https://www.pivotaltracker.com/story/show/24774765)
 
 * model obtain
 * wiki article 
 
-> 1a Story (Walt, Dan): [What is the result format for the envelope?](https://www.pivotaltracker.com/story/show/24774019)
+> 1.1 Story (Walt, Dan): [What is the result format for the envelope?](https://www.pivotaltracker.com/story/show/24774019)
 
 * model after resource_data, but with relaxed element definitions
 * doc_type="result_data"
