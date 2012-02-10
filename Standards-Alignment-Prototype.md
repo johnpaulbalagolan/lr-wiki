@@ -151,7 +151,7 @@ Use restful-like interface but modified to support parameters
 
 > 4 Story (TBD): Host simulator
 
-## Second project: Submission envelopes signing by nodes
+## Second Project: Submission Envelopes Signing by Nodes
 
 ### Signing Submissions via Node
 
