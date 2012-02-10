@@ -1,9 +1,9 @@
 ## Priorities:
 
 1. Get data services working (project elements described below)
-1. Just get alignment data going
+   1. Just get alignment data going
    1. All the features we discussed today...
-   1. Get a trimmed down node running w/out slice -- ready for development. Install data services on it - show it works. (This is a question - I think this step make sense) (Lou, modify install should map services and associated view dependencies, so that if xyz services are installed, only xyz views are installed)
+1. Get a trimmed down node running w/out slice -- ready for development. Install data services on it - show it works. (This is a question - I think this step make sense) (Lou, modify install should map services and associated view dependencies, so that if xyz services are installed, only xyz views are installed)
 1. Prove out test cases on this work (Joe, Susan, Aaron, Agilix)
 1. Get docs in shape for examples and code lib (Lou, Damon, Simulator)
 1. Get one more example data service going: maybe ratings
