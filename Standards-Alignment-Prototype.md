@@ -22,7 +22,9 @@ Reducing size of data and cost/size of server
 
 * Data results window size needs to be small
 * Going to EBS for disk storage
-* Design goal: Simplicity
+
+### Design goal: Simplicity
+
 * Every step can be done with curl
 
 ### Tests
