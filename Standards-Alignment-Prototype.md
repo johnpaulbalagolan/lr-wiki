@@ -96,29 +96,26 @@ Use restful-like interface but modified to support parameters
 > 6 Story (Austin, LM security): Define how to restrict access to the API
 
 * Define security
-** Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
-** Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
-** role-based access (single role initially as discriminator)?
-* wiki article documenting API
+   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
+   * Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
+   * role-based access (single role initially as discriminator)?
+* document in wiki
 
 > 6 Story (Austin): How to restrict access to the API?
 
 * Implement security
-** Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
-** Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
-** role-based access
+   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
+   * Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
+   * role-based access
 
 ### Result formats
 
- Use obtain result format
-   Relax certain LR envelope elements for output by creating a new
-envelope doc_type: "result_data"
-   "result_data" doc_type would have compatibility with
-"resource_data" but used for returning data which are composites of
-inputs
- Design goals include:
-   Ability to chain result sets together
-   Optional/bonus: Ability to submit result_data docs back into LR network
+* Use obtain result format
+   * Relax certain LR envelope elements for output by creating a new envelope doc_type: "result_data"
+   * "result_data" doc_type would have compatibility with "resource_data" but used for returning data which are composites of inputs
+* Design goals include:
+   * Ability to chain result sets together
+   * Optional/bonus: Ability to submit result_data docs back into LR network
 
 > 1a Story (Walt, Dan): What is the result format for the service?
 
@@ -133,20 +130,20 @@ inputs
 
 ### Filter Functions: Standards alignment and/or general purpose
 
- Examine whether performance requires some filters to be map/extractions.
-   Filter by sender
-   Filter by date
+* Examine whether performance requires some filters to be map/extractions.
+   * Filter by sender
+   * Filter by date
 
 > Addressed in above 1a story (organize data, API definition)
 
 ### View server
 
- Templates for view
-   Helper functions and other templatizing tools
-   How-to examples
- Java view server
-   Performance: make sure >= javascript view server
- Maybe provide javascript view servers templates as learning examples
+* Templates for view
+   * Helper functions and other templatizing tools
+   * How-to examples
+* Java view server
+   * Performance: make sure >= javascript view server
+* Maybe provide javascript view servers templates as learning examples
 
 > 4 Story (Jim): Provide example map functions in simulator
 
@@ -156,8 +153,7 @@ inputs
 
 ### Signing submissions via node
 
- Wizard for creating public/private keys and uploading to key servers
- Associate public/private keys to basic_auth login users
- Signing code on submission inside node
-   Could sign all stuff with a single node public/private key and
-associate basic_auth credentials as "signed on behalf of"
+* Wizard for creating public/private keys and uploading to key servers
+* Associate public/private keys to basic_auth login users
+* Signing code on submission inside node
+   * Could sign all stuff with a single node public/private key and associate basic_auth credentials as "signed on behalf of"
