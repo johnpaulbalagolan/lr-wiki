@@ -7,7 +7,7 @@
 1. Prove out test cases on this work (Joe, Susan, Aaron, Agilix)
 1. Get docs in shape for examples and code lib (Lou, Damon, Simulator)
 1. Get one more example data service going: maybe ratings (Jim)
-1. Get replicate working better (including this stuff but also pull-replicate) (Get Lou smart on Jim's approach)
+1. Get replicate working better (including Jim's idea, but also pull-replicate) (Get Lou smart on Jim's approach)
 1. Get publish signing on a node working (Austin, + version 2 of signing algorithm -- address data that can't be bencoded, switch to tagged-data? as a new spec, or use protocol buffers)
 
 ## Development Approach
