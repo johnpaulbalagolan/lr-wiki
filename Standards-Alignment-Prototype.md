@@ -9,8 +9,8 @@
 1. Get one more example data service going: maybe ratings (Jim)
 1. Get replicate working better (including Jim's idea, but also pull-replicate) (Get Lou smart on Jim's approach)
    1. Make replication meet the goals of the spec (security, data integrity) -- clarify anything in the code or spec that is not clear
-   1. Jim's idea of using incoming databases and conditional change monitor behavior (address security, data integrity, and duplicate document/disk space issues)
-   1. Address pull replication: Jim's idea: Service allows a node to subscribe for push from a different node
+      1. Jim's idea of using incoming databases and conditional change monitor behavior (address security, data integrity, and duplicate document/disk space issues)
+      1. Address pull replication: Jim's idea: Service allows a node to subscribe for push from a different node
 1. Get publish signing on a node working (Austin, + version 2 of signing algorithm -- address data that can't be bencoded, switch to tagged-data? as a new spec, or use protocol buffers)
 
 ## Development Approach
