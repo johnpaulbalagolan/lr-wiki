@@ -24,6 +24,8 @@ Please add links to your examples for using the Learning Registry on this page.
 * Harvest (metadata formats) - https://node01.public.learningregistry.net/harvest/listmetadataformats
 * Harvest (harvest endpoint) - https://node01.public.learningregistry.net/harvest/identify
 * Obtain - https://node01.public.learningregistry.net/obtain
+* Obtain (by URL) - https://node02.public.learningregistry.net/obtain?request_id=ftp://cdiac.ornl.gov/pub/ndp001/ndp001.pdf
+* Obtain (by ID) - http://sandbox.learningregistry.org/obtain?request_id=77d1e7a401da4dd7b00806d37ac7d81a&by_doc_ID=T
 * Services - https://node01.public.learningregistry.net/services
 * Slice (tags) - https://node01.public.learningregistry.net/slice?any_tags=science
 * Slice (identity) - https://node01.public.learningregistry.net/slice?identity=ADL
