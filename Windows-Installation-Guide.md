@@ -159,7 +159,7 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * Right click on the **nginx-1.1.11.zip** file, and click **Extract All...**
      * Click **Browse...** and navigate to **C:/** then click **OK**
      * Click **Extract**  
-2. Stop Internet Information Services (ISS)
+2. Stop Internet Information Services (IIS)
      * Click **Start** then search for **IIS**
      * Open the **IIS Manager** and click **Stop** on the right hand side under **Manage Server**
 3. Copy Source Files into Nginx Configuration Directory
