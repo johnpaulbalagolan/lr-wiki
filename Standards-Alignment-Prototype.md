@@ -2,7 +2,7 @@
 
 1. Get data services working (project elements described below) (Jim and Walt)
    1. Just get alignment data going
-   1. All the features we discussed today...
+   1. All the features discussed (e.g., other languages, restricted access)...
 1. Get a trimmed down node running w/out slice -- ready for development. Install data services on it - show it works. (Lou)
    1. Modify install should map services and associated view dependencies, so that if xyz services are installed, only xyz views are installed
 1. Prove out test cases on this work (Joe, Susan, Aaron, Agilix)
