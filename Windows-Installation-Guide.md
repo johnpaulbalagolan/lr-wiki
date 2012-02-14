@@ -108,7 +108,7 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * If you receive an error please review the Troubleshooting [page](https://github.com/LearningRegistry/LearningRegistry/wiki/Troubleshooting)
 7. Run the command `nmake` to build all of the YAJL files
      * If successful, you will not get any error messages
-8. Open your **Windows Explorer** and navigate to **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src/lib**
+8. Open your **Windows Explorer** and navigate to **[Directory]\Python27\Lib\lloyd-yajl-17b1790\build\src\lib**
 9. Copy the **yajl.dll** file and paste it into **C:\Windows\SysWOW64**-for 32 bits windows XP into **C:\Windows\system32**
      * To check if successful, open the Windows Command Prompt
      * Run the command `python`, then `import ijson`
