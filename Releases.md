@@ -1,3 +1,15 @@
+## 2012 TBD - Basic Standards Alignment Prototype
+
+* Announcement
+* Release notes
+* GitHub Milestone: https://github.com/LearningRegistry/LearningRegistry/issues?milestone=6
+
+## 2012 TBD - LR v0.23.6
+
+* Announcement
+* Release notes
+* GitHub Milestone: https://github.com/LearningRegistry/LearningRegistry/issues?milestone=5
+
 ## 2012 February 7 - LR v0.23.5
 
 * [Announcement](http://groups.google.com/group/learningregistry/browse_thread/thread/c12b0109778357be?hl=en)
