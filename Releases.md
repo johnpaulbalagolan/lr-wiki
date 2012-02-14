@@ -1,4 +1,4 @@
-## 2012 February 29, 2012 - Basic Standards Alignment Prototype
+## 2012 February 29 - Basic Standards Alignment Prototype
 
 * Announcement
 * Release notes
