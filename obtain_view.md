@@ -11,7 +11,6 @@ This may need expanded to allow for multiple keys.
 
 ## Response Format
 
-`{
-    "documents":[]
-
-}`
+    {
+        "documents":[...]
+    }
