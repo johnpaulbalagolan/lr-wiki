@@ -3,15 +3,15 @@
 1. Get data services working (project elements described below)
    1. Just get alignment data going
    1. All the features we discussed today...
-1. Get a trimmed down node running w/out slice -- ready for development. Install data services on it - show it works. (This is a question - I think this step make sense) (Lou, modify install should map services and associated view dependencies, so that if xyz services are installed, only xyz views are installed)
+1. Get a trimmed down node running w/out slice -- ready for development. Install data services on it - show it works. (Lou, modify install should map services and associated view dependencies, so that if xyz services are installed, only xyz views are installed)
 1. Prove out test cases on this work (Joe, Susan, Aaron, Agilix)
-1. Get docs in shape for examples and code lib (Lou, Damon, Simulator)
+1. Get docs in shape for examples and code lib (Damon, Simulator)
 1. Get one more example data service going: maybe ratings (Jim)
-1. Get replicate working better (including Jim's idea, but also pull-replicate) (Get Lou smart on Jim's approach)
+1. Get replicate working better (Lou/John)
    1. Make replication meet the goals of the spec (security, data integrity) -- clarify anything in the code or spec that is not clear
       1. Consider Jim's idea of using incoming databases and conditional change monitor behavior (address security, data integrity, and duplicate document/disk space issues)
-      1. Consider Address pull replication: Jim's idea: Service allows a node to subscribe for push from a different node
-1. Get publish signing on a node working (Austin, + version 2 of signing algorithm -- address data that can't be bencoded, switch to tagged-data? as a new spec, or use protocol buffers)
+      1. Consider pull replication via Jim's idea to develop a service that allows a node to subscribe for push from a different node
+1. Get publish signing on a node working (Austin)
 
 ## Development Approach
 
@@ -34,7 +34,6 @@ Reducing size of data and cost/size of server
 
 * Unit tests for components (may be language specific, using new or existing frameworks - should be callable from our overall test runner)
 * Integration/functional tests (use our existing framework)
-
 
 ## Prototype Elements and Associated PT Stories
 
