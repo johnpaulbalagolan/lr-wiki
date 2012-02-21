@@ -83,14 +83,14 @@ Provide these capabilities (maybe one per view or maybe integrated):
 
 Use restful-like interface but modified to support parameters
 
-* Call it "obtain_view" (or suggest alt)
+* Call it "extract"
 * Parameters include: Which map/extract to run, primary param (URL of resource or whatever), secondary params (provided after "?")
 * Security / access
-   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
-   * Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
+   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "extract" interface (extract must honor this)
+   * Possibly also enable access from "extract" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
 * Example:
-   * Model: http://lr-node/obtain_view/[view-name]/[primary-parameter]?sender=[value]
-   * Live: http://lr-node/obtain_view/view-by-standards-url/http%3A%2F%2Fwww.youtube.com%3Fv%3Dxyzabc?sender=http%3A%2F%2Fpool.sks-keyservers.net%3A11371%2Fpks%2Flookup%3Fop%3Dget%26search%3D0xBFF13965146B1740
+   * Model: http://lr-node/extract/[view-name]/[primary-parameter]?sender=[value]
+   * Live: http://lr-node/extract/view-by-standards-url/http%3A%2F%2Fwww.youtube.com%3Fv%3Dxyzabc?sender=http%3A%2F%2Fpool.sks-keyservers.net%3A11371%2Fpks%2Flookup%3Fop%3Dget%26search%3D0xBFF13965146B1740
 
 > 1.1 Story (Walt/Jim): [What is the API definition?](https://www.pivotaltracker.com/story/show/24775061)
 
@@ -101,21 +101,22 @@ Use restful-like interface but modified to support parameters
 > 6 Story (Austin, LM security): [Define how to restrict access to the API](https://www.pivotaltracker.com/story/show/24786655)
 
 * Define security
-   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
-   * Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
+   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "extract" interface (extract must honor this)
+   * Possibly also enable access from "extract" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
    * role-based access (single role initially as discriminator)?
 * document in wiki
 
 > 6 Story (Austin): [How to restrict access to the API?](https://www.pivotaltracker.com/story/show/24786785)
 
 * Implement security
-   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "obtain_view" interface (obtain_view must honor this)
-   * Possibly also enable access from "obtain_view" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
+   * Each map/extract design doc needs to hold an arbitrary parameter that describes if the map/extract is permitted to be accessed from the "extract" interface (extract must honor this)
+   * Possibly also enable access from "extract" by convention of naming the map/extract view function with a particular prefix like "view-[name]" (e.g., "view-by-standards-url")
    * role-based access
 
 ### Result Formats
 
 * Use obtain result format
+   * NOTE: Dan suggests that a new result format is not required/desirable. 
    * Relax certain LR envelope elements for output by creating a new envelope doc_type: "result_data"
    * "result_data" doc_type would have compatibility with "resource_data" but used for returning data which are composites of inputs
 * Design goals include:
@@ -129,6 +130,7 @@ Use restful-like interface but modified to support parameters
 
 > 1.1 Story (Walt, Dan): [What is the result format for the envelope?](https://www.pivotaltracker.com/story/show/24774019)
 
+* NOTE: Dan suggests new doc_type not a good idea..
 * model after resource_data, but with relaxed element definitions
 * doc_type="result_data"
 * wiki article
