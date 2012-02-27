@@ -1,4 +1,4 @@
-#Cron job to update views hourly
+# Cron job to update views hourly
 
 ## Python script
 
