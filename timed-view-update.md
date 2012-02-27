@@ -1,4 +1,8 @@
-# The following python script will update all design documents in the specified CouchDB database
+# Python script
+
+The following python script will update all design documents in the specified CouchDB database
+
+
     #!/usr/bin/env python
     import couchdb
     import json
