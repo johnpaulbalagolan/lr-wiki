@@ -1,4 +1,6 @@
-# Python script
+#Cron job to update views hourly
+
+## Python script
 
 The following python script will update all design documents in the specified CouchDB database
 
@@ -36,7 +38,7 @@ The following python script will update all design documents in the specified Co
             time.sleep(1)
     if __name__ == '__main__':
         main()
-# Cron Job
+## Cron Job
 
 To Run the above script as a crob job run 
 
