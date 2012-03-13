@@ -18,7 +18,7 @@ Please add links to your examples for using the Learning Registry on this page.
 * [LR Envelope Example](LR Envelope Example)
 * [NSDL_DC Example](NSDL-DC-Example)
 
-## Query Examples
+## API Examples
 * Description - https://node01.public.learningregistry.net/description
 * Harvest (by ID) - https://node01.public.learningregistry.net/harvest/getrecord?request_ID=4ebf25ff043841f48f5c0d61ffdf5d81&by_doc_ID=true
 * Harvest (metadata formats) - https://node01.public.learningregistry.net/harvest/listmetadataformats
