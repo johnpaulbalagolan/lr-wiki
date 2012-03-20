@@ -16,10 +16,6 @@ The installation instructions below the steps to get a new Learning Registry nod
 
 _NOTE: Some code changes had to be made for Windows' machines. Once these have been fully tested and published the doc will be updated to grab the changes to ensure a successful installation._
 
-# Prerequisites 
-
-_**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual C++ 2008 Express since it is available for everyone: If you already have full versions of either Visual Studio 2008 or Visual Studio 2010 you can skip the installation step of Visual C++ 2008 Express.**_
-
 #### 1. Install Git
 * Install **Git** [here](http://code.google.com/p/msysgit/downloads/detail?name=Git-1.7.7.1-preview20111027.exe&amp;can=2&amp;q=)
 * Click **Run** and follow setup instructions
@@ -31,24 +27,6 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * Select **Use Git Bash Only** and click **Next**
      * Select **Checkout Windows-style, commit Unix-style line endings** and click **Next**
      * Click **Finish**
-
-#### 2. CMake
-* Go [here](http://www.cmake.org/cmake/resources/software.html) and download the **cmake-2.8.6-win32-x86.exe** file
-* Click **Run** and follow setup instructions
-     * Click **Next**
-     * Click **I Agree**
-     * Choose **Add CMake to the system PATH for all users** and click **Next**
-     * If you would like to change the **Destination Folder** for installation click **Browse...** else just click Next
-     * Type a new name for the **Start Menu folder** if you'd like, else just click **Install**
-     * Click **Finish**
-     * Click **I have read and accept the license terms** and click **Next**
-
-#### 3. Visual C++ 2008 Express Edition (C/C++ Compiler)
-* Go [here](http://www.microsoft.com/visualstudio/en-us/products/2008-editions/express) and click **Visual C++ Express Edition with SP1**
-* Select your language and click **Free Download**
-* Click **Run** and follow setup instructions
-     * Click **Next**
-     * Click **Install**
      
 # Python
 ## Python 2.7.2 32-bit
@@ -94,22 +72,14 @@ _**A pre-existing C/C++ compiler must exist on your machine. We recommend Visual
      * Click **Finish**
 
 ## YAJL
-1. Visit [here](http://lloyd.github.com/yajl/) and download **yajl-1.0.12.zip**
-     * Go into your **Downloads** folder and find the **lloyd-yajl-1.0.12.zip** file
-     * Right click on the **lloyd-yajl-1.0.12.zip** file, and click **Extract All...**
-     * Click **Browse...** and navigate to **[Directory]\Python27\Lib** then click **OK**
-     * Click **Extract**
-2. Open your Visual C++ (or Studio) Command Prompt (**Start** -> search for **Visual Command Prompt**)
-3. Navigate to where you extracted the YAJL files - **[Directory]/Python27/Lib/lloyd-yajl-17b1790/src** - using the **cd** command
-4. Make a build directory using the command `mkdir build`
-5. Navigate into the build directory using the command `cd build`
-6. Run the command `cmake -G"NMake Makefiles" -DCMAKE_BUILD_TYPE=Release ..`
-     * If successful, the prompt should display **Build files have been written to : [Directory]/Python27/Lib/lloyd-yajl-17b1790/src/build**
-     * If you receive an error please review the Troubleshooting [page](https://github.com/LearningRegistry/LearningRegistry/wiki/Troubleshooting)
-7. Run the command `nmake` to build all of the YAJL files
-     * If successful, you will not get any error messages
-8. Open your **Windows Explorer** and navigate to **[Directory]\Python27\Lib\lloyd-yajl-17b1790\src\lib**
-9. Copy the **yajl.dll** file and paste it into **C:\Windows\SysWOW64**-for 32 bits windows XP into **C:\Windows\system32**
+1. Visit [our download page](https://github.com/LearningRegistry/LearningRegistry/downloads) and download **YAJL_Win7_x64_Intel.zip**
+2. After you extract the files, you should see the **yajl.dll** and **yajl_license.txt**. The DLL has been tested in:
+     * Windows 7 (32 and 64)
+     * Windows Vista (32 and 64)
+     * Windows XP (32 and 64)
+     * Windows Server 2008 (32 and 64)
+
+3. Copy the **yajl.dll** file and paste it into **C:\Windows\SysWOW64** (in a 64 bit system). For 32 bit systems paste it into **C:\Windows\system32**
      * To check if successful, open the Windows Command Prompt
      * Run the command `python`, then `import ijson`
      * If there are no errors YAJL has been successfully installed
