@@ -2,9 +2,7 @@ In much the same way that the original developers of the Internet chose not to s
 
 Here are some of the more common schema in use currently within the Learning Registry:
 
-Dublin Core
-***
-
+## Dublin Core
 
 A very flexible metadata standard for describing a full range of web resources. Within the LR, the nsdl_dc variant is a very popular schema extension for describing the educational aspects of resources, including standards alignment data.
 
