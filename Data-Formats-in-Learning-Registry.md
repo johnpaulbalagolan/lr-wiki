@@ -2,14 +2,14 @@ In much the same way that the original developers of the Internet chose not to s
 
 Here are some of the more common schema in use currently within the Learning Registry:
 
-### Dublin Core
+## Dublin Core
 
 A very flexible metadata standard for describing a full range of web resources. Within the LR, the nsdl_dc variant is a very popular schema extension for describing the educational aspects of resources, including standards alignment data.
 
     more information on nsdl_dc: http://nsdl.org/contribute/metadata-guide
     Example: http://goo.gl/jYpgY
 
-**Learning Object Metadata (LOM)**
+## Learning Object Metadata (LOM)
 
 LOM is a common method for exchanging metadata about learning resources, with the aim towards supporting reusability. One data variant that uses LOM as a base for its metadata is the Learning Resource Exchange (LRE). With over 500,000 records in the Learning Registry using this schema,
 
@@ -17,14 +17,14 @@ LOM is a common method for exchanging metadata about learning resources, with th
     example: http://goo.gl/mkyGI
 
 
-**NSDL comm_para**
+## NSDL comm_para
 
 The comm_para XML schema was developed by NSDL as a means of capturing the use of a resource (e.g. downloadd, favorited, rated, etc). It is particularly useful in reporting aggregate usage information across a date range using a controlled vocabulary.
 
     more information on comm_para: https://wiki.ucar.edu/x/86qrB
     example: http://goo.gl/f0q1Y
 
-**LR Paradata**
+## LR Paradata
 
 Based on the Activity Streams specification, the Learning Registry core team developed the LR Paradata JSON-based schema for sharing usage information about resources. The flexibility of this approach allows for an open vocabulary and lends itself well to reporting on single user actions in real-time. This format is also being used to publish assertions about people and resources in the system to establish, trust, similarity, and resource updates.
 
