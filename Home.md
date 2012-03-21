@@ -16,6 +16,8 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * [Known Nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/Known-Nodes) - A list of known LR nodes.
 
+* [Common Data Schema Formats in Learning Registry](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) - Examples of common data schema formats used in Learning Registry. Note: LR is data schema agnostic.
+
 * [Publishing guidance using OAI-PMH](http://goo.gl/yOihy) - A short Google Doc with code examples and links to working code projects to pull data from OAI-PMH repositories and push the data into the Learning Registry.
 
 > If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
