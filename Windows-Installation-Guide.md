@@ -144,7 +144,11 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
      * Browse to **C:\nginx-1.1.11\conf** and open **nginx.conf**
      * Inside the **server** braces there is another set of braces for **location**, remove the lines **root    html;** and **index   index.html index.htm;**
      * Add the line **include   learningregistry_cgi/fastcgi_params;** and save the file
-5. Start Nginx
+5. You may have to change the IP address Nginx is looking at for couch
+     * Get your IP Address by running the `ipconfig` command
+     * Open the learningregistry config file **[Directory]\nginx-1.1-11\conf\sites-available\learningregistry**
+     * Change the IP address under the server directive to your IP. The line to change will be **listen xxx.xxx.xx.xxx:5984;**
+6. Start Nginx
      * Open the Windows command prompt and navigate to **C:\nginx-1.1.11**
      * Run the command `start nginx`
 
@@ -163,3 +167,4 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
 
 ## Start Application Server 
 1. While still in the LR directory, run the command `paster serve development.ini`
+2. Visit [here](http://localhost) and make sure you can see the LR splash page
