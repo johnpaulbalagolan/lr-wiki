@@ -99,6 +99,9 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
      * Make sure **Python Version 2.7** is highlighted and click **Next**
      * Click **Next** again to begin the install
      * Click **Finish** when done
+3. Now that Py2exe and Pywin32 are both installed on your machine, you need to copy their files inside of your virtualenv 
+     * Open your Python site-packages folder in Windows Explorer and copy all of the files and folders **[Directory]\Python27\Lib\site-packages**
+     * Paste everything into your virtualenv site-packages folder **[Directory]\virtualenv\lr\Lib\site-packages**
 
 # CouchDB
 ## CouchDB 1.1.1
@@ -113,7 +116,8 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
 2. Make sure CouchDB is running correctly by going [here](http://localhost:5984), you should see **{"couchdb":"Welcome","version":"1.1.1"}**
 
 ## CouchApp
-1.  Enter the command `pip install couchapp`
+1. Enter the command `pip install couchdb`  (Be sure you are inside your virtualenv)
+2. Enter the command `pip install couchapp` (Be sure you are inside your virtualenv)
 
 # Checkout Learning Registry Source Code
 1. Open the **Git Bash** (**Start** -> search for **Git Bash**)
@@ -129,7 +133,7 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
      * Right click on the **nginx-1.1.11.zip** file, and click **Extract All...**
      * Click **Browse...** and navigate to **C:/** then click **OK**
      * Click **Extract**  
-2. Stop Internet Information Services (IIS)
+2. Stop Internet Information Services (IIS) - if you have it installed
      * Click **Start** then search for **IIS**
      * Open the **IIS Manager** and click **Stop** on the right hand side under **Manage Server**
 3. Copy Source Files into Nginx Configuration Directory
@@ -154,9 +158,8 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
 
 ## Install the LR Node
 1. Navigate back to the main LR directory
-2. Navigate to the lr directory
-3. Run the command `python setup.py install`
-4. When finished you should receive a message displaying, **Finished processing dependencies for LR==0.1dev**
+2. Run the command `python setup.py install`
+3. When finished you should receive a message displaying, **Finished processing dependencies for LR==0.1dev**
 
 ## Start Application Server 
 1. While still in the LR directory, run the command `paster serve development.ini`
