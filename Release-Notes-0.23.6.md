@@ -25,6 +25,11 @@ Below find the key features addressed in this release.
 * Many Bug fixes
   - See details on the [0.23.6 Milestone Closed Issues](https://github.com/LearningRegistry/LearningRegistry/issues?milestone=5&state=closed) 
 
+### Minimum Requirements
+* Linux/Windows OS
+* NGINX w/ uwsgi support
+* Python 2.7.3 (+setuptools; +virtualenv)
+* CouchDB 1.1.1 (1.2.0 Recommended)
 
 ### Commits
 
