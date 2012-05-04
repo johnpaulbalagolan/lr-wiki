@@ -1,3 +1,5 @@
+# DRAFT - FOR REVIEW ONLY.
+
 ### Overview
 
 The 0.23.6 release is a strongly recommended upgrade for ALL Learning Registry node deployments, as certain features to done to make distribution more spec compliant will cause full distribute functionality to fail.
