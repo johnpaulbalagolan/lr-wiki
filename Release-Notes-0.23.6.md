@@ -19,7 +19,7 @@ Below find the key features addressed in this release.
   - Upgrade will require some minor configuration changes to NGINX to change or expose incoming endpoint.
   - **IMPORTANT** Legacy nodes can distribute to a 0.23.6 by adjusting service documents to use the incoming endpoint. Legacy cannot be the destination for a 0.23.6 server. 
 * Subscription for Distribute _**NEW**_
-  - You may now visit http://<node address>/register, enter the URL of your node (use https if SSL required to access).
+  - You may now visit http://[node address]/register, enter the URL of your node (use https if SSL required to access).
 * Support for CouchDB 1.2.0 _**NEW**_
   - This is a highly recommended upgrade. Significantly improves the storage and resource utilization, as well paves path for  features planned for future releases.
 * Many Bug fixes
