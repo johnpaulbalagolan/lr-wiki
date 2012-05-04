@@ -1,3 +1,29 @@
+### Overview
+
+The 0.23.6 release is a strongly recommended upgrade for ALL Learning Registry node deployments, as certain features to done to make distribution more spec compliant will cause full distribute functionality to fail.
+
+Below find the key features addressed in this release.
+
+
+### Key Features
+
+* Data Services _**NEW**_
+  - The extract API is included and enabled in this distribution. The Extract API brings a "batteries included" interface for tailoring data extraction and query to suit more narrow and varied use case needs without high resource requirements.
+  - Data Service views are **NOT** installed by default. Node administrators can install any or all of the 3 standards alignment focused data services using python CouchApp. This is done to prevent unneeded consumption of disk space for data services not utilized.
+  - [Interactive documentation](http://learningregistry.github.com/LearningRegistry/data-services/index.html) explaining Data Services and how to roll your own for your use case.
+* Resource Data Distribution refactoring _**CHANGED**_
+  - Distribute has been significantly refactored to reduce the need for 2x storage for documents. New distribute uses 2 DB's, incoming and resource_data. New _tainted_ documents can be distributed to incoming, and node may impose an internal policy for _untainting_ documents before moving into resource_data.  All harvest services still operate against resource_data.
+  - More compatible with Learning Registry 0.23 specification. Document Types of resource_data are distributed, not resource_data_distributable.
+  - Upgrade will require some minor configuration changes to NGINX to change or expose incoming endpoint.
+  - **IMPORTANT** Legacy nodes can distribute to a 0.23.6 by adjusting service documents to use the incoming endpoint. Legacy cannot be the destination for a 0.23.6 server. 
+* Subscription for Distribute _**NEW**_
+  - You may now visit http://<node address>/register, enter the URL of your node (use https if SSL required to access).
+* Support for CouchDB 1.2.0 _**NEW**_
+  - This is a highly recommended upgrade. Significantly improves the storage and resource utilization, as well paves path for  features planned for future releases.
+* Many Bug fixes
+  - See details on the [0.23.6 Milestone Closed Issues](https://github.com/LearningRegistry/LearningRegistry/issues?milestone=5&state=closed) 
+
+
 ### Commits
 
 * [3368700](https://github.com/LearningRegistry/LearningRegistry/commit/3368700b121161ed4bb6a7464564abcaa8828af9) add a feature to quiet logging during certain operations
