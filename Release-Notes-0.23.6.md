@@ -2,7 +2,7 @@
 
 ### Overview
 
-The 0.23.6 release is a strongly recommended upgrade for ALL Learning Registry node deployments, as some enhancements that were dont to make distribution more specification compliant will cause partial distribute functionality to fail with nodes running versions prior to 0.23.6.
+The 0.23.6 release is a strongly recommended upgrade for ALL Learning Registry node deployments, as some internal changes that make distribution more compliant towards the LR Service specification cause distribute functionality to fail when interacting with nodes running versions prior to 0.23.6.
 
 Below find the key features addressed in this release.
 
