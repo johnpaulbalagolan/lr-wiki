@@ -1,3 +1,5 @@
+# DRAFT: Upgrading to 0.23.6 from previous release
+
 ## Overview
 
 LR Node software improvements in 0.23.6 fix a spec-compatibility issue that existed in prior releases as part of the distribute implementation. Unfortunately this change will cause 0.23.6 to no longer be able to distribute to nodes running a version below 0.23.6.  However 0.23.5 nodes should be able to still distribute to 0.23.6 nodes with a minor configuration update of the distribution endpoint url.
@@ -33,5 +35,4 @@ Use your desired method for backing up the following within your existing instal
     - *Linux*: usually ```/etc/couchdb/local.ini``` but possibly elsewhere check ```/etc/init.d/couchdb```
     - *Windows*: TODO
   * /[path to couchdb db files]/resource_data.couch
-
 
