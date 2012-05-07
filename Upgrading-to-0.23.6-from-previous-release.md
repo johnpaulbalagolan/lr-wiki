@@ -15,19 +15,19 @@ Python 2.7.3 (if are not going to be using complex discriminators for data servi
 
 ## Upgrade Process Overview
 
-0. Backup Installation
-1. Install CouchDB 1.2.0 and migrate old resource_data to 1.2.0 and remove resource_data_distribute documents
-2. If not already using Python 2.7.3, install and create new 2.7.4 virtualenv
-3. Pull updated LearningRegistry Code from GitHub.
-4. Execute LearningRegistry Node Configuration and verify startup.
-5. Update LearningRegistry start/stop scripts.
-6. Launch LearningRegistry process.
-7. (Optional) Install Data Service views
+1. Backup Installation
+2. Install CouchDB 1.2.0 and migrate old resource_data to 1.2.0 and remove resource_data_distribute documents
+3. If not already using Python 2.7.3, install and create new 2.7.4 virtualenv
+4. Pull updated LearningRegistry Code from GitHub.
+5. Execute LearningRegistry Node Configuration and verify startup.
+6. Update LearningRegistry start/stop scripts.
+7. Launch LearningRegistry process.
+8. (Optional) Install Data Service views
 
 
 ## Upgrade Process Detail
 
-### Step 0. Backup Installation
+### Step 1. Backup Installation
 
 Use your desired method for backing up the following within your existing install:
 + The following CouchDB files:
@@ -36,3 +36,22 @@ Use your desired method for backing up the following within your existing instal
     - *Windows*: TODO
   * /[path to couchdb db files]/resource_data.couch
 
+### Step 2. Install CouchDB 1.2 and Migrate Data
++ Install CouchDB 1.2 to a different location. If upgrading, do not install to the same location as a previous version.
+  * Recommended build solution: https://github.com/iriscouch/build-couchdb
+    - @jimklo has a variation that is fixed for Ubuntu https://github.com/jimklo/build-couchdb
++ Migrate data
+  * We have found through trial and error that the fastest way migrate data is to:
+    1. stop your existing CouchDB (and LearningRegistry node instance).
+    2. rename the resource_data.couch to resource_data_big.couch.
+    3. install the following replication filter *POST GIST of resource_only filter and link here*
+    4. using curl, begin a replication from resource_data_big to resource_data
+    5. wait until complete, could take several hours depending upon size of resource_data_big.
+    6. once replication is delete you can delete resource_data_big.
+
+### Step 3. Install Python 2.7.3
+You can do this while waiting for data migration to complete in step 2.
+* First, check to see that you aren't already running 2.7.3.
+  - *Linux*: use ```locate python2.7``` or ```python2.7 --version``` to determine if installed and which version.
+  - *Windows*: TODO - I need this info.
+* 
