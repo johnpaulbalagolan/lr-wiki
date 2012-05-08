@@ -90,24 +90,28 @@ Use your desired method for backing up the following within your existing instal
 You can do this while waiting for data migration to complete in step 2.
 * First, check to see that you aren't already running 2.7.3.
   - *Linux*: use ```locate python2.7``` or ```python2.7 --version``` to determine if installed and which version.
-  - *Windows*: TODO - someone please contribute!
+  - *Windows*: use ```python --version```
 * If you don't have Python 2.7.3, then install according to instructions found [here](http://www.python.org/download/releases/2.7.3/).
   - *Linux*: most Linux installations recommend that you do not upgrade the existing Python version, instead use [```make altinstall```](http://docs.python.org/using/unix.html#building-python) instead.
-  - *Windows*: TODO - someone please contribute!
+  - *Windows*: Download and run the Windows x86 MSI Installer (2.7.3) (sig) from the Python link above. When running the installation if you're already running Python 2.7.x make sure you overwrite your current Python installation. If you have an older installation you'll have to remember to edit your PATH variable to use the new Python installation. Also be sure to install Python for all users
 * Install setuptools.
   - Follow instructions provided [here](http://pypi.python.org/pypi/setuptools#installation-instructions) http://pypi.python.org/pypi/setuptools#installation-instructions
     + *Linux*: recommendation is to download [setuptools-0.6c11-py2.7.egg](http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg#md5=fe1f997bc722265116870bc7919059ea) and use ```sudo sh setuptools-0.6c9-py2.7.egg``` to install.
+    + *Windows*: download setuptools-0.6c11.win32-py2.7.exe [here](http://pypi.python.org/pypi/setuptools#downloads)
 * Install virtualenv.
   - *Linux*: Once setuptools is installed, you can use ```sudo easy_install2.7 virtualenv```.
+  - *Windows*: Once setuptools is installed, you can use ```easy_install virtualenv```. 
 * Create new 2.7 virtualenv:
   - Switch to the account that will execute learningregistry service.
     - *Linux*: The default instructions use a user named learningregistry; ```sudo su - learningregistry```
-    - *Windows*: TODO - someone please contribute!
+    - *Windows*: Login as the learningregistry user (or whichever account executing the learning registry)
   - Create the new virtualenv:
-    - ```virtualenv -p python2.7 ~/env/lr27```
+    - *Linux*: ```virtualenv -p python2.7 ~/env/lr27```
+    - *Windows*: ```virtualenv lr27```
   - Activate virtualenv:
     - *Linux*: ```. ~/env/lr27/bin/activate``` _NOTE:_ the command there is `.`; on some Linux shells this is also the ```source``` command.
-    - *Windows*: TODO - someone please contribute!
+    - *Windows*: In the initial setup instructions you were to create a virtualenv directory. Navigate to that directory and run the ```lr27\Scripts\activate``` command
+     
 * Install uwsgi:
   - ```pip install uwsgi```
 * Additional dependencies will be installed in the next step.
@@ -166,4 +170,3 @@ If you want to use the included Standards Alignment Data service views:
    3. ```couchapp push standards-alignment-dct-conformsTo http://locahost:5984/resource_data```
    4. ```couchapp push standards-alignment-lr-paradata http://locahost:5984/resource_data```
    5. ```couchapp push standards-alignment-related http://locahost:5984/resource_data```
-
