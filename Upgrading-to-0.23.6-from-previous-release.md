@@ -47,6 +47,7 @@ Use your desired method for backing up the following within your existing instal
 ### Step 2. Install CouchDB 1.2 and Migrate Data
 + Install CouchDB 1.2 to a different location. If upgrading, do not install to the same location as a previous version.
   * Recommended build solution: https://github.com/iriscouch/build-couchdb
+  * *Windows*: Download the setup-couchdb-1.2.0_otp_R15B.exe installer from [here](https://github.com/dch/couchdb/downloads)
     - @jimklo has a variation that is fixed for Ubuntu if the above build fails https://github.com/jimklo/build-couchdb
 + Be sure to make note of any settings old local.ini and migrate those settings to the local.ini of the new version.  Specifically take note of locations for databases and views.
   * If you made any INI file changes, be sure to restart CouchDB.
