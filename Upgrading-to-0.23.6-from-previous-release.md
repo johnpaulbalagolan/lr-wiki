@@ -51,14 +51,13 @@ Use your desired method for backing up the following within your existing instal
     - @jimklo has a variation that is fixed for Ubuntu if the above build fails https://github.com/jimklo/build-couchdb
 + Be sure to make note of any settings old local.ini and migrate those settings to the local.ini of the new version.  Specifically take note of locations for databases and views.
   * If you made any INI file changes, be sure to restart CouchDB.
-+ Migrate data
-  * We have found through trial and error that the fastest way migrate data is to:
++ Migrate data - we have found through trial and error that the fastest way migrate data is to:
     1. stop your existing CouchDB (and LearningRegistry node instance).
     2. rename the resource_data.couch to resource_data_big.couch.
-    3. install the following replication filter *POST GIST of resource_only filter and link here*
-    4. using curl, begin a replication from resource_data_big to resource_data
-    5. wait until complete, could take several hours depending upon size of resource_data_big.
-    6. once replication is delete you can delete resource_data_big.
+    3. start the new CouchDB 1.2.0 (don't start LearningRegistry)
+    4. Follow the instructions in the [LR Upgrade Filter Gist](https://gist.github.com/2638166) to upgrade resource_data_big to the smaller resource_data used in the v 0.23.6 release.
+    5. Wait until complete, could take several hours depending upon size of resource_data_big.
+    6. Once replication is complete, you can delete resource_data_big.
 
 
 ### Step 3: Update NGINX configuration
