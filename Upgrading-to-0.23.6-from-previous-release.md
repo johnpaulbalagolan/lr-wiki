@@ -158,6 +158,7 @@ You can do this while waiting for data migration to complete in step 2.
 ### Step 8: Launch LearningRegistry process
 
 *Linux*: ```service learningregistry start```
+
 *Windows*: Navigate to the LR directory in the LearningRegistry and run ```paster serve development.ini```
 
 
