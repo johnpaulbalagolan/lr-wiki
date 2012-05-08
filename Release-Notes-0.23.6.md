@@ -6,6 +6,8 @@ The 0.23.6 release is a strongly recommended upgrade for ALL Learning Registry n
 
 Below find the key features addressed in this release.
 
+To upgrade an existing installation, please review the [Upgrade Guide for 0.23.6](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-to-0.23.6-from-previous-release).
+
 
 ### Key Features
 
