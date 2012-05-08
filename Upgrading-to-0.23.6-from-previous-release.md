@@ -17,12 +17,13 @@ Python 2.7.3 (if are not going to be using complex discriminators for data servi
 
 1. Backup Installation
 2. Install CouchDB 1.2.0 and migrate old resource_data to 1.2.0 and remove resource_data_distribute documents
-3. If not already using Python 2.7.3, install and create new 2.7.4 virtualenv
-4. Pull updated LearningRegistry Code from GitHub.
-5. Execute LearningRegistry Node Configuration and verify startup.
-6. Update LearningRegistry start/stop scripts and NGINX config.
-7. Launch LearningRegistry process.
-8. (Optional) Install Data Service views
+3. Update NGINX configuration.
+4. If not already using Python 2.7.3, install and create new 2.7.4 virtualenv
+5. Pull updated LearningRegistry Code from GitHub.
+6. Execute LearningRegistry Node Configuration and verify startup.
+7. Update LearningRegistry start/stop scripts.
+8. Launch LearningRegistry process.
+9. (Optional) Install Data Service views
 
 
 ## Upgrade Process Detail
@@ -57,7 +58,35 @@ Use your desired method for backing up the following within your existing instal
     6. once replication is delete you can delete resource_data_big.
 
 
-### Step 3. Install Python 2.7.3
+### Step 3: Update NGINX configuration
+* Edit the site configuration for learningregistry in NGINX:
+  - /etc/nginx/sites-enabled/learningregistry
+* *Add* the following section at the end of the ```server``` section:
+  ```
+     # Proxy access the the resource_data database 
+        location /incoming{
+
+                # For resource_data access don't log the data.
+                access_log   /var/log/nginx/learningregistry.access.log lr_log_no_query;
+
+                # Uncomment to following two lines to enable http basic auth for
+                # couchdb incoming access.
+                #auth_basic "Learning Registry Resource Data Authentication";
+                #auth_basic_user_file  httpasswd/lr_resource_data.passwd;
+
+                proxy_pass http://localhost:5984/incoming;
+                proxy_redirect off;
+                proxy_redirect off;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header Authorization "";
+        }
+   ```
+* Restart NGINX using ```sudo service nginx restart```.
+
+
+### Step 4. Install Python 2.7.3
 You can do this while waiting for data migration to complete in step 2.
 * First, check to see that you aren't already running 2.7.3.
   - *Linux*: use ```locate python2.7``` or ```python2.7 --version``` to determine if installed and which version.
@@ -84,7 +113,7 @@ You can do this while waiting for data migration to complete in step 2.
 * Additional dependencies will be installed in the next step.
 
 
-### Step 4: Pull updated code for LearningRegistry.
+### Step 5: Pull updated code for LearningRegistry.
 * Upgrade LearningRegistry source and install dependencies:
   - If you originally installed via GitHub clone:
     1. ```cd``` to the base of the LearningRegistry checkout.
@@ -99,7 +128,7 @@ You can do this while waiting for data migration to complete in step 2.
        + lots of stuff should download and install, this could take a bit of time.
 
 
-### Step 5: Execute LearningRegistry Node Configuration and verify startup
+### Step 6: Execute LearningRegistry Node Configuration and verify startup
 * Run the configuration:
     1. ```cd ./config/```
     2. ```python2.7 ./setup_node.py```
@@ -112,35 +141,25 @@ You can do this while waiting for data migration to complete in step 2.
        - ```kill -9 [PID] [ [PID] ... ]``` to kill all relevant uwsgi processes; there should be multiple.
 
 
-### Step 6: Update LearningRegistry start/stop scripts and NGINX config
+### Step 7: Update LearningRegistry start/stop scripts
 * Update start/stop scripts with python2.7 and new virtualenv (skip if you didn't upgrade your python and virtualenv).
   - Locate and edit learning registry start/stop scripts
     + *Linux*: /etc/init.d/learningregistry
   - Update the following variables to reflect new locations:
     + ```LR_VIRTUALENV``` The absolute path to your Python 2.7.3 virtualenv environment (```/home/learningregistry/env/lr27``` in this example).
     + ```LR_HOME``` The absolute path to the ```LR`` directory within the checked-out git project.
-* Edit the site configuration for learningregistry in NGINX:
-  - /etc/nginx/sites-enabled/learningregistry
-* Add the following section at the end of the ```server``` section:
-  ```
-     # Proxy access the the resource_data database 
-        location /incoming{
 
-                # For resource_data access don't log the data.
-                access_log   /var/log/nginx/learningregistry.access.log lr_log_no_query;
 
-                # Uncomment to following two lines to enable http basic auth for
-                # couchdb incoming access.
-                #auth_basic "Learning Registry Resource Data Authentication";
-                #auth_basic_user_file  httpasswd/lr_resource_data.passwd;
+### Step 8: Launch LearningRegistry process
+*Linux*: ```service learningregistry start```
+*Windows*: TODO: someone please contribute!
 
-                proxy_pass http://localhost:5984/incoming;
-                proxy_redirect off;
-                proxy_redirect off;
-                proxy_set_header Host $host;
-                proxy_set_header X-Real-IP $remote_addr;
-                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-                proxy_set_header Authorization "";
-        }
-   ```
+
+### Step 9: Install Data Service Views (optional)
+If you want to use the included Standards Alignment Data service views:
+1. Activate the Python virtual environment: ```/home/learningregistry/env/lr27/bin/activate```
+2. ```cd /path/to/LearningRegistry/data_services```
+3. ```couchapp push standards-alignment-dct-conformsTo http://locahost:5984/resource_data```
+4. ```couchapp push standards-alignment-lr-paradata http://locahost:5984/resource_data```
+5. ```couchapp push standards-alignment-related http://locahost:5984/resource_data```
 
