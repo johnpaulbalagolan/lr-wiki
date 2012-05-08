@@ -36,8 +36,10 @@ Use your desired method for backing up the following within your existing instal
 + The following CouchDB files:
   * /[path to couchdb config]/local.ini
     - *Linux*: usually ```/etc/couchdb/local.ini``` but possibly elsewhere check ```/etc/init.d/couchdb```
-    - *Windows*: TODO - someone please contribute!
+    - *Windows*: The default directory is C:\Program Files (x86)\Apache Software Foundation\CouchDB\etc\couchdb
   * /[path to couchdb db files]/resource_data.couch
+    - *Linux*: usually ```[couch install path]/var/lib/couchdb```
+    - *Windows*: The default directory is C:\Program Files (x86)\Apache Software Foundation\CouchDB\var\lib\couchdb
 + Your Learning Registry ```development.ini``` or ```production.ini``` file which you may have custom log settings.
   * The upgrade will destroy the previous LR configuration, be sure to back up the configuration file in case you wish to restore customized settings.
 
