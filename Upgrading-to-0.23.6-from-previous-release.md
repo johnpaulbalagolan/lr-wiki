@@ -31,7 +31,7 @@ Python 2.7.3 (if are not going to be using complex discriminators for data servi
 ### Step 1. Backup Installation
 + Stop any learning registry running process.
   - *Linux*: ```sudo service learningregistry stop``` or ```sudo /etc/init.d/learningregistry stop```.
-    * Verify no stray processes are running; stop/stop script is known to fail sometimes: ```ps aux | grep uwsgi```.  If still running ```sudo kill -9 [PID] [ [PID] ... ]``` will kill all leftover zombies. 
+    * Verify no stray processes are running; stop/stop script is known to fail sometimes: ```ps aux | grep uwsgi```.  If still running ```sudo killall -9 uwsgi``` will kill all leftover zombies. 
 Use your desired method for backing up the following within your existing install:
 + The following CouchDB files:
   * /[path to couchdb config]/local.ini
@@ -150,7 +150,7 @@ You can do this while waiting for data migration to complete in step 2.
     1. ```uwsgi --ini-paste /path/to/LearningRegistry/LR/development.ini start -H /path/to/env/lr27 --pidfile /var/run/learningregistry/uwsgi.pid --daemonize /var/log/learningregistry/uwsgi.log```
     2. check the ```/var/log/learningregistry/uwsgi.log``` for errors, if no errors you should stop the process.
        - ```ps aux | grep uwsgi``` to locate the process
-       - ```kill -9 [PID] [ [PID] ... ]``` to kill all relevant uwsgi processes; there should be multiple.
+       - ```killall -9 uwsgi``` to kill all relevant uwsgi processes; there should be multiple.
 
 
 ### Step 7: Update LearningRegistry start/stop scripts
