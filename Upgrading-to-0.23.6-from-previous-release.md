@@ -117,7 +117,8 @@ You can do this while waiting for data migration to complete in step 2.
 * Upgrade LearningRegistry source and install dependencies:
   - If you originally installed via GitHub clone:
     1. ```cd``` to the base of the LearningRegistry checkout.
-    2. ```git pull origin/master```
+    2. ```git fetch origin/master```
+    3. ```git checkout 0.23.6```
   - If you are pulling fresh:
     1. ```cd ~```
     2. ```git clone git://github.com/LearningRegistry/LearningRegistry.git```
