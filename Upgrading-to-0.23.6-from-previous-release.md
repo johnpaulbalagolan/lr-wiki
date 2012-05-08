@@ -63,9 +63,14 @@ Use your desired method for backing up the following within your existing instal
 ### Step 3: Update NGINX configuration
 * Edit the site configuration for learningregistry in NGINX:
   - /etc/nginx/sites-enabled/learningregistry
-* *Add* the following section at the end of the ```server``` section:
-  ```
-     # Proxy access the the resource_data database 
+* *Modify* the ```server``` section for ```location /resource_data```:
+  - change ```location /resource_data``` to ```location /incoming```
+  - change ```proxy_pass http://localhost:5984/resource_data``` to ```proxy_pass http://localhost:5984/incoming```
+  - optionally update any basic authentication settings.
+  - save changes.
+  - changed section should resemble:
+     ```
+        # Proxy incoming CouchDB DB to port 80.
         location /incoming{
 
                 # For resource_data access don't log the data.
@@ -84,7 +89,7 @@ Use your desired method for backing up the following within your existing instal
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header Authorization "";
         }
-   ```
+      ```
 * Restart NGINX using ```sudo service nginx restart```.
 
 
