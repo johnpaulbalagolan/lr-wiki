@@ -1,4 +1,4 @@
-# DRAFT Release Notes 0.23.6 - FOR REVIEW ONLY.
+# Release Notes 0.23.6
 
 ### Overview
 
