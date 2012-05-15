@@ -175,6 +175,6 @@ If you want to use the included Standards Alignment Data service views:
 
    1. Activate the Python virtual environment: ```/home/learningregistry/env/lr27/bin/activate```
    2. ```cd /path/to/LearningRegistry/data_services```
-   3. ```couchapp push standards-alignment-dct-conformsTo http://locahost:5984/resource_data```
-   4. ```couchapp push standards-alignment-lr-paradata http://locahost:5984/resource_data```
-   5. ```couchapp push standards-alignment-related http://locahost:5984/resource_data```
+   3. ```couchapp push standards-alignment-dct-conformsTo http://localhost:5984/resource_data```
+   4. ```couchapp push standards-alignment-lr-paradata http://localhost:5984/resource_data```
+   5. ```couchapp push standards-alignment-related http://localhost:5984/resource_data```
