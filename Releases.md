@@ -1,15 +1,17 @@
-## 2012 February 29 - Basic Standards Alignment Prototype
 
-* Announcement
-* Release notes
-* GitHub Milestone: https://github.com/LearningRegistry/LearningRegistry/issues?milestone=6
-
-## 2012 TBD - LR v0.23.6
+## 2012 May - LR v0.23.6
 
 * Announcement: 
 * Release notes: https://github.com/LearningRegistry/LearningRegistry/wiki/Release-Notes-0.23.6
 * Upgrade Instructions: https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-to-0.23.6-from-previous-release
 * GitHub Milestone: https://github.com/LearningRegistry/LearningRegistry/issues?milestone=5
+
+
+## 2012 February 29 - Basic Standards Alignment Prototype
+
+* Announcement
+* Release notes
+* GitHub Milestone: https://github.com/LearningRegistry/LearningRegistry/issues?milestone=6
 
 ## 2012 February 7 - LR v0.23.5
 
