@@ -37,7 +37,7 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
 
     `pip uninstall LR; pip install -e ./LR/`
 
-    **Note** some versions of Ubuntu (>=11.10) my fail installing M2Crypto.  If you have this issue install M2Crypto separately using:
+    **Note** some versions of Ubuntu (>=11.10) my fail installing M2Crypto due to an `undefined symbol: SSLv2_method` error.  If you encounter this issue install M2Crypto separately then follow by install LR again:
 
         pip install -e bzr+http://bazaar.launchpad.net/~ubuntu-branches/ubuntu/precise/m2crypto/precise/#egg=M2Crypto
         pip install -e ./LR/
