@@ -1,4 +1,4 @@
-# Release Notes 0.23.7 - DRAFT
+# DRAFT Release Notes 0.23.7 
 
 ## Overview
 
