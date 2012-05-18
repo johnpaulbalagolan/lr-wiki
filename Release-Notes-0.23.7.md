@@ -13,7 +13,40 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
 * Bug Fix:
   - When distributing to an endpoint that required credentials, an error was thrown due to a malformed function call when creating the CouchDB replication document with access credentials.
 
+## Upgrading from 0.23.6
+
+### Ubuntu
+
+0. Install swig
+
+   ```sudo apt-get install swig```
+
+0. Activate your Learning Registry Virtualenv
+
+   ```. /path/to/virtualenv/lr27/bin/activate```
+
+0. Stop running instances of Learning Registry
+
+   ```sudo service learningregistry stop; sudo killall -9 uwsgi```
+
+0. Update your Learning Registry code base
+
+   ```cd /path/to/checked/out/LearningRegistry; git fetch origin master; git checkout 0.23.7```
+
+0. Update LR module to install new dependencies
+
+   ```pip uninstall LR; pip install -e ./LR/```
+
+0. Start Learning Registry
+
+   ```sudo service learningregistry start```
+
+
+### Windows
+
+* **TBD**
+
 ## Changelog
 
-* TBD
+* **TBD**
 
