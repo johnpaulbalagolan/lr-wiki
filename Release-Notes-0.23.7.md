@@ -53,4 +53,8 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
 
 ## Changelog
 
-* **TBD**
+* [d33fe42](https://github.com/LearningRegistry/LearningRegistry/commit/d33fe42) Fix distribution credentials
+* [209e4fc](https://github.com/LearningRegistry/LearningRegistry/commit/209e4fc) Fix distribution credentials
+* [0ec7307](https://github.com/LearningRegistry/LearningRegistry/commit/0ec7307) Adding BrowserID gateway to Register for Distribute
+* [206680d](https://github.com/LearningRegistry/LearningRegistry/commit/206680d) Adding BrowserID gateway to Register for Distribute
+* [6976b1e](https://github.com/LearningRegistry/LearningRegistry/commit/6976b1e) updated to allow username/password for distribute
