@@ -33,6 +33,10 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
 
    ```cd /path/to/checked/out/LearningRegistry; git fetch origin master; git checkout 0.23.7```
 
+0. For Ubuntu >= 11.10: install M2Crypto using this method, earlier versions should skip.
+
+   ```pip install -e bzr+http://bazaar.launchpad.net/~ubuntu-branches/ubuntu/precise/m2crypto/precise/#egg=M2Crypto```
+
 0. Update LR module to install new dependencies
 
    ```pip uninstall LR; pip install -e ./LR/```
@@ -49,4 +53,3 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
 ## Changelog
 
 * **TBD**
-
