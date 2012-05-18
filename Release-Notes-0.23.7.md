@@ -17,9 +17,9 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
 
 ### Ubuntu
 
-0. Install swig
+0. Install swig and libssl-dev
 
-   ```sudo apt-get install swig```
+   ```sudo apt-get install swig libssl-dev```
 
 0. Activate your Learning Registry Virtualenv
 
