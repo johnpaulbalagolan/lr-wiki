@@ -63,9 +63,9 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
 
 0. Update source code, launch Git Shell from Start Menu then:
 
-     cd c:\path\to\src\LearningRegistry
-     git fetch origin master
-     git checkout 0.23.7
+         cd c:\path\to\src\LearningRegistry
+         git fetch origin master
+         git checkout 0.23.7
 
 0. Install LR
 
