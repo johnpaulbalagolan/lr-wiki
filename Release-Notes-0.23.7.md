@@ -49,7 +49,30 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
 
 ### Windows
 
-* **TBD**
+0. Open cmd.exe from Start Menu
+
+0. Activate your virtualenv
+
+    `c:\path\to\virtualenv\Scripts\activate.bat`
+
+0. Install m2crypto
+
+    `easy_install m2crypto`
+
+0. Stop Learning Registry process
+
+0. Update source code, launch Git Shell from Start Menu then:
+
+     cd c:\path\to\src\LearningRegistry
+     git fetch origin master
+     git checkout 0.23.7
+
+0. Install LR
+
+     `pip install -e .\LR\`
+
+0. Start Learning Registry process
+    
 
 ## Changelog
 
