@@ -16,6 +16,8 @@ The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d
 
 * [Known Nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/Known-Nodes) - A list of known LR nodes.
 
+* [Known Public Keys](https://docs.google.com/spreadsheet/ccc?key=0AvuZnuv2HuPWdEhmNTREcGhRc0NaRUpybnlaN2M5cWc#gid=0) - A list of known Public Keys of publishers in the LR.
+
 * [Common Data Schema Formats in Learning Registry](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) - Examples of common data schema formats used in Learning Registry. Note: LR is data schema agnostic.
 
 * [Publishing guidance using OAI-PMH](http://goo.gl/yOihy) - A short Google Doc with code examples and links to working code projects to pull data from OAI-PMH repositories and push the data into the Learning Registry.
@@ -63,5 +65,4 @@ Are you interested in making the Learning Registry a faster, better platform?
 * Learning Registry Developers List: http://groups.google.com/group/learningreg-dev?pli=1
 
 * [Troubleshooting](https://github.com/LearningRegistry/LearningRegistry/wiki/Troubleshooting) guidance
-
 
