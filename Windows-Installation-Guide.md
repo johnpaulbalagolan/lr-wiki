@@ -29,12 +29,12 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
      * Click **Finish**
      
 # Python
-## Python 2.7.2 32-bit
-1. Download the **Windows x86 MSI Installer(2.7.2)(sig)** [here](http://www.python.org/getit/releases/2.7.2/)
+## Python 2.7.3 32-bit
+1. Download the **Windows x86 MSI Installer(2.7.3)(sig)** [here](http://www.python.org/download/releases/2.7.3/)
 2. Click **Run** and follow setup instructions
      * Choose **Install for all users** and click **Next**
      * Choose your **Destination Directory** (default is C:\Python27) then click **Next**
-     * Click **Next** when asked to **Customize Python 2.7.2**
+     * Click **Next** when asked to **Customize Python 2.7.3**
      * Click **Finish**
 3. Once installation is complete, add Python to your system path
      * Click **Start** -> Right click **Computer** -> click **Properties** -> click **Advanced system settings** -> click  **Environment Variables...**
@@ -105,7 +105,7 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
 
 # CouchDB
 ## CouchDB 1.1.1
-1. Go [here](https://github.com/dch/couchdb/downloads) and download the **setup-couchdb-1.1.1_js185_otp_R14B03+fix-win32-crypto.exe** file
+1. Go [here](https://github.com/dch/couchdb/downloads) and download the **setup-couchdb-1.2.0_otp_R15B.exe** file
      * Click **Run** and follow setup instructions
      * Click **Next**
      * Accept the agreement and click **Next**
@@ -113,7 +113,7 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
      * If you would like to create the program's shortcuts click **Browse..** else just click **Next**
      * Make sure **Install couchdb as a Windows service** and **Start the service after installation** boxes are checked and click **Next**
      * Click **Install**
-2. Make sure CouchDB is running correctly by going [here](http://localhost:5984), you should see **{"couchdb":"Welcome","version":"1.1.1"}**
+2. Make sure CouchDB is running correctly by going [here](http://localhost:5984), you should see **{"couchdb":"Welcome","version":"1.2.0"}**
 
 ## CouchApp
 1. Enter the command `pip install couchdb`  (Be sure you are inside your virtualenv)
@@ -125,12 +125,12 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
 3. To gather the LR code from github, run the command `git clone https://github.com/LearningRegistry/LearningRegistry` 
 4. Once it is done cloning, run the command, `cd LearningRegistry` to move into the LearningRegistry directory
 5. Run the command `git tag –l` to find the latest tag
-6. Checkout the latest tag by running the command, `git checkout [latest tag version]` (0.23.5 as of Feb. 7th, 2012)  
+6. Checkout the latest tag by running the command, `git checkout [latest tag version]` (0.23.7 as of May 22nd, 2012)  
 
 ## Nginx
-1. Go [here](http://nginx.org/en/download.html) and download the **nginx/Windows-1.1.11** zip file
-     * Go into your **Downloads** folder and find the **nginx-1.1.11.zip** file
-     * Right click on the **nginx-1.1.11.zip** file, and click **Extract All...**
+1. Go [here](http://nginx.org/en/download.html) and download the **nginx/Windows-1.2.0** zip file
+     * Go into your **Downloads** folder and find the **nginx-1.2.0.zip** file
+     * Right click on the **nginx-1.2.0.zip** file, and click **Extract All...**
      * Click **Browse...** and navigate to **C:/** then click **OK**
      * Click **Extract**  
 2. Stop Internet Information Services (IIS) - if you have it installed
@@ -139,17 +139,17 @@ _NOTE: Some code changes had to be made for Windows' machines. Once these have b
 3. Copy Source Files into Nginx Configuration Directory
      * Browse to **[Directory]\LearningRegistry\etc\nginx**
      * Copy the folders **conf.d**, **learningregistry_cgi**, and **sites-available**
-     * Paste them into **C:\nginx-1.1.11\conf**  
+     * Paste them into **C:\nginx-1.2.0\conf**  
 4. Include FastCGI_Params in Nginx Configuration File
-     * Browse to **C:\nginx-1.1.11\conf** and open **nginx.conf**
+     * Browse to **C:\nginx-1.2.0\conf** and open **nginx.conf**
      * Inside the **server** braces there is another set of braces for **location**, remove the lines **root    html;** and **index   index.html index.htm;**
      * Add the line **include   learningregistry_cgi/fastcgi_params;** and save the file
 5. You may have to change the IP address Nginx is looking at for couch
      * Get your IP Address by running the `ipconfig` command
-     * Open the learningregistry config file **[Directory]\nginx-1.1-11\conf\sites-available\learningregistry**
+     * Open the learningregistry config file **[Directory]\nginx-1.2.0\conf\sites-available\learningregistry**
      * Change the IP address under the server directive to your IP. The line to change will be **listen xxx.xxx.xx.xxx:5984;**
 6. Start Nginx
-     * Open the Windows command prompt and navigate to **C:\nginx-1.1.11**
+     * Open the Windows command prompt and navigate to **C:\nginx-1.2.0**
      * Run the command `start nginx`
 
 # Running the LR Node
