@@ -62,7 +62,8 @@ Use your desired method for backing up the following within your existing instal
 
 ### Step 3: Update NGINX configuration
 * Edit the site configuration for learningregistry in NGINX:
-  - /etc/nginx/sites-enabled/learningregistry
+  - *Linux*: /etc/nginx/sites-enabled/learningregistry
+  - *Windows*: C:/nginx-1.X.X/conf/sites-available/learningregistry
 * *Modify* the ```server``` section for ```location /resource_data```:
   - change ```location /resource_data``` to ```location /incoming```
   - change ```proxy_pass http://localhost:5984/resource_data``` to ```proxy_pass http://localhost:5984/incoming```
@@ -90,7 +91,8 @@ Use your desired method for backing up the following within your existing instal
                 proxy_set_header Authorization "";
         }
       ```
-* Restart NGINX using ```sudo service nginx restart```.
+* *Linux*: Restart NGINX using ```sudo service nginx restart```.
+* *Windows*: Restart NGINX by going to the NGINX directory and using ```nginx -s quit``` then ```start nginx```
 
 
 ### Step 4. Install Python 2.7.3
@@ -114,12 +116,12 @@ You can do this while waiting for data migration to complete in step 2.
     - *Windows*: Login as the learningregistry user (or whichever account executing the learning registry)
   - Create the new virtualenv:
     - *Linux*: ```virtualenv -p python2.7 ~/env/lr27```
-    - *Windows*: ```virtualenv lr27```
+    - *Windows*: ```virtualenv lr27``` *NOTE*: Open your Python site-packages folder in Windows Explorer and copy all of the files and folders [Directory]\Python27\Lib\site-packages and paste everything into your virtualenv site-packages folder [Directory]\virtualenv\lr27\Lib\site-packages
   - Activate virtualenv:
     - *Linux*: ```. ~/env/lr27/bin/activate``` _NOTE:_ the command there is `.`; on some Linux shells this is also the ```source``` command.
     - *Windows*: In the initial setup instructions you were to create a virtualenv directory. Navigate to that directory and run the ```lr27\Scripts\activate``` command
      
-* Install uwsgi:
+* Install uwsgi (Linux only):
   - ```pip install uwsgi```
 * Additional dependencies will be installed in the next step.
 
