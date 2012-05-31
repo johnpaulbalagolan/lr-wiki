@@ -72,6 +72,8 @@ Release 0.23.7 is a maintenance release to 0.23.6. That is primarily a bug fix. 
      `pip install -e .\LR\`
 
 0. Start Learning Registry process
+     
+     `cd LR` then `paster serve development.ini`
     
 
 ## Changelog
