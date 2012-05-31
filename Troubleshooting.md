@@ -51,10 +51,10 @@
 
 ### Running the LR code
 * If you receive a **lr.lib.model_parser.SpecValidationException: Invalid value for'service_type'expecting one of: 
- '('publish', 'access', 'distribute', 'broker', 'administrative')' instead of ''** error or **pkg_resources.DistributionNotFound: LR** error, be sure to checkout the latest code (0.23.3 as of December 2011)
+ '('publish', 'access', 'distribute', 'broker', 'administrative')' instead of ''** error or **pkg_resources.DistributionNotFound: LR** error, be sure to checkout the latest code (0.23.7 as of May 2012)
 * Navigate to your LearningRegistry repository and run the following command
 
->     git checkout 0.23.3
+>     git checkout 0.23.7
 
 ## Windows Installation
 ### Visual C++ 2008 Express
