@@ -198,3 +198,15 @@ This is a small utility to help pull the data from the Learning Registry into a 
 > * [Source Code](https://github.com/adlnet/lr-data)
 
 > Type: Utility
+
+
+### LR Node Explorer
+This is a utility to explore a Learning Registry node.
+
+> License: Apache 2
+
+> Author: [Nick Syrotiuk](https://github.com/sefnyn) ([JLeRN](https://github.com/jlern))
+
+> * [Source Code](https://github.com/jlern)
+
+> Type: Utility
