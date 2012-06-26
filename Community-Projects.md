@@ -203,6 +203,9 @@ This is a small utility to help pull the data from the Learning Registry into a 
 ### LR Node Explorer
 This is a utility to explore a Learning Registry node.
 
+Node Explorer is running here:
+http://jlern.iriscouch.com/resource_data/_design/explorer/start.html
+
 > License: Apache 2
 
 > Author: [Nick Syrotiuk](https://github.com/sefnyn) ([JLeRN](https://github.com/jlern))
