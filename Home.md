@@ -10,6 +10,8 @@ The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d
 
 The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
 
+* [Data Services](http://learningregistry.github.com/LearningRegistry/data-services/) - A design pattern to help you quickly develop a solution to extract relevant data from your Learning Registry Node.
+
 * [Sandbox](http://sandbox.learningregistry.org) - Test applications developed with the Learning Registry API in a simulated environment.
 
 * [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples (metadata, paradata, queries).
@@ -65,4 +67,3 @@ Are you interested in making the Learning Registry a faster, better platform?
 * Learning Registry Developers List: http://groups.google.com/group/learningreg-dev?pli=1
 
 * [Troubleshooting](https://github.com/LearningRegistry/LearningRegistry/wiki/Troubleshooting) guidance
-
