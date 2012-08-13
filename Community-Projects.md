@@ -213,3 +213,16 @@ http://jlern.iriscouch.com/resource_data/_design/explorer/start.html
 > * [Source Code](https://github.com/jlern)
 
 > Type: Utility
+
+### LRNodeJS / Common Core State Standards Browser
+A basic browser of academic content standards, built as an example of accessing couchDB and LR data using Node.js apps. Standards data can be easily imported from [Jes & Co](http://asn.jesandco.org/). Resources aligned to each standard are displayed, as pulled from a LR data service (configurable). 
+
+> Language: Node.js
+
+> License: Apache 2
+
+> Author: [Navigation North](http://www.navigationnorth.com/)
+
+> * [Source Code](https://github.com/navnorth/LRNodeJS)
+
+> * [Example Site](http://nodejs.e-cdl.org/browser)
