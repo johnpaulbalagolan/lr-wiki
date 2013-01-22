@@ -65,7 +65,7 @@ And a YouTube video that walks through the whole process is here: http://www.you
 
 ### 1. Install CouchDB (Build-CouchDB)
 
-* Build CouchDB is a wrapper or master project which pulls in, from official sources, CouchDB plus all of its dependencies. It is the most straightforward and reliable procedure to build official CouchDB releases from source.
+* Build CouchDB is a wrapper or master project which pulls in, from official sources, CouchDB plus all of its dependencies. It is the most straightforward and reliable procedure to build official CouchDB releases from source.  Learning Registry (v 0.23.10) recommends using CouchDB version 1.2.0.
 
 * Install the necessary packages
 
