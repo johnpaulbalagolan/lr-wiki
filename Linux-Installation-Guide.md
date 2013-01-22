@@ -20,6 +20,12 @@ Instructions for using an existing AMI are available from http://goo.gl/fhdg3.
 
 The installation instructions below describe eight steps to get a new Learning Registry node running using the latest stable code.  These instructions are provided for Linux and have been tested with Ubuntu 10.04 LTS and Ubuntu 11.10.
 
+## NOTE
+
+A more up-to-date, but less pretty version of the installation documentation can be found here https://github.com/LearningRegistry/LearningRegistry/blob/master/LR/docs/LR%20Install%20with%20Node%20Signing%20Capabilities%20on%20Ubuntu.md
+
+And a YouTube video that walks through the whole process is here: http://www.youtube.com/watch?v=JUacv1Xqr3Q
+
 ## Prerequisites
 
 ### 1. Install Supporting Applications
