@@ -173,7 +173,7 @@ The installation instructions below describe eight steps to get a new Learning R
 >     cd ~
 >     mkdir ~/virtualenv
 >     virtualenv ~/virtualenv/lr
->     source ./virtualenv/lr/bin/activate
+>     source ~/virtualenv/lr/bin/activate
 
 > At this point your prompt should be preceded with the name of the virtualenv “(lr)”.
 
