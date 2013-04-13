@@ -2,7 +2,7 @@ Welcome to the Learning Registry wiki! The Learning Registry makes digital learn
 
 ## Getting Started
 
-The [Learning Registry in 20 Minutes or Less](https://docs.google.com/document/d/12nvvm5ClvLxSWptlo52rTwIDvobiFylYhWLVPbVcesU/edit?hl=en_US) ([PDF](http://www.adlnet.gov/wp-content/uploads/2012/02/learning_registry_20_minutes.pdf)) guide will get you rolling with creating, uploading, downloading, and verifying envelopes in and out of Learning Registry servers whether you're using Windows, Linux, or Mac OS X.
+The [Learning Registry in 20 Minutes or Less](http://docs.learningregistry.org/en/latest/start/20min.html)  guide will get you rolling with creating, uploading, downloading, and verifying envelopes in and out of Learning Registry servers whether you're using Windows, Linux, or Mac OS X.
 
 * [Glossary](https://github.com/LearningRegistry/LearningRegistry/wiki/Glossary)
 
