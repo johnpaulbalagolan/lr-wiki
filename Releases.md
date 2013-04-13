@@ -1,5 +1,5 @@
 ## 2012 April - LR v0.23.7
-* Announcement: 
+* Announcement: Release 0.23.7 is a maintenance release to 0.23.6
 * Release notes: https://github.com/LearningRegistry/LearningRegistry/wiki/Release-Notes-0.23.7
 
 ## 2012 May - LR v0.23.6
