@@ -63,11 +63,11 @@ def harvest(start_url):
 ## Parsing Records
 
 Each record in the Learning Registry is based on the [resource data description data model](http://docs.learningregistry.org/en/latest/spec/Resource_Data_Data_Model/index.html#resource-data-description-data-model).  The primary elements in the data model are:
-* “resource_data”: “string” or JSON object// describes the resource itself (metadata or paradata).
-* “resource_locator”: “string” // URL of the resource
+* “resource_data”: “string” or JSON object // describes the resource itself (metadata or paradata).
+* “resource_locator”: “string”             // URL of the resource
 
 The “resource_data” comes in different forms that are described by the following elements of the resource data description data model:
-* “resource_data_type”: “string” // vocabulary of types [“metadata”, “paradata”, …]
+* “resource_data_type”: “string”    // vocabulary of types [“metadata”, “paradata”, …]
 * “payload_schema_format”: “string” // schema MIME type
 
 While there are many payload_schema_formats that could be encountered, it is important to be familiar with the [common data schema formats](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) that are found in the Learning Registry.
