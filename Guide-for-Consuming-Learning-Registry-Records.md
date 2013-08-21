@@ -2,7 +2,7 @@ The Learning Registry provides [RESTful services](http://docs.learningregistry.o
 
 ## Harvesting Records
 
-The [harvest service](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#basic-harvest-service) is the recommended service to use when getting started (other services that can be used are [obtain](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#basic-obtain-service) and [slice](http://docs.learningregistry.org/en/latest/slicing/index.html)).  The harvest [listrecords](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#list-records)verb returns (in batches of 100 documents) records within an optional specific time/date range.  Both GET and POST methods are supported.  The GET method is shown below.
+The [harvest service](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#basic-harvest-service) is the recommended service to use when getting started (other services that can be used are [obtain](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#basic-obtain-service) and [slice](http://docs.learningregistry.org/en/latest/slicing/index.html)).  The harvest [listrecords](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#list-records) verb returns (in batches of 100 documents) records within an optional specific time/date range.  Both GET and POST methods are supported.  The GET method is shown below.
 
 ```
 GET <node url>/harvest/listrecords[?from=<date>&until=<date>&resumption_token=<token>]
