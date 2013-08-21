@@ -74,8 +74,9 @@ While there are many payload_schema_formats that could be encountered, it is imp
 
 Below is a python code example that parses records based on payload_schema_formats:
 ```
-def process_envelope(envelope):
+def process_envelope(envelope):    
     print(envelope['doc_ID'])
+    #normalize casing on all the schemas in the payload_schema array, if payload_schema isn't present use an empty array
     schemas = {schema.lower() for schema in envelope.get('payload_schema', [])}
     try:
         if 'lom' in schemas:
