@@ -16,8 +16,8 @@ Results are returned as an array of JSON.  The main elements of the [result obje
 * “OK”: boolean // T if successful
 * “error”: “string” // only present if NOT OK describing error
 * “responseDate”: “string” // timestamp
-* “request”: {} // object containing request
-* “listrecords”: [] // array of records
+* “listrecords”: [] // array of records resulting from request
+* “request”: {} // object containing the original request
 * “resumption_token”: “string” // flow control resumption token, NULL if end
 
 Below is a python code example that harvests records using resumption tokens:
