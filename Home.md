@@ -12,7 +12,7 @@ Welcome to the Learning Registry wiki! You can find more information on the Lear
 
 * [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples (metadata, paradata, queries).
 
-* [Learning Registry in 20 Minutes or Less](http://docs.learningregistry.org/en/latest/start/20min.html) - A full walk through of creating, uploading, downloading, and verifying envelopes.
+* [Learning Registry in 20 Minutes or Less](http://docs.learningregistry.org/en/latest/start/20min.html) - A full walk through of creating, uploading, downloading, verifying, updating, and replacing envelopes.
 
 * [Data Services](http://learningregistry.github.com/LearningRegistry/data-services/) - A design pattern to help you quickly develop a solution to extract relevant data from your Learning Registry Node.
 
