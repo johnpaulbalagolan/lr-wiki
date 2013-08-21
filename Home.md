@@ -1,4 +1,4 @@
-Welcome to the Learning Registry wiki! You can find more information on the Learning Registry project at the [Learning Registry Web Site](http://learningregistry.org).
+Welcome to the Learning Registry wiki! Here you can find links to documentation intended to help developers working with the Learning Registry.  You can find more information on the Learning Registry project at the [Learning Registry Web Site](http://learningregistry.org).
 
 * [Glossary](https://github.com/LearningRegistry/LearningRegistry/wiki/Glossary)
 
@@ -30,9 +30,9 @@ Welcome to the Learning Registry wiki! You can find more information on the Lear
 
 > If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
 
-## Setting Up an LR Node
+## Installing and Setting Up an LR Node
 
-The code hosted here on GitHub is used to run a Learning Registry node implementing the [Learning Registry Technical Specification v0.50.1] (http://docs.learningregistry.org/en/latest/spec/Technical_Spec/index.html).
+The code hosted here on GitHub is used to run a Learning Registry node implementing the [Learning Registry Technical Specification v0.50.1] (http://docs.learningregistry.org/en/latest/spec/Technical_Spec/index.html).  Listed below are resources to help install and setup a Learning Registry node on different operating systems.
 
 * [Linux Installation](http://docs.learningregistry.org/en/latest/install/ubuntu.html) - Instructions for setting up a node on Ubuntu 12.04 LTS.
 
