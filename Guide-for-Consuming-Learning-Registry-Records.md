@@ -63,7 +63,7 @@ def harvest(start_url):
 ## Parsing Records
 
 Each record in the Learning Registry is based on the [resource data description data model](http://docs.learningregistry.org/en/latest/spec/Resource_Data_Data_Model/index.html#resource-data-description-data-model).  The primary elements in the data model are:
-* “resource_data”: “string” // describes the resource itself (metadata or paradata).
+* “resource_data”: “string” or JSON object// describes the resource itself (metadata or paradata).
 * “resource_locator”: “string” // URL of the resource
 
 The “resource_data” comes in different forms that are described by the following elements of the resource data description data model:
