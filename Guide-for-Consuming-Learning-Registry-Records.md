@@ -23,26 +23,37 @@ Results are returned as an array of JSON.  The main elements of the [result obje
 Below is a python code example that harvests records using resumption tokens:
 ```
 def harvest(start_url):
+    #start by adding the root URL to the list of urls to harvest from
     urls = [start_url]
-    while len(urls) > 0:
+    #while we have url to harvest from continue
+    while len(urls) > 0:        
+        #remove the first URL to pull the LR documents from
         lr_url = urls.pop()
+        # make an HTTP GET request to the LR harvest interface
         resp = urllib2.urlopen(lr_url)
         try:
-            data = json.load(resp)
+            #parse json from the response body
+            data = json.loads(resp.read())
+            # iterate over the results
             for i in data['listrecords']:
+                #for the rest of this code we only care about the LR envelope portion of the harvest result
                 envelope = i['record']['resource_data']
+                # process the envelope
                 process_envelope(envelope)
+                # if there is a resumption token
                 if "resumption_token" in data and \
                         data['resumption_token'] is not None and \
                         data['resumption_token'] != "null":
+                    #parse the origional URL and update the query string to contain the resumption_token
                     url_parts = urlparse.urlparse(lr_url)
                     new_query = urllib.urlencode({"resumption_token": data['resumption_token']})
-                    next_url = urlparse.urlunparse((url_parts[0],
-                                                    url_parts[1],
-                                                    url_parts[2],
-                                                    url_parts[3],
+                    next_url = urlparse.urlunparse((url_parts.scheme,
+                                                    url_parts.netloc,
+                                                    url_parts.path,
+                                                    url_parts.params,
                                                     new_query,
-                                                    url_parts[5]))
+                                                    url_parts.fragment))
+                    #add the URL for the next page of results to the urls array
                     urls.append(next_url)
         except Exception as ex:
             print(ex)
