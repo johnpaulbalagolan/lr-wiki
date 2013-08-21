@@ -2,6 +2,14 @@ In much the same way that the original developers of the Internet chose not to s
 
 Below are some of the **more common schema** in use currently within the Learning Registry.
 
+## Learning Resource Metadata Initiative (LRMI)
+
+Co-led by the Association of Educational Publishers–the 501(c)(3) division of the Association of American Publishers–and Creative Commons, and funded by the Bill & Melinda Gates Foundation and the William and Flora Hewlett Foundation, the LRMI has developed a common metadata framework for describing or “tagging” learning resources on the web.  LRMI is represented as microdata.  LRMI found in the Learning Registry is in the form of [JSON Linked Data (JSON-LD)](http://json-ld.org/).
+
+> More information on LRMI: http://www.lrmi.net/the-specification
+
+> Example: https://node02.public.learningregistry.net/obtain?request_id=http://www.einstein.caltech.edu/
+
 ## Dublin Core (NSDL Variant)
 
 A very flexible metadata standard for describing a full range of web resources. Within the LR, the nsdl_dc variant is a very popular schema extension for describing the educational aspects of resources, including standards alignment data.
@@ -36,5 +44,4 @@ Based on the Activity Streams specification, the Learning Registry core team dev
 > Example usage data: http://goo.gl/L1hyl
 
 > Example assertion data: http://goo.gl/6unRi
-
 
