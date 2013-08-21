@@ -1,6 +1,6 @@
 The Learning Registry provides RESTful services to access metadata and paradata about educational resources.  The guidance below is intended to help you write software that will use the Learning Registry’s services to consume metadata and paradata.
 
-Harvesting Records
+## Harvesting Records
 
 The harvest service is the recommended service to use when getting started (other services that can be used are obtain and slice).  The harvest listrecords verb returns (in batches of 100 documents) records within an optional specific time/date range.  Both GET and POST methods are supported.  The GET method is shown below.
 
@@ -18,7 +18,7 @@ Results are returned as an array of JSON.  The main elements of the result objec
 
 [Insert code guidance for harvesting and dealing with resumption tokens]
 
-Parsing Records
+## Parsing Records
 
 Each record in the Learning Registry is based on the resource data description data model.  The primary elements in the data model are:
 * “resource_data”: “string” // describes the resource itself (metadata or paradata).
