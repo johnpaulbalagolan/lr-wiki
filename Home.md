@@ -1,33 +1,32 @@
-Welcome to the Learning Registry wiki! The Learning Registry makes digital learning resources easier to **find**, easier to **access** and easier to **integrate** into learning environments _wherever_ they are stored -- around the country and the world. This will enable teachers, students, parents, schools, governments, corporations and non-profits to **build** and **access** better, more interconnected and **personalized learning solutions** needed for a 21st-century education. You can find more information on the Learning Registry project at the [Learning Registry Web Site](http://learningregistry.org).
-
-## Getting Started
-
-The [Learning Registry in 20 Minutes or Less](http://docs.learningregistry.org/en/latest/start/20min.html)  guide will get you rolling with creating, uploading, downloading, and verifying envelopes in and out of Learning Registry servers whether you're using Windows, Linux, or Mac OS X.
+Welcome to the Learning Registry wiki! You can find more information on the Learning Registry project at the [Learning Registry Web Site](http://learningregistry.org).
 
 * [Glossary](https://github.com/LearningRegistry/LearningRegistry/wiki/Glossary)
 
-## Developer Basics
-
-The [Learning Registry Quick Reference Guide](https://docs.google.com/document/d/1Bq_69wnnQJ56O6jyLK2C_fcp-Ovb7MYxXUXD0Rl1Mag/edit?authkey=CK7k5r8F&hl=en_US&authkey=CK7k5r8F) provides a brief reference to the principal data structures and services with which typical developers using the Learning Registry will most frequently interact.
-
-* [Data Services](http://learningregistry.github.com/LearningRegistry/data-services/) - A design pattern to help you quickly develop a solution to extract relevant data from your Learning Registry Node.
-
-* [Sandbox](http://sandbox.learningregistry.org) - Test applications developed with the Learning Registry API in a simulated environment.
-
-* [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples (metadata, paradata, queries).
+* [Common Data Schema Formats in Learning Registry](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) - Examples of common data schema formats used in Learning Registry. Note: LR is data schema agnostic.
 
 * [Known Nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/Known-Nodes) - A list of known LR nodes.
 
+## Developer Resources
+
+* [Guide for Consuming Learning Registry Records](https://github.com/LearningRegistry/LearningRegistry/wiki/Guide-for-Consuming-Learning-Registry-Records) - How to harvest and parse Learning Registry records with code examples.
+
+* [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples (metadata, paradata, queries).
+
+* [Learning Registry in 20 Minutes or Less](http://docs.learningregistry.org/en/latest/start/20min.html) - A full walk through of creating, uploading, downloading, and verifying envelopes.
+
+* [Data Services](http://learningregistry.github.com/LearningRegistry/data-services/) - A design pattern to help you quickly develop a solution to extract relevant data from your Learning Registry Node.
+
 * [Known Public Keys](https://docs.google.com/spreadsheet/ccc?key=0AvuZnuv2HuPWdEhmNTREcGhRc0NaRUpybnlaN2M5cWc#gid=0) - A list of known Public Keys of publishers in the LR.
 
-* [Common Data Schema Formats in Learning Registry](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) - Examples of common data schema formats used in Learning Registry. Note: LR is data schema agnostic.
-
-* [Publishing guidance using OAI-PMH](http://goo.gl/yOihy) - A short Google Doc with code examples and links to working code projects to pull data from OAI-PMH repositories and push the data into the Learning Registry.
+## Publishing Resources
 
 * **Publishing using OAuth and Node Signing** - Code samples showing how to publish to a node with Node Signing capabilities enabled.
   * [in Python](https://gist.github.com/3874176)
   * [in Ruby](https://gist.github.com/4708906)
 
+* [Sandbox](http://sandbox.learningregistry.org) - Test applications developed with the Learning Registry API in a simulated environment.
+
+* [Publishing guidance using OAI-PMH](http://goo.gl/yOihy) - A short Google Doc with code examples and links to working code projects to pull data from OAI-PMH repositories and push the data into the Learning Registry.
 
 > If you are publishing data, we recommend publishing documents in batches of 100 documents in each publish post.  Each batch of 100 documents should take less than 10 seconds to publish.
 
