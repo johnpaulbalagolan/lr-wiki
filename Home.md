@@ -10,11 +10,11 @@ Welcome to the Learning Registry wiki! You can find more information on the Lear
 
 * [Guide for Consuming Learning Registry Records](https://github.com/LearningRegistry/LearningRegistry/wiki/Guide-for-Consuming-Learning-Registry-Records) - How to harvest and parse Learning Registry records with code examples.
 
+* [Slice API](http://docs.learningregistry.org/en/latest/slicing/index.html#api) - The Slice API enables users to retrieve a subset of records.
+
 * [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples (metadata, paradata, queries).
 
 * [Learning Registry in 20 Minutes or Less](http://docs.learningregistry.org/en/latest/start/20min.html) - A full walk through of creating, uploading, downloading, verifying, updating, and replacing envelopes.
-
-* [Data Services](http://learningregistry.github.com/LearningRegistry/data-services/) - A design pattern to help you quickly develop a solution to extract relevant data from your Learning Registry Node.
 
 * [Known Public Keys](https://docs.google.com/spreadsheet/ccc?key=0AvuZnuv2HuPWdEhmNTREcGhRc0NaRUpybnlaN2M5cWc#gid=0) - A list of known Public Keys of publishers in the LR.
 
@@ -32,13 +32,13 @@ Welcome to the Learning Registry wiki! You can find more information on the Lear
 
 ## Setting Up an LR Node
 
-There are two recommended approaches to get a new Learning Registry node running using the latest stable code.  The current version of the code implements the [Learning Registry Technical Specification v0.50.1] (http://docs.learningregistry.org/en/latest/spec/Technical_Spec/index.html).  The first approach is to setup an LR node using an Amazon Machine Instance (AMI).  The second approach is to install a new LR node on a Windows, Linux, or Mac OS X machine following installation instructions.
+The code hosted here on GitHub is used to run a Learning Registry node implementing the [Learning Registry Technical Specification v0.50.1] (http://docs.learningregistry.org/en/latest/spec/Technical_Spec/index.html).
+
+* [Linux Installation](http://docs.learningregistry.org/en/latest/install/ubuntu.html) - Instructions for setting up a node on Ubuntu 12.04 LTS.
 
 * [AMI Installation](https://docs.google.com/a/adlnet.gov/document/d/1XxEyv1y6Nv2ELTPAoS7l3UHwjuwg7Q981xGbQ-5v6yQ/edit?hl=en_US) - Instructions for setting up a node using an existing Amazon Machine Instance.  
 
 * [List of AMIs](https://github.com/LearningRegistry/LearningRegistry/wiki/Current-AMI-Instances) - List of currently available LR Amazon Machine Instances (AMIs).
-
-* [Linux Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Linux-Installation-Guide) - Instructions for setting up a node on Ubuntu 10.04 LTS onwards.
 
 * [Windows Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Windows-Installation-Guide) - Instructions for setting up a node on a Windows 7 64-bit environment.
 
@@ -46,9 +46,13 @@ There are two recommended approaches to get a new Learning Registry node running
 
 * [PlugFest2 Virtual Machine](https://github.com/LearningRegistry/LearningRegistry/wiki/PlugFest2-Virtual-Machine) - Jim distributed LR Virtual Machines at the PlugFest2 event loaded with an LR node instance and various tools.
 
-* [Upgrading a Node](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node) - Instructions for upgrading a node to the latest release.
-
 * [Node Setup FAQ](https://github.com/LearningRegistry/LearningRegistry/wiki/Node-Setup-FAQ) - Frequently Asked Questions when setting up or running a node. 
+
+## Node Customization and Maintenance
+
+* [Data Services](http://learningregistry.github.com/LearningRegistry/data-services/) - A design pattern to help you quickly develop a solution to extract relevant data from your Learning Registry Node.
+
+* [Upgrading a Node](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node) - Instructions for upgrading a node to the latest release.
 
 ## Get Involved
 
