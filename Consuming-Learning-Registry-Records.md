@@ -1,6 +1,8 @@
-The Learning Registry provides [RESTful services](http://docs.learningregistry.org/en/latest/spec/Services_and_APIs/index.html#services-and-apis) to access metadata and paradata about educational resources.  The guidance below is intended to help you write software that will use the Learning Registry’s services to consume metadata and paradata.
+The Learning Registry provides [RESTful services](http://docs.learningregistry.org/en/latest/spec/Services_and_APIs/index.html#services-and-apis) to access metadata and paradata about educational resources.  The guidance below is intended to help you write software that will use the Learning Registry’s services to consume metadata and paradata.  The guidance is broken down into two steps.  The first step is harvesting records from the Learning Registry.  The second step is parsing the harvested records.  Each step provides python code examples.  The full python code is available from:
 
-## Harvesting Records
+> https://gist.github.com/wegrata/6295401
+
+## 1.  Harvesting Records
 
 The [harvest service](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#basic-harvest-service) is the recommended service to use when getting started (other services that can be used are [obtain](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#basic-obtain-service) and [slice](http://docs.learningregistry.org/en/latest/slicing/index.html)).  The harvest [listrecords](http://docs.learningregistry.org/en/latest/spec/Access_Services/index.html#list-records) verb returns (in batches of 100 documents) records within an optional specific time/date range.  Both GET and POST methods are supported.  The GET method is shown below.
 
@@ -60,19 +62,19 @@ def harvest(start_url):
             print(lr_url)
 ```
 
-## Parsing Records
+## 2. Parsing Records
 
 Each record in the Learning Registry is based on the [resource data description data model](http://docs.learningregistry.org/en/latest/spec/Resource_Data_Data_Model/index.html#resource-data-description-data-model).  The primary elements in the data model are:
 * “resource_data”: “string” or JSON object // describes the resource itself (metadata or paradata).
 * “resource_locator”: “string”             // URL of the resource
 
 The “resource_data” comes in different forms that are described by the following elements of the resource data description data model:
-* “resource_data_type”: “string”    // vocabulary of types [“metadata”, “paradata”, …]
 * “payload_schema_format”: “string” // schema MIME type
+* “resource_data_type”: “string”    // vocabulary of types [“metadata”, “paradata”, …]
 
 While there are many payload_schema_formats that could be encountered, it is important to be familiar with the [common data schema formats](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) that are found in the Learning Registry.
 
-Below is a python code example that parses records based on payload_schema_formats:
+Below is a python code example that parses records based on the [common data schema formats](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) specified in payload_schema_format:
 ```
 def process_envelope(envelope):    
     print(envelope['doc_ID'])
@@ -91,5 +93,3 @@ def process_envelope(envelope):
         print(ex)
         print("Error In Payload")
 ```
-
-See https://gist.github.com/wegrata/6295401 for the full python code example.
