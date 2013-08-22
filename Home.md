@@ -8,7 +8,7 @@ Welcome to the Learning Registry wiki! Here you can find links to documentation 
 
 ## Developer Resources
 
-* [Guide for Consuming Learning Registry Records](https://github.com/LearningRegistry/LearningRegistry/wiki/Guide-for-Consuming-Learning-Registry-Records) - How to harvest and parse Learning Registry records with code examples.
+* [Guide for Consuming Learning Registry Records](https://github.com/LearningRegistry/LearningRegistry/wiki/Consuming-Learning-Registry-Records) - How to harvest and parse Learning Registry records with code examples.
 
 * [Slice API](http://docs.learningregistry.org/en/latest/slicing/index.html#api) - The Slice API enables users to retrieve a subset of records.
 
