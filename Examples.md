@@ -1,6 +1,7 @@
 Please add links to your examples for using the Learning Registry on this page.
 
 ## API Examples
+This is not intended to be a full list of supported API calls, but a list of examples of commonly used ones.
 * Node Description - https://node01.public.learningregistry.net/description
 * Node Services - https://node01.public.learningregistry.net/services
 * Node Status - https://node01.public.learningregistry.net/status
