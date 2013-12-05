@@ -2,6 +2,33 @@ Have you built a utility for Learning Registry? Have you extended core Learning 
 
 We are using Apache 2: http://www.apache.org/licenses/LICENSE-2.0.html to license code.  We prefer if community contributions used that as well.  However, we understand there may be situations where this might not be possible and we will take that into account if your contribution needs to be merged into core code.
 
+### EasyPublish
+EasyPublish is a streamlined publishing tool that permits publication of new and edited metadata using the LRMI and Schema.org vocabularies.
+
+> License: Apache 2
+
+> Author: [SRI International](https://github.com/easypublish/)
+
+> Tech Info: Javascript, Node.js, Data Services
+
+> * [Interface Source Code](https://github.com/easypublish/EasyPublish/)
+
+> * [Data Service Source Code](https://github.com/easypublish/EasyPublish-DataServices)
+
+
+### LRMI Publish
+LRMI Publish is a modification to the Learning Registry node software that enhances the publish service to optionally validate HTML Microdata JSON encoded content against Schema.org and LRMI vocabularies to permit discovery by InBloom's Learning Registry Index.
+
+> License: Apache 2
+
+> Author: [SRI International](https://github.com/easypublish/)
+
+> Tech Info: Python
+
+> * [LRMIPublish Source Code](https://github.com/easypublish/LearningRegistry/tree/LRMIPublish)
+
+> * [JSON Schema Generator for Schema.org + LRMI](https://github.com/easypublish/schema-dot-org-json-schema-generator)
+
 ### AMPlified Search for Chrome™ (AMPS)
 AMPS is a Chrome browser extension that examines your Google™ search results and uses Learning Registry metadata and paradata to identify Learning Resources with the resource's alignment to standards information and social activity data. 
 Additional standards information is located via Jes&Co. Identified resources will have the additional data displayed inline, but beneath each search result.
