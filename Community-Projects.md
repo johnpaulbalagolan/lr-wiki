@@ -3,7 +3,7 @@ Have you built a utility for Learning Registry? Have you extended core Learning 
 We are using Apache 2: http://www.apache.org/licenses/LICENSE-2.0.html to license code.  We prefer if community contributions used that as well.  However, we understand there may be situations where this might not be possible and we will take that into account if your contribution needs to be merged into core code.
 
 ### EasyPublish
-EasyPublish is a streamlined publishing tool that permits publication of new and edited metadata using the LRMI and Schema.org vocabularies.
+EasyPublish is a streamlined publishing tool that permits publication of new and edited metadata using the LRMI and Schema.org vocabularies. EasyPublish is installed on [sandbox](https://sandbox.learningregistry.org/apps/EasyPublish) and [node01](https://node01.public.learningregistry.net/apps/EasyPublish).
 
 > License: Apache 2
 
