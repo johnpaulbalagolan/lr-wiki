@@ -157,15 +157,19 @@ LR Publisher is a graphical user interface designed for publishing resource desc
 > * [Source Code](https://github.com/adlnet/lr-publisher)
 
 ### LRDataPump
-Harvests an OAI-PMH NSDL_DC repository and publishes as signed LR resource data to a specific node. Utility is designed to work as a differential task. Subsequent execution will harvest from the configured repository since the last successful harvest. Tool is also resumable, if for some reason a failure occurs, the next run will pick up harvesting where it left off, and not republish.
+Harvests an OAI-PMH NSDL_DC repository and publishes as signed LR resource data to a specific node. Originally this utility was designed to work as a differential task, with subsequent execution harvesting from the configured repository since the last successful harvest. NSDL developers have recently updated the tool to synchronize an OAI feed with the LR, updating, deleting and creating documents as necessary. The datapump code also includes the transforms they use to go from NSDL_DC -> LRMI JSON-LD, and COMM_ANNO/COMM_PARA -> LRParadata 1.0. Other features that were added are documented both in the README file and in the code.
 
 > Language: Python
 
 > License: Apache 2
 
-> Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
+> Current Author: [UCAR / NSDL](http://nsdl.org/)
 
-> * [Source Code](https://github.com/jimklo/LRDataPump)
+> Original Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
+
+> * [Source Code](https://github.com/UCAR/DLS_lr-data-pump)
+
+> * [Documentation](https://github.com/UCAR/DLS_lr-data-pump/tree/master/datapump/docs)
 
 > Type: Data Pump
 
