@@ -269,5 +269,3 @@ A basic browser of academic content standards, built as an example of accessing 
 > Author: [Navigation North](http://www.navigationnorth.com/)
 
 > * [Source Code](https://github.com/navnorth/LRNodeJS)
-
-> * [Example Site](http://nodejs.e-cdl.org/browser)
