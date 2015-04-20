@@ -112,7 +112,21 @@ This project is a module to plug into the content management capabilities of Dru
 
 > * [Source Code](http://drupal.org/sandbox/jasonh/1342822)
 
-### Learning Registry PHP Library (LRPHP)
+### LRphpLib
+
+A modern library for accessing the core LR services in php, [following http://www.php-fig.org/psr/psr-4/](PSR-4) coding standards to allow autoloading, and configured to be installed with dependencies via composer. Several examples are included to demonstrate a variety of options accessing LR services.
+
+
+> License: Apache 2
+
+> Authors: [Pat Lockley](https://github.com/patlockley/) and [Navigation North](http://navigationnorth.com)
+
+> Tech Info: Requires PHP 5.4+
+
+> [Source Code](https://github.com/navnorth/LRphpLib)
+
+
+### LRPHP - legacy LR php library
 A drop-in client-side library and programming interface for a Learning Registry node.  Currently supporting slice, obtain and publish services.
 
 > License: Apache 2
