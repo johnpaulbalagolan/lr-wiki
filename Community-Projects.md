@@ -71,6 +71,26 @@ A prototype that injects learning registry resource data into internet search re
 
 > Type: Demonstration
 
+### Educational Resources Discoverer
+ERD (Educational Resources Discoverer) is a Chrome™ browser extension that injects custom-rich-snippets in Google™ results pages, containing  "transparent" expansion functionalities to (or suggestions for) "similar" resources (in addition to LRMI metadata). It is "transparent", in the sense that it makes use of (sometimes large numbers of) standards alignments without the need for users to be aware of them. "Similar" resources are identified and ranked according to a similarity metrics, defined as the number of shared alignments to educational standards.
+
+The objective of this first prototype / proof of concept, is to share one of the ideas being developed in the context of an analysis of strategies employed by educators to discover educational resources: any feedback welcome!
+
+The current implementation relies on the powerful [Extract Data Services](https://github.com/LearningRegistry/LearningRegistry/tree/master/data_services) of the Learning Registry (many thanks to [Steve Midgley](https://github.com/science), [Joe Hobson](https://github.com/joehobson), [Jim Klo](https://github.com/jimklo) and [Douglas McAuliffe](https://github.com/douglasmcauliffe)). Metadata about learning resources, again obtained from the Learning Registry, are injected in the snippets via an extension content script, along the lines of the "[Browser Plugin](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects#plugfest-1-hackday---browser-plugin)" ([Pat Lockley](https://github.com/patlockley/)) and "[AMPS](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects#amplified-search-for-chrome-amps)" ([Jim Klo](https://github.com/jimklo)) demonstrations reported in this page.
+
+> License: Apache 2
+
+> Author: [Renato Cortinovis](https://github.com/renatomario) (The Open University - KMi)
+
+> Tech Info: Javascript        
+
+> * [Documentation including representative screen shots](https://github.com/renatomario/ERD/blob/master/README.md)
+
+> * [Source Code](https://github.com/renatomario/ERD)
+
+> Type: prototype / proof of concept
+
+
 ### Repofringe 2011 Hackday - Visual Browser
 Built against a modified version of the node distribution, provides a very simple visual interface to search a
 node for specific terms and identify resources that have been tagged with common keys.
