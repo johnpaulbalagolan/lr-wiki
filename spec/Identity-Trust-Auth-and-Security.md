@@ -7,7 +7,7 @@ See the [Change Log](#change-log) for links to prior stable versions.
 
 Significant deletions use ~~strikethrough text~~.
 
-[Features to be deprecated in a future version are shaded and indicated with ▼.]{role="deprecation"}
+Features to be deprecated in a future version are indicated with ▼.
 
 This document is part of one or more versions of the
 [Learning \<../Technical\_Spec/index\>]{role="doc"}

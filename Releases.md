@@ -1,14 +1,17 @@
+## 2014 February - LR v0.51.0
+
+## 2013 January - LR v0.49.0
+
 ## 2012 April - LR v0.23.7
 * Announcement: Release 0.23.7 is a maintenance release to 0.23.6
 * Release notes: https://github.com/LearningRegistry/LearningRegistry/wiki/Release-Notes-0.23.7
 
 ## 2012 May - LR v0.23.6
 
-* Announcement: 
+* Announcement:
 * Release notes: https://github.com/LearningRegistry/LearningRegistry/wiki/Release-Notes-0.23.6
 * Upgrade Instructions: https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-to-0.23.6-from-previous-release
 * GitHub Milestone: https://github.com/LearningRegistry/LearningRegistry/issues?milestone=5
-
 
 ## 2012 February 29 - Basic Standards Alignment Prototype
 
