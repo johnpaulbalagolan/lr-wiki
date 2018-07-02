@@ -1,19 +1,16 @@
-Learning Registry Technical Specification V 0.51.0
-==================================================
+# Learning Registry Technical Specification V 0.51.0
 
 See the [Change Log](#change-log) for links to prior stable versions.
 
-Major changes and additions from the prior version (0.50.1) are marked with ▲.\n
+<span style="background-color:#d9ead3">Major changes and additions from the prior version (0.50.1) are marked with ▲.</span>
 
-Significant deletions use ~~strikethrough text~~.
+Significant deletions use <span style="color:#cc0000">~~strikethrough text~~</span>.
 
-Features to be deprecated in a future version are indicated with ▼.
+<span style="background-color:#ffe599">Features to be deprecated in a future version are indicated with ▼.</span>
 
-**This document is the whole of the Learning Registry Technical
-Specification.**
+**This document is the whole of the Learning Registry Technical Specification.**
 
-Technical Specification Introduction
-------------------------------------
+## Technical Specification Introduction
 
 This document provides the technical specification for the Learning
 Registry. It specifies the network model, data models and APIs. It does
@@ -27,10 +24,8 @@ itself is independent of any particular toolset. The document is
 currently a work in progress; its structure, organization and content
 are subject to change.
 
-Technical Specification Contents
---------------------------------
+## Technical Specification Contents
 
-::: {.toctree}
 ../General\_Matter/index ../Resource\_Distribution\_Network\_Model/index
 ../Resource\_Data\_Data\_Model/index
 ../Identity\_Trust\_Auth\_and\_Security/index
@@ -118,5 +113,4 @@ specific changes to that part.
                                         [Resource Data Data Model \<../Resource\_Data\_Data\_Model/index\>]{role="doc"}
   ------------- ---------- ------------ ---------------------------------------------------------------------------------------------------------
 
-Working Notes and Placeholder Text
-----------------------------------
+## Working Notes and Placeholder Text
