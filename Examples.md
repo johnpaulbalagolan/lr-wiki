@@ -15,7 +15,7 @@ This is not intended to be a full list of supported API calls, but a list of exa
 * Slice (tags) - https://node01.public.learningregistry.net/slice?any_tags=science
 * Slice (identity) - https://node01.public.learningregistry.net/slice?identity=ADL
 * Slice (from, [until]) - https://node01.public.learningregistry.net/slice?any_tags=science&from=2011-05-11&until=2011-10-31
-* Extract (data service), filtering on standard, using ASN id  - http://node01.public.learningregistry.net/extract/standards-alignment-related/resource-by-discriminator?discriminator=http://purl.org/ASN/resources/S1013C40 
+* Extract (data service), filtering on standard, using ASN id  - http://node01.public.learningregistry.net/extract/standards-alignment-related/resource-by-discriminator?discriminator=http://purl.org/ASN/resources/S1013C40
 
 
 ## Alignment Examples
@@ -26,8 +26,8 @@ This is not intended to be a full list of supported API calls, but a list of exa
 * [Ratings Example](Ratings Example)
 
 ## Same As Examples
-* [Assertion "same as" example using LR Paradata Specification 1.0](Assertion-%22same-as%22-example-using-LR-Paradata-Specification-1.0)
-* [Assertion "same as" example using RDF](https://github.com/LearningRegistry/LearningRegistry/wiki/Assertion-%22same-as%22-example-using-RDF)
+* [Assertion "same as" example using LR Paradata Specification 1.0](Assertion-same-as-example-using-LR-Paradata-Specification-1.0)
+* [Assertion "same as" example using RDF](Assertion-same-as-example-using-RDF)
 
 ## Endorsement Examples
 * [Paradata Endorsement Examples](Paradata-Endorsement-Examples)

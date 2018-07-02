@@ -1,18 +1,18 @@
 Welcome to the Learning Registry wiki! Here you can find links to documentation intended to help developers working with the Learning Registry.  You can find more information on the Learning Registry project at the [Learning Registry Web Site](http://learningregistry.org).
 
-* [Glossary](https://github.com/LearningRegistry/LearningRegistry/wiki/Glossary)
+* [Glossary](Glossary)
 
-* [Common Data Schema Formats in Learning Registry](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) - Examples of common data schema formats used in Learning Registry. Note: LR is data schema agnostic.
+* [Common Data Schema Formats in Learning Registry](Common-Data-Schema-Formats-in-Learning-Registry) - Examples of common data schema formats used in Learning Registry. Note: LR is data schema agnostic.
 
-* [Known Nodes](https://github.com/LearningRegistry/LearningRegistry/wiki/Known-Nodes) - A list of known LR nodes.
+* [Known Nodes](Known-Nodes) - A list of known LR nodes.
 
 ## Developer Resources
 
-* [Guide for Consuming Learning Registry Records](https://github.com/LearningRegistry/LearningRegistry/wiki/Consuming-Learning-Registry-Records) - How to harvest and parse Learning Registry records with code examples.
+* [Guide for Consuming Learning Registry Records](Consuming-Learning-Registry-Records) - How to harvest and parse Learning Registry records with code examples.
 
 * [Slice API](http://docs.learningregistry.org/en/latest/slicing/index.html#api) - The Slice API enables users to retrieve a subset of records.
 
-* [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples) - A page for sharing examples (metadata, paradata, queries).
+* [Examples](Examples) - A page for sharing examples (metadata, paradata, queries).
 
 * [Learning Registry in 20 Minutes or Less](http://docs.learningregistry.org/en/latest/start/20min.html) - A full walk through of creating, uploading, downloading, verifying, updating, and replacing envelopes.
 
@@ -36,35 +36,35 @@ The code hosted here on GitHub is used to run a Learning Registry node implement
 
 * [Linux Installation](http://docs.learningregistry.org/en/latest/install/ubuntu.html) - Instructions for setting up a node on Ubuntu 12.04 LTS.
 
-* [AMI Installation](https://docs.google.com/a/adlnet.gov/document/d/1XxEyv1y6Nv2ELTPAoS7l3UHwjuwg7Q981xGbQ-5v6yQ/edit?hl=en_US) - Instructions for setting up a node using an existing Amazon Machine Instance.  
+* [AMI Installation](https://docs.google.com/a/adlnet.gov/document/d/1XxEyv1y6Nv2ELTPAoS7l3UHwjuwg7Q981xGbQ-5v6yQ/edit?hl=en_US) - Instructions for setting up a node using an existing Amazon Machine Instance.
 
-* [List of AMIs](https://github.com/LearningRegistry/LearningRegistry/wiki/Current-AMI-Instances) - List of currently available LR Amazon Machine Instances (AMIs).
+* [List of AMIs](Current-AMI-Instances) - List of currently available LR Amazon Machine Instances (AMIs).
 
-* [Windows Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Windows-Installation-Guide) - Instructions for setting up a node on a Windows 7 64-bit environment.
+* [Windows Installation](Windows-Installation-Guide) - Instructions for setting up a node on a Windows 7 64-bit environment.
 
-* [OS X Installation](https://github.com/LearningRegistry/LearningRegistry/wiki/Proposed-OS-X-Installation-Instructions) - Instructions for setting up a node on Mac OS X.
+* [OS X Installation](Proposed-OS-X-Installation-Instructions) - Instructions for setting up a node on Mac OS X.
 
-* [PlugFest2 Virtual Machine](https://github.com/LearningRegistry/LearningRegistry/wiki/PlugFest2-Virtual-Machine) - Jim distributed LR Virtual Machines at the PlugFest2 event loaded with an LR node instance and various tools.
+* [PlugFest2 Virtual Machine](PlugFest2-Virtual-Machine) - Jim distributed LR Virtual Machines at the PlugFest2 event loaded with an LR node instance and various tools.
 
-* [Node Setup FAQ](https://github.com/LearningRegistry/LearningRegistry/wiki/Node-Setup-FAQ) - Frequently Asked Questions when setting up or running a node. 
+* [Node Setup FAQ](Node-Setup-FAQ) - Frequently Asked Questions when setting up or running a node.
 
 ## Node Customization and Maintenance
 
 * [Data Services](http://learningregistry.github.com/LearningRegistry/data-services/) - A design pattern to help you quickly develop a solution to extract relevant data from your Learning Registry Node.
 
-* [Upgrading a Node](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-a-Node) - Instructions for upgrading a node to the latest release.
+* [Upgrading a Node](Upgrading-a-Node) - Instructions for upgrading a node to the latest release.
 
 ## Get Involved
 
-Are you interested in making the Learning Registry a faster, better platform? 
+Are you interested in making the Learning Registry a faster, better platform?
 
-* [Community Projects](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects) - Please share here any utilities, demonstrations, or extensions to the core code.
+* [Community Projects](Community-Projects) - Please share here any utilities, demonstrations, or extensions to the core code.
 
-* [Contributing](https://github.com/LearningRegistry/LearningRegistry/wiki/Contributing-to-the-Learning-Registry) - Information about the easiest way to collaborate with the core development team.
+* [Contributing](Contributing-to-the-Learning-Registry) - Information about the easiest way to collaborate with the core development team.
 
-* [Releases](https://github.com/LearningRegistry/LearningRegistry/wiki/Releases) - Information on software releases.
+* [Releases](Releases) - Information on software releases.
 
-* [Release procedure](https://github.com/LearningRegistry/LearningRegistry/wiki/Release-procedure) - Describes general procedure for a new release.
+* [Release procedure](Release-procedure) - Describes general procedure for a new release.
 
 ## Getting Help
 
@@ -74,4 +74,4 @@ Are you interested in making the Learning Registry a faster, better platform?
 
 * Learning Registry Developers List: http://groups.google.com/group/learningreg-dev?pli=1
 
-* [Troubleshooting](https://github.com/LearningRegistry/LearningRegistry/wiki/Troubleshooting) guidance
+* [Troubleshooting](Troubleshooting) guidance

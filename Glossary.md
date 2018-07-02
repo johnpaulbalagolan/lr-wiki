@@ -1,5 +1,5 @@
-* **Assertion** - A statement being declared (see Assertion [Examples](https://github.com/LearningRegistry/LearningRegistry/wiki/Examples))
-* **Envelope** - The resource data description document (see [Envelope Example](https://github.com/LearningRegistry/LearningRegistry/wiki/LR%20Envelope%20Example))
+* **Assertion** - A statement being declared (see Assertion [Examples](Examples))
+* **Envelope** - The resource data description document (see [Envelope Example](LR%20Envelope%20Example))
 * **Identity** - Information about the source of the resource data (e.g., submitter, curator, owner, or signer).
 * **Learning Resource** - Any (digital) resource that is designed for, or has been used, in an educational context.
 * **Metadata** - Formally authored and curated information describing a learning resource.  Also denoted first party metadata.

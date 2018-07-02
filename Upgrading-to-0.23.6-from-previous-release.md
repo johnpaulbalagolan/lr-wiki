@@ -4,7 +4,7 @@
 
 LR Node software improvements in 0.23.6 fix a spec-compatibility issue that existed in prior releases as part of the distribute implementation. Unfortunately this change will cause 0.23.6 to no longer be able to distribute to nodes running a version below 0.23.6.  However 0.23.5 nodes should be able to still distribute to 0.23.6 nodes with a minor configuration update of the distribution endpoint url.
 
-Because of the backwards compatibility condition this creates, 0.23.6 is strongly encouraged by all node operators. The benefits introduced by 0.23.6 through lower disc utilization will significantly reduce storage requirements.  Details of the release can be found [here](https://github.com/LearningRegistry/LearningRegistry/wiki/Release-Notes-0.23.6).
+Because of the backwards compatibility condition this creates, 0.23.6 is strongly encouraged by all node operators. The benefits introduced by 0.23.6 through lower disc utilization will significantly reduce storage requirements.  Details of the release can be found [here](Release-Notes-0.23.6).
 
 
 ## Recommended Requirements
@@ -31,7 +31,7 @@ Python 2.7.3 (if are not going to be using complex discriminators for data servi
 ### Step 1. Backup Installation
 + Stop any learning registry running process.
   - *Linux*: ```sudo service learningregistry stop``` or ```sudo /etc/init.d/learningregistry stop```.
-    * Verify no stray processes are running; stop/stop script is known to fail sometimes: ```ps aux | grep uwsgi```.  If still running ```sudo killall -9 uwsgi``` will kill all leftover zombies. 
+    * Verify no stray processes are running; stop/stop script is known to fail sometimes: ```ps aux | grep uwsgi```.  If still running ```sudo killall -9 uwsgi``` will kill all leftover zombies.
 Use your desired method for backing up the following within your existing install:
 + The following CouchDB files:
   * /[path to couchdb config]/local.ini
@@ -109,7 +109,7 @@ You can do this while waiting for data migration to complete in step 2.
     + *Windows*: download setuptools-0.6c11.win32-py2.7.exe [here](http://pypi.python.org/pypi/setuptools#downloads)
 * Install virtualenv.
   - *Linux*: Once setuptools is installed, you can use ```sudo easy_install2.7 virtualenv```.
-  - *Windows*: Once setuptools is installed, you can use ```easy_install virtualenv```. 
+  - *Windows*: Once setuptools is installed, you can use ```easy_install virtualenv```.
 * Create new 2.7 virtualenv:
   - Switch to the account that will execute learningregistry service.
     - *Linux*: The default instructions use a user named learningregistry; ```sudo su - learningregistry```
@@ -120,7 +120,7 @@ You can do this while waiting for data migration to complete in step 2.
   - Activate virtualenv:
     - *Linux*: ```. ~/env/lr27/bin/activate``` _NOTE:_ the command there is `.`; on some Linux shells this is also the ```source``` command.
     - *Windows*: In the initial setup instructions you were to create a virtualenv directory. Navigate to that directory and run the ```lr27\Scripts\activate``` command
-     
+
 * Install uwsgi (Linux only):
   - ```pip install uwsgi```
 * Additional dependencies will be installed in the next step.

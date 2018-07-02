@@ -28,7 +28,7 @@ def harvest(start_url):
     #start by adding the root URL to the list of urls to harvest from
     urls = [start_url]
     #while we have url to harvest from continue
-    while len(urls) > 0:        
+    while len(urls) > 0:
         #remove the first URL to pull the LR documents from
         lr_url = urls.pop()
         # make an HTTP GET request to the LR harvest interface
@@ -72,11 +72,11 @@ The “resource_data” comes in different forms that are described by the follo
 * “payload_schema_format”: “string” // schema MIME type
 * “resource_data_type”: “string”    // vocabulary of types [“metadata”, “paradata”, …]
 
-While there are many payload_schema_formats that could be encountered, it is important to be familiar with the [common data schema formats](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) that are found in the Learning Registry.
+While there are many payload_schema_formats that could be encountered, it is important to be familiar with the [common data schema formats](Common-Data-Schema-Formats-in-Learning-Registry) that are found in the Learning Registry.
 
-Below is a python code example that parses records based on the [common data schema formats](https://github.com/LearningRegistry/LearningRegistry/wiki/Common-Data-Schema-Formats-in-Learning-Registry) specified in payload_schema_format:
+Below is a python code example that parses records based on the [common data schema formats](Common-Data-Schema-Formats-in-Learning-Registry) specified in payload_schema_format:
 ```
-def process_envelope(envelope):    
+def process_envelope(envelope):
     print(envelope['doc_ID'])
     #normalize casing on all the schemas in the payload_schema array, if payload_schema isn't present use an empty array
     schemas = {schema.lower() for schema in envelope.get('payload_schema', [])}

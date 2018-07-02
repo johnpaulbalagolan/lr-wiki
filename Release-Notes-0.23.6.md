@@ -6,7 +6,7 @@ The 0.23.6 release is a strongly recommended upgrade for ALL Learning Registry n
 
 Below find the key features addressed in this release.
 
-To upgrade an existing installation, please review the [Upgrade Guide for 0.23.6](https://github.com/LearningRegistry/LearningRegistry/wiki/Upgrading-to-0.23.6-from-previous-release).
+To upgrade an existing installation, please review the [Upgrade Guide for 0.23.6](Upgrading-to-0.23.6-from-previous-release).
 
 
 ### Key Features
@@ -19,13 +19,13 @@ To upgrade an existing installation, please review the [Upgrade Guide for 0.23.6
   - Distribute has been significantly refactored to reduce the need for 2x storage for documents. New distribute uses 2 DB's, incoming and resource_data. New _tainted_ documents can be distributed to incoming, and node may impose an internal policy for _untainting_ documents before moving into resource_data.  All harvest services still operate against resource_data.
   - More compatible with Learning Registry 0.23 specification. Document Types of resource_data are distributed, not resource_data_distributable.
   - Upgrade will require some minor configuration changes to NGINX to change or expose incoming endpoint.
-  - **IMPORTANT** Legacy nodes can distribute to a 0.23.6 by adjusting service documents to use the incoming endpoint. Legacy cannot be the destination for a 0.23.6 server. 
+  - **IMPORTANT** Legacy nodes can distribute to a 0.23.6 by adjusting service documents to use the incoming endpoint. Legacy cannot be the destination for a 0.23.6 server.
 * Subscription for Distribute _**NEW**_
   - You may now visit http://[node address]/register, enter the URL of your node (use https if SSL required to access).
 * Support for CouchDB 1.2.0 _**NEW**_
   - This is a highly recommended upgrade. Significantly improves the storage and resource utilization, as well paves path for  features planned for future releases.
 * Many Bug fixes
-  - See details on the [0.23.6 Milestone Closed Issues](https://github.com/LearningRegistry/LearningRegistry/issues?milestone=5&state=closed) 
+  - See details on the [0.23.6 Milestone Closed Issues](https://github.com/LearningRegistry/LearningRegistry/issues?milestone=5&state=closed)
 
 ### Minimum Requirements
 * Linux/Windows OS

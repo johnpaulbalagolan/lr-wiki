@@ -30,12 +30,12 @@ LRMI Publish is a modification to the Learning Registry node software that enhan
 > * [JSON Schema Generator for Schema.org + LRMI](https://github.com/easypublish/schema-dot-org-json-schema-generator)
 
 ### AMPlified Search for Chrome™ (AMPS)
-AMPS is a Chrome browser extension that examines your Google™ search results and uses Learning Registry metadata and paradata to identify Learning Resources with the resource's alignment to standards information and social activity data. 
+AMPS is a Chrome browser extension that examines your Google™ search results and uses Learning Registry metadata and paradata to identify Learning Resources with the resource's alignment to standards information and social activity data.
 Additional standards information is located via Jes&Co. Identified resources will have the additional data displayed inline, but beneath each search result.
 
 > License: Apache 2
 
-> Author: [Jim Klo](https://github.com/jimklo/) (SRI International) 
+> Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
 > Tech Info: Javascript
 
@@ -76,13 +76,13 @@ ERD (Educational Resources Discoverer) is a Chrome™ browser extension that inj
 
 The objective of this first prototype / proof of concept, is to share one of the ideas being developed in the context of an analysis of strategies employed by educators to discover educational resources: any feedback welcome!
 
-The current implementation relies on the powerful [Extract Data Services](https://github.com/LearningRegistry/LearningRegistry/tree/master/data_services) of the Learning Registry (many thanks to [Steve Midgley](https://github.com/science), [Joe Hobson](https://github.com/joehobson), [Jim Klo](https://github.com/jimklo) and [Douglas McAuliffe](https://github.com/douglasmcauliffe)). Metadata about learning resources, again obtained from the Learning Registry, are injected in the snippets via an extension content script, along the lines of the "[Browser Plugin](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects#plugfest-1-hackday---browser-plugin)" ([Pat Lockley](https://github.com/patlockley/)) and "[AMPS](https://github.com/LearningRegistry/LearningRegistry/wiki/Community-Projects#amplified-search-for-chrome-amps)" ([Jim Klo](https://github.com/jimklo)) demonstrations reported in this page.
+The current implementation relies on the powerful [Extract Data Services](https://github.com/LearningRegistry/LearningRegistry/tree/master/data_services) of the Learning Registry (many thanks to [Steve Midgley](https://github.com/science), [Joe Hobson](https://github.com/joehobson), [Jim Klo](https://github.com/jimklo) and [Douglas McAuliffe](https://github.com/douglasmcauliffe)). Metadata about learning resources, again obtained from the Learning Registry, are injected in the snippets via an extension content script, along the lines of the "[Browser Plugin](Community-Projects#plugfest-1-hackday---browser-plugin)" ([Pat Lockley](https://github.com/patlockley/)) and "[AMPS](Community-Projects#amplified-search-for-chrome-amps)" ([Jim Klo](https://github.com/jimklo)) demonstrations reported in this page.
 
 > License: Apache 2
 
 > Author: [Renato Cortinovis](https://github.com/renatomario) (The Open University - KMi)
 
-> Tech Info: Javascript        
+> Tech Info: Javascript
 
 > * [Documentation including representative screen shots](https://github.com/renatomario/ERD/blob/master/README.md)
 
@@ -97,7 +97,7 @@ node for specific terms and identify resources that have been tagged with common
 
 > License: Apache 2
 
-> Author: [Jim Klo](https://github.com/jimklo/) (SRI International) 
+> Author: [Jim Klo](https://github.com/jimklo/) (SRI International)
 
 > Tech Info: Javascript and HTML5
 
@@ -113,7 +113,7 @@ http://demolearningregistry.sri.com/browse/
 
 > License: Apache 2
 
-> Author: [John Brecht](https://github.com/jbrecht/) (SRI International) 
+> Author: [John Brecht](https://github.com/jbrecht/) (SRI International)
 
 > Tech Info: Javascript and HTML5
 
@@ -158,7 +158,7 @@ A drop-in client-side library and programming interface for a Learning Registry 
 > * [Source Code](https://github.com/jeffreyhill/LRPHP)
 
 ### LRJavaLib
-Java library for accessing core services for a node, including publishing and consuming data. Base classes are in place and functions are being expanded incrementally. Data consumption will be expanded to support a variety of data schema. 
+Java library for accessing core services for a node, including publishing and consuming data. Base classes are in place and functions are being expanded incrementally. Data consumption will be expanded to support a variety of data schema.
 
 > Language: Java
 
@@ -280,7 +280,7 @@ http://jlern.iriscouch.com/resource_data/_design/explorer/start.html
 > Type: Utility
 
 ### LRNodeJS / Common Core State Standards Browser
-A basic browser of academic content standards, built as an example of accessing couchDB and LR data using Node.js apps. Standards data can be easily imported from [Jes & Co](http://asn.jesandco.org/). Resources aligned to each standard are displayed, as pulled from a LR data service (configurable). 
+A basic browser of academic content standards, built as an example of accessing couchDB and LR data using Node.js apps. Standards data can be easily imported from [Jes & Co](http://asn.jesandco.org/). Resources aligned to each standard are displayed, as pulled from a LR data service (configurable).
 
 > Language: Node.js
 
